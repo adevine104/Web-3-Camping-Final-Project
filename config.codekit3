@@ -89,7 +89,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/scripts-min.js",
+		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
@@ -311,7 +311,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/deploy/css/styles.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 0,
 		"sct": 0
 		},
