@@ -330,9 +330,6 @@ ul {
 /* =============
     Typography
 ============= */
-body {
-  font-family: 'Montserrat', sans-serif; }
-
 h1, h2, h3, h4 {
   margin: 0;
   padding: 0; }
@@ -340,9 +337,6 @@ h1, h2, h3, h4 {
 p {
   margin: 0;
   padding: 0; }
-
-.section-title {
-  font-weight: 300; }
 
 /* =============
     Buttons
@@ -373,4 +367,73 @@ textarea {
 ============= */
 /* =============
     Section 1
+============= */
+#section-1 div {
+  background-image: url("../img/section-1/camping-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  position: relative; }
+  @media (min-width: 992px) {
+    #section-1 div {
+      height: 95vh; } }
+#section-1 h1 {
+  position: absolute;
+  bottom: 25%;
+  left: 30%; }
+
+#section-1 p {
+  text-align: center;
+  padding: 2%; }
+
+/* =============
+    Section 2
+============= */
+/* =============
+    Section 3
+============= */
+/* =============
+    Section 4
+============= */
+#section-4 .container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "food carcamp backpacking"; }
+
+#section-4 .food {
+  grid-area: food;
+  height: 325px;
+  padding-top: 300px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 10px 20px;
+  font-family: 'Courier New', Courier, monospace; }
+
+#section-4 .carcamp {
+  grid-area: carcamp;
+  height: 325px;
+  padding-top: 300px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 10px 20px;
+  font-family: 'Courier New', Courier, monospace; }
+
+#section-4 .backpacking {
+  grid-area: backpacking;
+  height: 325px;
+  padding-top: 300px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 10px 20px;
+  font-family: 'Courier New', Courier, monospace; }
+
+/* =============
+    Section 5
+============= */
+/* =============
+    Section 6
 ============= */

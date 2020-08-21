@@ -2,8 +2,28 @@
     Section 1
 ============= */
 #section-1{
-    .grid-content{
-        
+
+    div {
+        background-image: url("../img/section-1/camping-hero.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 75vh;
+        position: relative;
+
+        @include lg {
+            height: 95vh;
+        }
     }
 
+    h1{
+        position: absolute;
+        bottom: 25%;
+        left: 30%;
+    }
+
+    p{
+        text-align: center;
+        padding: 2%;
+    }
 }
