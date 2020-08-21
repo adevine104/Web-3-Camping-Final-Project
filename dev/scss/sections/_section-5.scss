@@ -1,7 +1,32 @@
 /* =============
     Section 5
 ============= */
-#section-5{
+#section-5 {
+    // background-color: $white;
+    // display: grid;
+    // grid-template-areas: ". video .";
+    // grid-template-columns: auto 95% auto;
+    // height: 50vh;
 
+    // @include md {
+    //     grid-template-columns: auto 95% auto;
+    //     height: 40vh;
+    // }
 
+    // @include lg {
+    //     height: 50vh;
+    // }
+
+    // >div {
+    //     align-items: center;
+    //     display: flex;
+    //     grid-area: video;
+    //     justify-content: center;
+
+    //     section {
+    //         display: flex;
+    //         justify-content: center;
+    //         width: 100%;
+    //     }
+    // }
 }
