@@ -16,21 +16,16 @@ header {
         grid-template-columns: repeat(2, 1fr);
 
         #logo-container {
-            padding: 10px 0;
-
-            img {
-                width: 30px;
-
-                @include md {
-                    width: initial;
-                }
-            }
+            padding: 10px 20px;
+            font-size: rem-calc(30);
         }
 
         #burger-container {
             align-items: center;
             display: flex;
             justify-content: flex-end;
+            padding: 10px 20px;
+            font-size: rem-calc(30);
 
             #burger{
                 cursor: pointer;

@@ -419,20 +419,15 @@ header div {
   grid-template-columns: repeat(2, 1fr);
 }
 header div #logo-container {
-  padding: 10px 0;
-}
-header div #logo-container img {
-  width: 30px;
-}
-@media (min-width: 768px) {
-  header div #logo-container img {
-    width: initial;
-  }
+  padding: 10px 20px;
+  font-size: 1.875rem;
 }
 header div #burger-container {
   align-items: center;
   display: flex;
   justify-content: flex-end;
+  padding: 10px 20px;
+  font-size: 1.875rem;
 }
 header div #burger-container #burger {
   cursor: pointer;
@@ -476,6 +471,22 @@ header div #burger-container #burger {
 }
 #section-2 h3 {
   color: white;
+  margin: 30px 80px 30px 80px;
+  font-size: 1.5rem;
+}
+#section-2 .left-side-text {
+  padding: 80px 850px 0 0;
+}
+#section-2 .right-side-text {
+  text-align: right;
+  padding: 80px 0 0 850px;
+}
+#section-2 #arrow {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.875rem;
+  padding: 0 250px 30px 0;
 }
 
 /* =============
