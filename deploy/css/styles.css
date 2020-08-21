@@ -565,60 +565,37 @@ header div #burger-container #burger {
 /* =============
     Section 5
 ============= */
-#section-5 {
-  background-color: #fff;
-  padding-bottom: 5%;
+#section-5 h1 {
+  text-align: center;
 }
-#section-5 #map {
-  background-color: #000;
-  height: 300px;
-  width: 100%;
-}
-@media (min-width: 768px) {
-  #section-5 #map {
-    height: 400px;
-  }
-}
-@media (min-width: 1025px) {
-  #section-5 #map {
-    height: 500px;
-  }
-}
-@media (min-width: 1200px) {
-  #section-5 #map {
-    height: 600px;
-  }
-}
-
-/* =============
-    Section 6
-============= */
-#section-6 {
+#section-5 #section-5-content {
+  margin-top: 100px;
+  margin-bottom: 100px;
   display: grid;
   gap: 80px;
   grid-template-columns: repeat(1, 1fr);
   grid-template-areas: "c1" "c2" "c3" "c4" "c5" "c6" "c7" "c8" "c9";
 }
 @media (min-width: 768px) {
-  #section-6 {
+  #section-5 #section-5-content {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "c1 c2" "c3 c3" "c4 c5" "c6 c6" "c7 c8" "c9 c9";
   }
 }
 @media (min-width: 1025px) {
-  #section-6 {
+  #section-5 #section-5-content {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "c1 c2 c3" "c4 c5 c6" "c7 c8 c9";
   }
 }
-#section-6 .container {
+#section-5 #section-5-content .container {
   text-align: center;
   width: 300px;
   height: 200px;
   margin: auto;
   perspective: 600px;
 }
-#section-6 .card {
+#section-5 #section-5-content .card {
   width: 100%;
   height: 100%;
   transition: transform 1s;
@@ -629,20 +606,17 @@ header div #burger-container #burger {
   border-radius: 6px;
   box-shadow: 0 5px 15px;
 }
-#section-6 .card.is-flipped {
+#section-5 #section-5-content .card.is-flipped {
   transform: rotateY(180deg);
 }
-#section-6 .display {
+#section-5 #section-5-content .display {
   position: absolute;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-#section-6 h1 {
-  text-align: center;
-}
-#section-6 p {
+#section-5 #section-5-content p {
   line-height: 25px;
   color: black;
   text-align: justify;
@@ -650,38 +624,68 @@ header div #burger-container #burger {
   font-size: 16px;
   padding: 10px;
 }
-#section-6 h3 {
+#section-5 #section-5-content h3 {
   text-align: center;
   border: solid red 1px;
   margin: 10px;
 }
-#section-6 .back {
+#section-5 #section-5-content .back {
+  background-color: #B9E7FF;
+  border-radius: 6px;
   transform: rotateY(180deg);
 }
-#section-6 #c1 {
+#section-5 #section-5-content #c1 {
   grid-area: c1;
 }
-#section-6 #c2 {
+#section-5 #section-5-content #c2 {
   grid-area: c2;
 }
-#section-6 #c3 {
+#section-5 #section-5-content #c3 {
   grid-area: c3;
 }
-#section-6 #c4 {
+#section-5 #section-5-content #c4 {
   grid-area: c4;
 }
-#section-6 #c5 {
+#section-5 #section-5-content #c5 {
   grid-area: c5;
 }
-#section-6 #c6 {
+#section-5 #section-5-content #c6 {
   grid-area: c6;
 }
-#section-6 #c7 {
+#section-5 #section-5-content #c7 {
   grid-area: c7;
 }
-#section-6 #c8 {
+#section-5 #section-5-content #c8 {
   grid-area: c8;
 }
-#section-6 #c9 {
+#section-5 #section-5-content #c9 {
   grid-area: c9;
+}
+
+/* =============
+    Section 6
+============= */
+#section-6 {
+  background-color: #fff;
+  padding-bottom: 5%;
+}
+#section-6 #map {
+  background-color: #000;
+  height: 300px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #section-6 #map {
+    height: 400px;
+  }
+}
+@media (min-width: 1025px) {
+  #section-6 #map {
+    height: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  #section-6 #map {
+    height: 600px;
+  }
 }
