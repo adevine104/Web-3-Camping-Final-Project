@@ -625,9 +625,12 @@ header div #burger-container #burger {
   padding: 10px;
 }
 #section-5 #section-5-content h3 {
+  color: white;
+  padding: 5px;
   text-align: center;
-  border: solid red 1px;
+  border-radius: 6px;
   margin: 10px;
+  background-color: #2A5670;
 }
 #section-5 #section-5-content .back {
   background-color: #B9E7FF;

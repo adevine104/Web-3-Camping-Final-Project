@@ -90,9 +90,13 @@
         }
     
         h3 {
+            color: white;
+            padding: 5px;
             text-align: center;
-            border: solid red 1px;
+            border-radius: 6px;
+            // border: solid red 1px;
             margin: 10px;
+            background-color: $darkblue;
         }
     
         .front {}
