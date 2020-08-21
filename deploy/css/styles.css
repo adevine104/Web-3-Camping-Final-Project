@@ -465,6 +465,22 @@ header {
 /* =============
     Section 5
 ============= */
+#section-5 {
+  background-color: #fff;
+  padding-bottom: 5%; }
+  #section-5 #map {
+    background-color: #000;
+    height: 300px;
+    width: 100%; }
+    @media (min-width: 768px) {
+      #section-5 #map {
+        height: 400px; } }
+    @media (min-width: 992px) {
+      #section-5 #map {
+        height: 500px; } }
+    @media (min-width: 1200px) {
+      #section-5 #map {
+        height: 600px; } }
 /* =============
     Section 6
 ============= */
