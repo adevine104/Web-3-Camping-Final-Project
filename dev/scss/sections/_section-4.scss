@@ -6,8 +6,7 @@
     .container {
         display: grid;
         grid-template-columns: auto 1fr;
-        grid-template-areas: "food carcamp
-                                backpacking";
+        grid-template-areas: "food carcamp backpacking";
     }
 
     .food {

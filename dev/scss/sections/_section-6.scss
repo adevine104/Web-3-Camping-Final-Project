@@ -4,7 +4,6 @@
 
 #section-6 {
     display: grid;
-    padding: 50px;
     gap: 80px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
@@ -45,7 +44,7 @@
         text-align: center;
         width: 300px;
         height: 200px;
-        margin: 40px 0;
+        margin: auto;
         perspective: 600px;
     }
 
@@ -99,47 +98,47 @@
     }
 
     #c1 {
-        margin: auto;
+        // margin: auto;
         grid-area: c1;
     }
 
     #c2 {
-        margin: auto;
+        // margin: auto;
         grid-area: c2;
     }
 
     #c3 {
-        margin: auto;
+        // margin: auto;
         grid-area: c3;
     }
 
     #c4 {
-        margin: auto;
+        // margin: auto;
         grid-area: c4;
     }
 
     #c5 {
-        margin: auto;
+        // margin: auto;
         grid-area: c5;
     }
 
     #c6 {
-        margin: auto;
+        // margin: auto;
         grid-area: c6;
     }
 
     #c7 {
-        margin: auto;
+        // margin: auto;
         grid-area: c7;
     }
 
     #c8 {
-        margin: auto;
+        // margin: auto;
         grid-area: c8;
     }
 
     #c9 {
-        margin: auto;
+        // margin: auto;
         grid-area: c9;
     }
 

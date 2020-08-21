@@ -82,16 +82,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/deploy/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/dev/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -115,8 +105,6 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
-<<<<<<< HEAD
-=======
 		},
 	"/dev/js/cards-flip.js": {
 		"bF": 0,
@@ -128,7 +116,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
->>>>>>> 71ebda14ecad4c6a95d5fa3a38fd2276f5f42c1e
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
@@ -229,8 +216,6 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
-<<<<<<< HEAD
-=======
 		},
 	"/dev/scss/components/_videoPlayer.scss": {
 		"aP": 0,
@@ -244,7 +229,6 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
->>>>>>> 71ebda14ecad4c6a95d5fa3a38fd2276f5f42c1e
 		},
 	"/dev/scss/helpers/_mixins.scss": {
 		"aP": 0,
@@ -419,7 +403,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/section-4.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/section-5.kit": {
 		"cB": 0,
@@ -427,7 +411,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/section-5.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/section-6.kit": {
 		"cB": 0,
@@ -885,7 +869,7 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 8193,
+	"esLintEnvironmentsMask": 1,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -1216,7 +1200,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -1964,11 +1948,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-<<<<<<< HEAD
-	"jsCheckerReservedNamesString": "gsap, DrawSVGPlugin, ScrollTrigger",
-=======
-	"jsCheckerReservedNamesString": "gsap, ScrollTrigger",
->>>>>>> 71ebda14ecad4c6a95d5fa3a38fd2276f5f42c1e
+	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

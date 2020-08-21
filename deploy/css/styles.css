@@ -352,6 +352,10 @@ template {
 /* =============
     Base
 ============= */
+html, body {
+  overflow-x: hidden;
+}
+
 figure {
   padding: 0;
   margin: 0;
@@ -475,7 +479,7 @@ header div #burger-container #burger {
   height: 75vh;
   position: relative;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #section-1 div {
     height: 95vh;
   }
@@ -525,8 +529,8 @@ header div #burger-container #burger {
 #section-4 .container {
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-template-areas: "food carcamp backpacking"; }
-
+  grid-template-areas: "food carcamp backpacking";
+}
 #section-4 .food {
   grid-area: food;
   height: 325px;
@@ -535,8 +539,8 @@ header div #burger-container #burger {
   font-size: 15px;
   font-weight: 100;
   padding: 10px 20px;
-  font-family: 'Courier New', Courier, monospace; }
-
+  font-family: "Courier New", Courier, monospace;
+}
 #section-4 .carcamp {
   grid-area: carcamp;
   height: 325px;
@@ -545,8 +549,8 @@ header div #burger-container #burger {
   font-size: 15px;
   font-weight: 100;
   padding: 10px 20px;
-  font-family: 'Courier New', Courier, monospace; }
-
+  font-family: "Courier New", Courier, monospace;
+}
 #section-4 .backpacking {
   grid-area: backpacking;
   height: 325px;
@@ -555,7 +559,8 @@ header div #burger-container #burger {
   font-size: 15px;
   font-weight: 100;
   padding: 10px 20px;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+}
 
 /* =============
     Section 5
@@ -574,7 +579,7 @@ header div #burger-container #burger {
     height: 400px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #section-5 #map {
     height: 500px;
   }
@@ -590,7 +595,6 @@ header div #burger-container #burger {
 ============= */
 #section-6 {
   display: grid;
-  padding: 50px;
   gap: 80px;
   grid-template-columns: repeat(1, 1fr);
   grid-template-areas: "c1" "c2" "c3" "c4" "c5" "c6" "c7" "c8" "c9";
@@ -601,7 +605,7 @@ header div #burger-container #burger {
     grid-template-areas: "c1 c2" "c3 c3" "c4 c5" "c6 c6" "c7 c8" "c9 c9";
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #section-6 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "c1 c2 c3" "c4 c5 c6" "c7 c8 c9";
@@ -611,7 +615,7 @@ header div #burger-container #burger {
   text-align: center;
   width: 300px;
   height: 200px;
-  margin: 40px 0;
+  margin: auto;
   perspective: 600px;
 }
 #section-6 .card {
@@ -655,38 +659,29 @@ header div #burger-container #burger {
   transform: rotateY(180deg);
 }
 #section-6 #c1 {
-  margin: auto;
   grid-area: c1;
 }
 #section-6 #c2 {
-  margin: auto;
   grid-area: c2;
 }
 #section-6 #c3 {
-  margin: auto;
   grid-area: c3;
 }
 #section-6 #c4 {
-  margin: auto;
   grid-area: c4;
 }
 #section-6 #c5 {
-  margin: auto;
   grid-area: c5;
 }
 #section-6 #c6 {
-  margin: auto;
   grid-area: c6;
 }
 #section-6 #c7 {
-  margin: auto;
   grid-area: c7;
 }
 #section-6 #c8 {
-  margin: auto;
   grid-area: c8;
 }
 #section-6 #c9 {
-  margin: auto;
   grid-area: c9;
 }
