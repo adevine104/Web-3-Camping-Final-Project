@@ -115,6 +115,20 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+<<<<<<< HEAD
+=======
+		},
+	"/dev/js/cards-flip.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/cards-flip-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+>>>>>>> 71ebda14ecad4c6a95d5fa3a38fd2276f5f42c1e
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
@@ -215,6 +229,22 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
+<<<<<<< HEAD
+=======
+		},
+	"/dev/scss/components/_videoPlayer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/components/_videoPlayer.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+>>>>>>> 71ebda14ecad4c6a95d5fa3a38fd2276f5f42c1e
 		},
 	"/dev/scss/helpers/_mixins.scss": {
 		"aP": 0,
@@ -1934,7 +1964,11 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
+<<<<<<< HEAD
 	"jsCheckerReservedNamesString": "gsap, DrawSVGPlugin, ScrollTrigger",
+=======
+	"jsCheckerReservedNamesString": "gsap, ScrollTrigger",
+>>>>>>> 71ebda14ecad4c6a95d5fa3a38fd2276f5f42c1e
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
