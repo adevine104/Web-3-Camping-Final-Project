@@ -1,7 +1,25 @@
 /* =============
     Section 5
 ============= */
-#section-5{
+#section-5 {
+    background-color: $white;
+    padding-bottom: 5%;
 
+    #map {
+        background-color: $black;
+        height: 300px;
+        width: 100%;
 
+        @include md {
+            height: 400px;
+        }
+
+        @include lg {
+            height: 500px;
+        }
+
+        @include xl {
+            height: 600px;
+        }
+    }
 }

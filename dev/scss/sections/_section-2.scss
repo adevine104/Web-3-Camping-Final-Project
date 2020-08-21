@@ -2,6 +2,29 @@
     Section 2
 ============= */
 #section-2{
+    background-color: $darkblue;
 
+    h3{
+        color: white;
+        margin: 30px 80px 30px 80px;
+        font-size: rem-calc(24);
+    }
+    
+    .left-side-text{
+        padding: 80px 850px 0 0;
+    }
+
+    .right-side-text{
+        text-align: right;
+        padding: 80px 0 0 850px;
+    }
+
+    #arrow{
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        font-size: rem-calc(30);
+        padding: 0 250px 30px 0;
+    }
 
 }

@@ -5,17 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Google Fonts -->
+    <!-- Google Font -->
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+     <!-- Font Awesome -->
+     <script src="https://kit.fontawesome.com/3c79b583ac.js" crossorigin="anonymous"></script>
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/5c99d7a2dd.js" crossorigin="anonymous"></script>
-    
     <link rel="stylesheet" href="css/styles.css">
-    <title>Lecture Template</title>
+    <title>Why Camping?</title>
 </head>
 
 <body>
-
     <!-- @import "header.kit" -->
     <!-- @import "section-1.kit" -->
     <!-- @import "section-2.kit" -->
@@ -24,11 +23,218 @@
     <!-- @import "section-5.kit" -->
     <!-- @import "section-6.kit" -->
     <!-- @import "footer.kit" -->
+ 
+
+    <script>
+        function initMap() {
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: {
+                    lat: 40.215849,
+                    lng: -75.784505
+                },
+                zoom: 13,
+
+                // change to satellite with labels default view
+                mapTypeId: 'hybrid',
+
+                // hide school
+                // hide: [{
+                //     featureType: "poi.school",
+                //     stylers: [{
+                //         visibility: "off"
+                //     }]
+                // }],
+
+                styles: [
+                    // change to dark brown geometry
+                    {
+                        elementType: 'geometry',
+                        stylers: [{
+                            color: '#150700'
+                        }]
+                    },
+                     // change to brown text stroke
+                    {
+                        elementType: 'labels.text.stroke',
+                        stylers: [{
+                            color: '#3F2311'
+                        }]
+                    },
+                    // change to orange text fill
+                    {
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#E18A37'
+                        }]
+                    },
+                    {
+                        featureType: 'administrative.locality',
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#d59563'
+                        }]
+                    },
+                    {
+                        featureType: 'poi',
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#d59563'
+                        }]
+                    },
+                    {
+                        // change to green
+                        featureType: 'poi.park',
+                        elementType: 'geometry',
+                        stylers: [{
+                            color: '#141A02'
+                        }]
+                    },
+                    {
+                        featureType: 'poi.park',
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#6b9a76'
+                        }]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'geometry',
+                        stylers: [{
+                            color: '#38414e'
+                        }]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'geometry.stroke',
+                        stylers: [{
+                            color: '#212a37'
+                        }]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#9ca5b3'
+                        }]
+                    },
+                    {
+                        // hide school
+                        featureType: 'poi.school',
+                        // elementType: 'labels.text.fill',
+                        stylers: [{
+                            // color: '#9ca5b3'
+                            visibility: "off"
+                        }]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'geometry',
+                        stylers: [{
+                            color: '#746855'
+                        }]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'geometry.stroke',
+                        stylers: [{
+                            color: '#1f2835'
+                        }]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#f3d19c'
+                        }]
+                    },
+                    {
+                        featureType: 'transit',
+                        elementType: 'geometry',
+                        stylers: [{
+                            color: '#2f3948'
+                        }]
+                    },
+                    {
+                        featureType: 'transit.station',
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#d59563'
+                        }]
+                    },
+                    {
+                        // change to light-blue
+                        featureType: 'water',
+                        elementType: 'geometry',
+                        stylers: [{
+                            color: '#AFBBBA'
+                        }]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#515c6d'
+                        }]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'labels.text.stroke',
+                        stylers: [{
+                            color: '#17263c'
+                        }]
+                    }
+                ]
+            });
+
+            var myLatLng = {
+                lat: 40.215849,
+                lng: -75.784505
+            };
+
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                draggable: true,
+                animation: google.maps.Animation.DROP,
+                title: "Hello!"
+            });
+
+            marker.addListener("click", toggleBounce);
+
+            function toggleBounce() {
+                if (marker.getAnimation() !== null) {
+                    marker.setAnimation(null);
+                } else {
+                    marker.setAnimation(google.maps.Animation.BOUNCE);
+                }
+            }
+
+            // hide school
+            // var styles = {
+            //     default: null,
+            //     hide: [{
+            //         featureType: "poi.school",
+            //         stylers: [{
+            //             visibility: "off"
+            //         }]
+            //     }]
+            // };
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrgc38FmWsOp9oGyoXorMzh62whWUmZk0&callback=initMap">
+    </script>
+
+
+
     
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Greensock -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <!-- ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
 
     <script src="js/scripts-min.js"></script>
 </body>
