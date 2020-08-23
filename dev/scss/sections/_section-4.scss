@@ -1,45 +1,148 @@
 /* =============
-    Section 4
+    nina sec4
 ============= */
 #section-4{
+    background-color: #A7B9AE;
+    padding-top: 50px;
+
+    h2{
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Proza Libre', sans-serif;
+        padding: 50px;
+        color: #173522;
+    }
+
+    p{
+        text-align: center;
+        padding-left: 300px;
+        padding-right: 300px;
+        font-size: 25px;
+        font-family: 'Proza Libre', sans-serif;
+        color: #58624A;
+    }
+
 
     .container {
         display: grid;
-        grid-template-columns: auto 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: "food carcamp backpacking";
+        padding: 60px;
+        grid-gap: 20px;
+
+        h1{
+            text-align: center;
+            padding-bottom: 25px;
+            font-size: 25px;
+        }
     }
 
-    .food {
+    .food{
+        border-radius: 25px;
+        padding-top: 40px;
+        background-color: #CFDED5;
+        border:solid white 5px;
         grid-area: food;
         height: 325px;
-        padding-top: 300px;
-        text-align: center;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 100;
         padding: 10px 20px;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Proza Libre', sans-serif;
+        color: #173522;
+
+        h2{
+            padding:25px;
+            font-size: 20px;
+            color: #58624A;
+            text-align: center;
+        }
     }
 
     .carcamp {
+        border-radius: 25px;
+        padding: 40px;
+        background-color: #CFDED5;
+        border:solid white 5px;
         grid-area: carcamp;
         height: 325px;
-        padding-top: 300px;
-        text-align: center;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 100;
         padding: 10px 20px;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Proza Libre', sans-serif;
+        color: #173522;
     }
 
     .backpacking {
+        border-radius: 25px;
+        padding: 40px;
+        background-color: #CFDED5;
+        border:solid white 5px;
         grid-area: backpacking;
         height: 325px;
-        padding-top: 300px;
-        text-align: center;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 100;
         padding: 10px 20px;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Proza Libre', sans-serif;
+        color: #173522;
     }
 
+        /* Popup box BEGIN */
+    .hover_bkgr_fricc{
+        background:rgba(0,0,0,.4);
+        cursor:pointer;
+        display:none;
+        height:100%;
+        position:fixed;
+        text-align:center;
+        top:0;
+        width:100%;
+        z-index:10000;
+    }
+    .hover_bkgr_fricc .helper{
+        display:inline-block;
+        height:100%;
+        vertical-align:middle;
+    }
+    .hover_bkgr_fricc > div {
+        background-color: #fff;
+        box-shadow: 10px 10px 60px #555;
+        display: inline-block;
+        height: auto;
+        max-width: 551px;
+        min-height: 100px;
+        vertical-align: middle;
+        width: 60%;
+        position: relative;
+        border-radius: 8px;
+        padding: 15px 5%;
+    }
+    .popupCloseButton {
+        background-color: #fff;
+        border: 3px solid #999;
+        border-radius: 50px;
+        cursor: pointer;
+        display: inline-block;
+        font-family: arial;
+        font-weight: bold;
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        font-size: 25px;
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+    }
+    .popupCloseButton:hover {
+        background-color: #ccc;
+    }
+
+    .trigger_popup_fricc {
+        cursor: pointer;
+        font-size: 20px;
+        margin: 20px;
+        display: inline-block;
+        font-weight: bold;
+    }
+    /* Popup box BEGIN */
 }
