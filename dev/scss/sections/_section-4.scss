@@ -11,15 +11,34 @@
         font-family: 'Proza Libre', sans-serif;
         padding: 50px;
         color: #173522;
+        font-size: 30px;
+
+        @include md{
+            font-size: 40px;
+        }
+        @include lg{
+            font-size: 40px;
+        }
     }
 
     p{
         text-align: center;
-        padding-left: 300px;
-        padding-right: 300px;
-        font-size: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 20px;
         font-family: 'Proza Libre', sans-serif;
         color: #58624A;
+
+        @include md{
+            padding-left: 150px;
+            padding-right: 150px;
+            font-size: 25px;
+        }
+        @include lg{
+            padding-left: 300px;
+            padding-right: 300px;
+            font-size: 30px;
+        }
     }
 
 
@@ -27,17 +46,54 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: "food carcamp backpacking";
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            "food"
+            "carcamp"
+            "backpacking";
         padding: 60px;
         grid-gap: 20px;
 
         h1{
             text-align: center;
-            padding-bottom: 25px;
+            padding: 10px;
             font-size: 25px;
+            color: #58624A;
+            border:solid #F7A260 2px;
+            border-radius: 25px;
+        }
+
+        @include md {
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-areas:
+                ". food food food carcamp carcamp carcamp"
+                ". backpacking backpacking backpacking backpacking backpacking backpacking"
+        }
+
+        @include lg {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas:
+                "food carcamp backpacking"
         }
     }
 
     .food{
+
+        h2{
+            padding:7px;
+            font-size: 16px;
+            font-weight: 120;
+            color: #58624A;
+            text-align: center;
+
+            @include md{
+                font-size: 16px;
+            }
+            @include lg{
+                font-size: 20px;
+            }
+        }
+
         border-radius: 25px;
         padding-top: 40px;
         background-color: #CFDED5;
@@ -50,12 +106,6 @@
         font-family: 'Proza Libre', sans-serif;
         color: #173522;
 
-        h2{
-            padding:25px;
-            font-size: 20px;
-            color: #58624A;
-            text-align: center;
-        }
     }
 
     .carcamp {

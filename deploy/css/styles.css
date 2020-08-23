@@ -475,24 +475,54 @@ header {
     font-size: 50px;
     font-family: 'Proza Libre', sans-serif;
     padding: 50px;
-    color: #173522; }
+    color: #173522;
+    font-size: 30px; }
+    @media (min-width: 768px) {
+      #section-4 h2 {
+        font-size: 40px; } }
+    @media (min-width: 1025px) {
+      #section-4 h2 {
+        font-size: 40px; } }
   #section-4 p {
     text-align: center;
-    padding-left: 300px;
-    padding-right: 300px;
-    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
     font-family: 'Proza Libre', sans-serif;
     color: #58624A; }
+    @media (min-width: 768px) {
+      #section-4 p {
+        padding-left: 150px;
+        padding-right: 150px;
+        font-size: 25px; } }
+    @media (min-width: 1025px) {
+      #section-4 p {
+        padding-left: 300px;
+        padding-right: 300px;
+        font-size: 30px; } }
   #section-4 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "food carcamp backpacking";
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "food" "carcamp" "backpacking";
     padding: 60px;
     grid-gap: 20px; }
     #section-4 .container h1 {
       text-align: center;
-      padding-bottom: 25px;
-      font-size: 25px; }
+      padding: 10px;
+      font-size: 25px;
+      color: #58624A;
+      border: solid #F7A260 2px;
+      border-radius: 25px; }
+    @media (min-width: 768px) {
+      #section-4 .container {
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-areas: ". food food food carcamp carcamp carcamp" ". backpacking backpacking backpacking backpacking backpacking backpacking"; } }
+    @media (min-width: 1025px) {
+      #section-4 .container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "food carcamp backpacking"; } }
   #section-4 .food {
     border-radius: 25px;
     padding-top: 40px;
@@ -506,10 +536,17 @@ header {
     font-family: 'Proza Libre', sans-serif;
     color: #173522; }
     #section-4 .food h2 {
-      padding: 25px;
-      font-size: 20px;
+      padding: 7px;
+      font-size: 16px;
+      font-weight: 120;
       color: #58624A;
       text-align: center; }
+      @media (min-width: 768px) {
+        #section-4 .food h2 {
+          font-size: 16px; } }
+      @media (min-width: 1025px) {
+        #section-4 .food h2 {
+          font-size: 20px; } }
   #section-4 .carcamp {
     border-radius: 25px;
     padding: 40px;
