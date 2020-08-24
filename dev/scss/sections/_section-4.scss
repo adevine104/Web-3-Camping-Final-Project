@@ -25,7 +25,7 @@
         text-align: center;
         padding-left: 50px;
         padding-right: 50px;
-        font-size: 10px;
+        font-size: 20px;
         font-family: 'Proza Libre', sans-serif;
         color: #58624A;
 
@@ -152,17 +152,18 @@
                 padding-top: 20px;
                 color: #173522;
                 font-size: 30px;
+                text-align: center;
 
                 @include md{
-                    font-size: 45px;
-                    padding-left: 150px;
-                padding-right: 150px;
+                    font-size: 40px;
+                    padding-left: 100px;
+                    padding-right: 100px;
 
                 }
                 @include lg{
                     font-size: 40px;
-                    padding-left: 300px;
-                padding-right: 300px;
+                    padding-left: 350px;
+                    padding-right: 350px;
             
                 }
             }
@@ -174,14 +175,15 @@
                 padding-top: 20px;
                 color: #173522;
                 font-size: 17px;
+                font-weight: 400;
 
                 @include md{
                     font-size: 17px;
-                    padding-left: 150px;
+                    padding-left: 100px;
                 }
                 @include lg{
                     font-size: 20px;
-                    padding-left: 300px;
+                    padding-left: 410px;
                 }
             }
 
@@ -189,26 +191,33 @@
                 
                 font-family: 'Proza Libre', sans-serif;
                 padding-left: 50px;
+                padding-top:0px;
                 color: #173522;
                 font-size: 17px;
+                font-weight: 400;
 
                 @include md{
                     font-size: 17px;
-                    padding-left: 150px;
+                    padding-left: 100px;
                 }
                 @include lg{
                     font-size: 20px;
-                    padding-left: 300px;
+                    padding-left: 410px;
                 }
             }
         
         /* content */
         .gear{
             .youbuy{
+                text-align: center;
+                
+                img{
+                    padding-bottom: 40px;
+                    
+                }
                 h6{
                     text-align: center;
-                    
-                    font-size: 17px;
+                    font-size: 20px;
                     color: #58624A;
                     font-family: 'Proza Libre', sans-serif;
                     border-radius: 25px;
@@ -216,33 +225,128 @@
                     padding-right: 50px;
 
                     @include md{
-                        font-size: 17px;
+                        font-size: 25px;
                         padding-left: 150px;
                         padding-right: 150px;
                     }
                     @include lg{
-                        font-size: 20px;
+                        font-size: 30px;
                         padding-left: 300px;
                         padding-right: 300px;
                     }
                 }
 
                 p{
-                    
+                    color: #173522;
                     font-size: 20px;
                     padding-left: 50px;
                     padding-right: 50px;
 
                         @include md{
                             font-size: 22px;
-                            padding-left: 200px;
-                            padding-right: 200px;
+                            padding-left: 150px;
+                            padding-right: 150px;
                         }
                         @include lg{
                             font-size: 25px;
                             padding-left: 350px;
                             padding-right: 350px;
                         }
+                }
+                #backpack-button {
+                    padding: 10px;
+                    text-align:  center;
+                    padding-top: 20px;
+        
+                    a:link,
+                    a:visited {
+                        background-color: #173522;
+                        border-radius: 23px;
+                        color: $white;
+                        display: inline-block;
+                        font-size: rem-calc(18);
+                        font-weight: 500;
+                        padding: 10px 20px;
+                        font-family: 'Proza Libre', sans-serif;
+                    }
+        
+                    a:hover,
+                    a:active {
+                        background-color: #F7A260;
+                        color: white;
+                    }
+                }
+
+                #tent-button {
+                    padding: 10px;
+                    text-align:  center;
+                    padding-top: 20px;
+        
+                    a:link,
+                    a:visited {
+                        background-color: #173522;
+                        border-radius: 23px;
+                        color: $white;
+                        display: inline-block;
+                        font-size: rem-calc(18);
+                        font-weight: 500;
+                        padding: 10px 20px;
+                        font-family: 'Proza Libre', sans-serif;
+                    }
+        
+                    a:hover,
+                    a:active {
+                        background-color: #F7A260;
+                        color: white;
+                    }
+                }
+
+                #hammock-button {
+                    padding: 10px;
+                    text-align:  center;
+                    padding-top: 20px;
+        
+                    a:link,
+                    a:visited {
+                        background-color: #173522;
+                        border-radius: 23px;
+                        color: $white;
+                        display: inline-block;
+                        font-size: rem-calc(18);
+                        font-weight: 500;
+                        padding: 10px 20px;
+                        font-family: 'Proza Libre', sans-serif;
+                    }
+        
+                    a:hover,
+                    a:active {
+                        background-color: #F7A260;
+                        color: white;
+                    }
+                }
+
+                #cook-button {
+                    padding: 10px;
+                    text-align:  center;
+                    padding-top: 20px;
+        
+                    a:link,
+                    a:visited {
+                        background-color: #173522;
+                        border-radius: 23px;
+                        color: $white;
+                        display: inline-block;
+                        font-size: rem-calc(18);
+                        font-weight: 500;
+                        padding: 10px 20px;
+                        font-family: 'Proza Libre', sans-serif;
+                    }
+        
+                    a:hover,
+                    a:active {
+                        background-color: #F7A260;
+                        color: white;
+                    }
                 }
             
             }

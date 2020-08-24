@@ -490,7 +490,7 @@ header {
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 10px;
+    font-size: 20px;
     font-family: 'Proza Libre', sans-serif;
     color: #58624A; }
     @media (min-width: 768px) {
@@ -582,76 +582,157 @@ header {
     padding-bottom: 20px;
     padding-top: 20px;
     color: #173522;
-    font-size: 30px; }
+    font-size: 30px;
+    text-align: center; }
     @media (min-width: 768px) {
       #section-4 h3 {
-        font-size: 45px;
-        padding-left: 150px;
-        padding-right: 150px; } }
+        font-size: 40px;
+        padding-left: 100px;
+        padding-right: 100px; } }
     @media (min-width: 1025px) {
       #section-4 h3 {
         font-size: 40px;
-        padding-left: 300px;
-        padding-right: 300px; } }
+        padding-left: 350px;
+        padding-right: 350px; } }
   #section-4 h4 {
     font-family: 'Proza Libre', sans-serif;
     padding-left: 50px;
     padding-top: 20px;
     color: #173522;
-    font-size: 17px; }
+    font-size: 17px;
+    font-weight: 400; }
     @media (min-width: 768px) {
       #section-4 h4 {
         font-size: 17px;
-        padding-left: 150px; } }
+        padding-left: 100px; } }
     @media (min-width: 1025px) {
       #section-4 h4 {
         font-size: 20px;
-        padding-left: 300px; } }
+        padding-left: 410px; } }
   #section-4 h5 {
     font-family: 'Proza Libre', sans-serif;
     padding-left: 50px;
+    padding-top: 0px;
     color: #173522;
-    font-size: 17px; }
-    @media (min-width: 768px) {
-      #section-4 h5 {
-        font-size: 17px;
-        padding-left: 150px; } }
-    @media (min-width: 1025px) {
-      #section-4 h5 {
-        font-size: 20px;
-        padding-left: 300px; } }
-  #section-4 .gear .youbuy h6 {
-    text-align: center;
     font-size: 17px;
-    color: #58624A;
-    font-family: 'Proza Libre', sans-serif;
-    border-radius: 25px;
-    padding-left: 50px;
-    padding-right: 50px; }
+    font-weight: 400; }
     @media (min-width: 768px) {
-      #section-4 .gear .youbuy h6 {
+      #section-4 h5 {
         font-size: 17px;
-        padding-left: 150px;
-        padding-right: 150px; } }
+        padding-left: 100px; } }
     @media (min-width: 1025px) {
-      #section-4 .gear .youbuy h6 {
+      #section-4 h5 {
         font-size: 20px;
-        padding-left: 300px;
-        padding-right: 300px; } }
-  #section-4 .gear .youbuy p {
-    font-size: 20px;
-    padding-left: 50px;
-    padding-right: 50px; }
-    @media (min-width: 768px) {
-      #section-4 .gear .youbuy p {
-        font-size: 22px;
-        padding-left: 200px;
-        padding-right: 200px; } }
-    @media (min-width: 1025px) {
-      #section-4 .gear .youbuy p {
-        font-size: 25px;
-        padding-left: 350px;
-        padding-right: 350px; } }
+        padding-left: 410px; } }
+  #section-4 .gear .youbuy {
+    text-align: center; }
+    #section-4 .gear .youbuy img {
+      padding-bottom: 40px; }
+    #section-4 .gear .youbuy h6 {
+      text-align: center;
+      font-size: 20px;
+      color: #58624A;
+      font-family: 'Proza Libre', sans-serif;
+      border-radius: 25px;
+      padding-left: 50px;
+      padding-right: 50px; }
+      @media (min-width: 768px) {
+        #section-4 .gear .youbuy h6 {
+          font-size: 25px;
+          padding-left: 150px;
+          padding-right: 150px; } }
+      @media (min-width: 1025px) {
+        #section-4 .gear .youbuy h6 {
+          font-size: 30px;
+          padding-left: 300px;
+          padding-right: 300px; } }
+    #section-4 .gear .youbuy p {
+      color: #173522;
+      font-size: 20px;
+      padding-left: 50px;
+      padding-right: 50px; }
+      @media (min-width: 768px) {
+        #section-4 .gear .youbuy p {
+          font-size: 22px;
+          padding-left: 150px;
+          padding-right: 150px; } }
+      @media (min-width: 1025px) {
+        #section-4 .gear .youbuy p {
+          font-size: 25px;
+          padding-left: 350px;
+          padding-right: 350px; } }
+    #section-4 .gear .youbuy #backpack-button {
+      padding: 10px;
+      text-align: center;
+      padding-top: 20px; }
+      #section-4 .gear .youbuy #backpack-button a:link,
+      #section-4 .gear .youbuy #backpack-button a:visited {
+        background-color: #173522;
+        border-radius: 23px;
+        color: #fff;
+        display: inline-block;
+        font-size: 1.125rem;
+        font-weight: 500;
+        padding: 10px 20px;
+        font-family: 'Proza Libre', sans-serif; }
+      #section-4 .gear .youbuy #backpack-button a:hover,
+      #section-4 .gear .youbuy #backpack-button a:active {
+        background-color: #F7A260;
+        color: white; }
+    #section-4 .gear .youbuy #tent-button {
+      padding: 10px;
+      text-align: center;
+      padding-top: 20px; }
+      #section-4 .gear .youbuy #tent-button a:link,
+      #section-4 .gear .youbuy #tent-button a:visited {
+        background-color: #173522;
+        border-radius: 23px;
+        color: #fff;
+        display: inline-block;
+        font-size: 1.125rem;
+        font-weight: 500;
+        padding: 10px 20px;
+        font-family: 'Proza Libre', sans-serif; }
+      #section-4 .gear .youbuy #tent-button a:hover,
+      #section-4 .gear .youbuy #tent-button a:active {
+        background-color: #F7A260;
+        color: white; }
+    #section-4 .gear .youbuy #hammock-button {
+      padding: 10px;
+      text-align: center;
+      padding-top: 20px; }
+      #section-4 .gear .youbuy #hammock-button a:link,
+      #section-4 .gear .youbuy #hammock-button a:visited {
+        background-color: #173522;
+        border-radius: 23px;
+        color: #fff;
+        display: inline-block;
+        font-size: 1.125rem;
+        font-weight: 500;
+        padding: 10px 20px;
+        font-family: 'Proza Libre', sans-serif; }
+      #section-4 .gear .youbuy #hammock-button a:hover,
+      #section-4 .gear .youbuy #hammock-button a:active {
+        background-color: #F7A260;
+        color: white; }
+    #section-4 .gear .youbuy #cook-button {
+      padding: 10px;
+      text-align: center;
+      padding-top: 20px; }
+      #section-4 .gear .youbuy #cook-button a:link,
+      #section-4 .gear .youbuy #cook-button a:visited {
+        background-color: #173522;
+        border-radius: 23px;
+        color: #fff;
+        display: inline-block;
+        font-size: 1.125rem;
+        font-weight: 500;
+        padding: 10px 20px;
+        font-family: 'Proza Libre', sans-serif; }
+      #section-4 .gear .youbuy #cook-button a:hover,
+      #section-4 .gear .youbuy #cook-button a:active {
+        background-color: #F7A260;
+        color: white; }
   #section-4 .hover_bkgr_fricc {
     background: rgba(0, 0, 0, 0.4);
     cursor: pointer;
