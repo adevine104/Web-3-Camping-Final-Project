@@ -1,3 +1,64 @@
 /* =============
     Footer
 ============= */
+footer{
+    background-color: $darkblue;
+    color: $white;
+    text-align: center;
+    padding: 2%;
+    p{
+        padding-bottom: 1%;
+    }
+
+    div{
+        #form-container{
+            #form{
+                section{
+                    input{
+                        
+                    }
+                }
+                section{
+                    button{
+                        
+                    }
+                }
+            }
+        }
+    }
+
+    #socials{
+        ul {
+            display: flex;
+            justify-content: center;
+
+            li {
+                margin: 10px;
+
+                a:link,
+                a:visited {
+                    color: $white;
+                    font-size: rem-calc(16);
+                    cursor: pointer;
+                    transition: .25s;
+
+                    &:hover,
+                    &:active {
+                        color: $orange;
+                        transition: .25s;
+                    }
+
+                    @include md {
+                        font-size: rem-calc(24);
+                        margin: 0 15px;
+                    }
+
+                    @include lg {
+                        font-size: rem-calc(32);
+                        margin: 0 20px;
+                    }
+                }
+            }
+        }
+    }
+}

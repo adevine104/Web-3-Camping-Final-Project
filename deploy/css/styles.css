@@ -416,6 +416,39 @@ header {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #2A5670;
+  color: #fff;
+  text-align: center;
+  padding: 2%; }
+  footer p {
+    padding-bottom: 1%; }
+  footer #socials ul {
+    display: flex;
+    justify-content: center; }
+    footer #socials ul li {
+      margin: 10px; }
+      footer #socials ul li a:link,
+      footer #socials ul li a:visited {
+        color: #fff;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: .25s; }
+        footer #socials ul li a:link:hover, footer #socials ul li a:link:active,
+        footer #socials ul li a:visited:hover,
+        footer #socials ul li a:visited:active {
+          color: #E86F11;
+          transition: .25s; }
+        @media (min-width: 768px) {
+          footer #socials ul li a:link,
+          footer #socials ul li a:visited {
+            font-size: 1.5rem;
+            margin: 0 15px; } }
+        @media (min-width: 1025px) {
+          footer #socials ul li a:link,
+          footer #socials ul li a:visited {
+            font-size: 2rem;
+            margin: 0 20px; } }
 /* =============
     Section 1
 ============= */
