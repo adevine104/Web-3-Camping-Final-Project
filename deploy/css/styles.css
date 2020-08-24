@@ -822,10 +822,8 @@ header {
     Section 6
 ============= */
 #section-6 {
-  background-color: #fff;
-  padding-bottom: 5%; }
+  padding: 5%; }
   #section-6 #map {
-    background-color: #000;
     height: 300px;
     width: 100%; }
     @media (min-width: 768px) {
