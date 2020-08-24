@@ -25,7 +25,7 @@
         text-align: center;
         padding-left: 50px;
         padding-right: 50px;
-        font-size: 20px;
+        font-size: 10px;
         font-family: 'Proza Libre', sans-serif;
         color: #58624A;
 
@@ -136,7 +136,119 @@
         color: #173522;
     }
 
-        /* Popup box BEGIN */
+
+
+
+
+        /* site recs */
+        /* title */
+            h3{
+                
+                font-size: 50px;
+                font-family: 'Proza Libre', sans-serif;
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-bottom: 20px;
+                padding-top: 20px;
+                color: #173522;
+                font-size: 30px;
+
+                @include md{
+                    font-size: 45px;
+                    padding-left: 150px;
+                padding-right: 150px;
+
+                }
+                @include lg{
+                    font-size: 40px;
+                    padding-left: 300px;
+                padding-right: 300px;
+            
+                }
+            }
+
+            h4{
+                
+                font-family: 'Proza Libre', sans-serif;
+                padding-left: 50px;
+                padding-top: 20px;
+                color: #173522;
+                font-size: 17px;
+
+                @include md{
+                    font-size: 17px;
+                    padding-left: 150px;
+                }
+                @include lg{
+                    font-size: 20px;
+                    padding-left: 300px;
+                }
+            }
+
+            h5{
+                
+                font-family: 'Proza Libre', sans-serif;
+                padding-left: 50px;
+                color: #173522;
+                font-size: 17px;
+
+                @include md{
+                    font-size: 17px;
+                    padding-left: 150px;
+                }
+                @include lg{
+                    font-size: 20px;
+                    padding-left: 300px;
+                }
+            }
+        
+        /* content */
+        .gear{
+            .youbuy{
+                h6{
+                    text-align: center;
+                    
+                    font-size: 17px;
+                    color: #58624A;
+                    font-family: 'Proza Libre', sans-serif;
+                    border-radius: 25px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+
+                    @include md{
+                        font-size: 17px;
+                        padding-left: 150px;
+                        padding-right: 150px;
+                    }
+                    @include lg{
+                        font-size: 20px;
+                        padding-left: 300px;
+                        padding-right: 300px;
+                    }
+                }
+
+                p{
+                    
+                    font-size: 20px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+
+                        @include md{
+                            font-size: 22px;
+                            padding-left: 200px;
+                            padding-right: 200px;
+                        }
+                        @include lg{
+                            font-size: 25px;
+                            padding-left: 350px;
+                            padding-right: 350px;
+                        }
+                }
+            
+            }
+        }
+
+    /* Popup box BEGIN */
     .hover_bkgr_fricc{
         background:rgba(0,0,0,.4);
         cursor:pointer;
