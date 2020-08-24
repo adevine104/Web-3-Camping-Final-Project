@@ -32,9 +32,12 @@
     <section id="section-1">
             <div></div>
             <h1>Why Camping?</h1>
-            <p>Intro text dolor sit amet, integer ipsum nascetur massa. Justo maecenas integer magna dolor. Amet eu a elit,
-                vitae purus ut curabitur est pellentesque leo, vitae faucibus exercitationem interdum vivamus, rhoncus eget,
-                sodales.</p>
+            <article>
+                <p>Anyone you ask has a different reason for camping. Some like to disconnect from technology and reconnect with
+                    nature. Some families go camping to revitalize their relationships, away from all the distractions at home.
+                    Many youth organizations teach young people how to build a fire, pitch a tent, or read a compass. Camping means
+                    different things to different people.</p>
+            </article>
         </section>
     <section id="section-2">
                 <div>
@@ -61,8 +64,10 @@
     <section id="section-3">
                     <div>
                         <section class="video-wrapper widescreen">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/9zRABW73T-I"
-                                allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <div>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/9zRABW73T-I"
+                                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
                         </section>
                     </div>
                 </section>
@@ -298,34 +303,34 @@
                                     <div id="map"></div>
                                 </div>
                             </section>
-                            
-                            
     <footer>
-                                    <p>Site Title</p>
-                                    <p>Form title</p>
+                                    <p><span>Why Camping?</span></p>
+                                    <p>Subscribe for the latest news on camping!</p>
                                 
-                                    <div>
-                                        <section id="form-container">
-                                            <form action="https://formspree.io/xeqrwadz" method="POST">
-                                                <section>
-                                                    <input type="email" placeholder="Email Address" name="Email">
-                                                </section>
+                                    <section id="subscribe-form">
+                                        <div>
+                                            <section id="form-container">
+                                                <form action="https://formspree.io/xeqrwadz" method="POST">
+                                                    <section>
+                                                        <input type="email" placeholder="Email Address" name="Email">
+                                                    </section>
                                 
-                                                <section>
-                                                    <button type="submit" value="Send"><i class="fas fa-chevron-right"></i></button>
-                                                </section>
-                                            </form>
-                                        </section>
-                                    </div>
+                                                    <section>
+                                                        <button class="submit-button" type="submit" value="Send"><i class="fas fa-chevron-right"></i></button>
+                                                    </section>
+                                                </form>
+                                            </section>
+                                        </div>
+                                    </section>
                                 
-                                    </div>
-                                    <ul>
-                                        <li><i class="fab fa-facebook"></i></li>
-                                        <li><i class="fab fa-instagram"></i></li>
-                                        <li><i class="fab fa-youtube"></i></li>
-                                        <li><i class="fab fa-twitter"></i></li>
-                                        <li><i class="fab fa-pinterest"></i></li>
-                                    </ul>
+                                    <div id="socials">
+                                        <ul>
+                                            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                            <li><a href="https://twitter.com/explore" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://pinterest.com/" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+                                        </ul>
                                     </div>
                                 </footer>
  
@@ -340,155 +345,134 @@
                 },
                 zoom: 13,
 
-                // change to satellite with labels default view
+                // change to hybrid satellite view
                 mapTypeId: 'hybrid',
 
-                // hide school
-                // hide: [{
-                //     featureType: "poi.school",
-                //     stylers: [{
-                //         visibility: "off"
-                //     }]
-                // }],
-
                 styles: [
-                    // change to dark brown geometry
+                    // change to dark green geometry
                     {
                         elementType: 'geometry',
                         stylers: [{
-                            color: '#150700'
+                            color: '#58624A'
                         }]
                     },
-                     // change to brown text stroke
+                     // change to black text stroke
                     {
                         elementType: 'labels.text.stroke',
                         stylers: [{
-                            color: '#3F2311'
+                            color: '#000000'
                         }]
                     },
-                    // change to orange text fill
+                    // change to light-green text fill
                     {
                         elementType: 'labels.text.fill',
                         stylers: [{
-                            color: '#E18A37'
+                            color: '#A7B9AE'
                         }]
                     },
                     {
-                        featureType: 'administrative.locality',
-                        elementType: 'labels.text.fill',
-                        stylers: [{
-                            color: '#d59563'
-                        }]
-                    },
-                    {
+                    // change to light-green
                         featureType: 'poi',
                         elementType: 'labels.text.fill',
                         stylers: [{
-                            color: '#d59563'
+                            color: '#A7B9AE',
                         }]
                     },
                     {
-                        // change to green
+                    // change to dark-green
                         featureType: 'poi.park',
                         elementType: 'geometry',
                         stylers: [{
-                            color: '#141A02'
+                            color: '#173522'
                         }]
                     },
                     {
+                    // change to orange
                         featureType: 'poi.park',
                         elementType: 'labels.text.fill',
                         stylers: [{
-                            color: '#6b9a76'
+                            color: '#E86F11'
                         }]
                     },
+                    // {
+                    //     featureType: 'road',
+                    //     elementType: 'geometry',
+                    //     stylers: [{
+                    //         color: '#38414e'
+                    //     }]
+                    // },
+                    // {
+                    //     featureType: 'road',
+                    //     elementType: 'geometry.stroke',
+                    //     stylers: [{
+                    //         color: '#212a37'
+                    //     }]
+                    // },
                     {
-                        featureType: 'road',
-                        elementType: 'geometry',
-                        stylers: [{
-                            color: '#38414e'
-                        }]
-                    },
-                    {
-                        featureType: 'road',
-                        elementType: 'geometry.stroke',
-                        stylers: [{
-                            color: '#212a37'
-                        }]
-                    },
-                    {
+                    // change to white
                         featureType: 'road',
                         elementType: 'labels.text.fill',
                         stylers: [{
-                            color: '#9ca5b3'
+                            color: '#ffffff'
                         }]
                     },
+                    // {
+                    //     featureType: 'road.highway',
+                    //     elementType: 'geometry',
+                    //     stylers: [{
+                    //         color: '#746855'
+                    //     }]
+                    // },
+                    // {
+                    //     featureType: 'road.highway',
+                    //     elementType: 'geometry.stroke',
+                    //     stylers: [{
+                    //         color: '#1f2835'
+                    //     }]
+                    // },
+                    // {
+                    //     featureType: 'road.highway',
+                    //     elementType: 'labels.text.fill',
+                    //     stylers: [{
+                    //         color: '#f3d19c'
+                    //     }]
+                    // },
+                    // {
+                    //     featureType: 'transit',
+                    //     elementType: 'geometry',
+                    //     stylers: [{
+                    //         color: '#2f3948'
+                    //     }]
+                    // },
+                    // {
+                    //     featureType: 'transit.station',
+                    //     elementType: 'labels.text.fill',
+                    //     stylers: [{
+                    //         color: '#d59563'
+                    //     }]
+                    // },
                     {
-                        // hide school
-                        featureType: 'poi.school',
-                        // elementType: 'labels.text.fill',
-                        stylers: [{
-                            // color: '#9ca5b3'
-                            visibility: "off"
-                        }]
-                    },
-                    {
-                        featureType: 'road.highway',
-                        elementType: 'geometry',
-                        stylers: [{
-                            color: '#746855'
-                        }]
-                    },
-                    {
-                        featureType: 'road.highway',
-                        elementType: 'geometry.stroke',
-                        stylers: [{
-                            color: '#1f2835'
-                        }]
-                    },
-                    {
-                        featureType: 'road.highway',
-                        elementType: 'labels.text.fill',
-                        stylers: [{
-                            color: '#f3d19c'
-                        }]
-                    },
-                    {
-                        featureType: 'transit',
-                        elementType: 'geometry',
-                        stylers: [{
-                            color: '#2f3948'
-                        }]
-                    },
-                    {
-                        featureType: 'transit.station',
-                        elementType: 'labels.text.fill',
-                        stylers: [{
-                            color: '#d59563'
-                        }]
-                    },
-                    {
-                        // change to light-blue
+                        // change to dark-blue
                         featureType: 'water',
                         elementType: 'geometry',
                         stylers: [{
-                            color: '#AFBBBA'
+                            color: '#2A5670'
                         }]
                     },
-                    {
-                        featureType: 'water',
-                        elementType: 'labels.text.fill',
-                        stylers: [{
-                            color: '#515c6d'
-                        }]
-                    },
-                    {
-                        featureType: 'water',
-                        elementType: 'labels.text.stroke',
-                        stylers: [{
-                            color: '#17263c'
-                        }]
-                    }
+                    // {
+                    //     featureType: 'water',
+                    //     elementType: 'labels.text.fill',
+                    //     stylers: [{
+                    //         color: '#515c6d'
+                    //     }]
+                    // },
+                    // {
+                    //     featureType: 'water',
+                    //     elementType: 'labels.text.stroke',
+                    //     stylers: [{
+                    //         color: '#17263c'
+                    //     }]
+                    // }
                 ]
             });
 
@@ -514,17 +498,6 @@
                     marker.setAnimation(google.maps.Animation.BOUNCE);
                 }
             }
-
-            // hide school
-            // var styles = {
-            //     default: null,
-            //     hide: [{
-            //         featureType: "poi.school",
-            //         stylers: [{
-            //             visibility: "off"
-            //         }]
-            //     }]
-            // };
         }
     </script>
     <script async defer

@@ -344,6 +344,27 @@ p {
 /* =============
     Buttons
 ============= */
+button {
+  cursor: pointer;
+  transition: 0.25s; }
+
+.submit-button {
+  background-color: #E86F11;
+  border: none;
+  font-size: 1.25rem;
+  min-height: 30px;
+  min-width: 50px;
+  padding: 2% 5%; }
+  @media (min-width: 768px) {
+    .submit-button {
+      font-size: 1.5rem;
+      min-width: 80px; } }
+  @media (min-width: 1025px) {
+    .submit-button {
+      font-size: 1.75rem; } }
+  .submit-button:hover, .submit-button:active {
+    background-color: #B9E7FF; }
+
 /* =============
     Forms
 ============= */
@@ -416,6 +437,82 @@ header {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #2A5670;
+  color: #fff;
+  padding: 2%;
+  text-align: center; }
+  footer p {
+    padding-bottom: 1%; }
+    footer p span {
+      font-size: 1.25rem; }
+      @media (min-width: 768px) {
+        footer p span {
+          font-size: 1.5rem; } }
+      @media (min-width: 1025px) {
+        footer p span {
+          font-size: 1.75rem; } }
+  footer #form-container form {
+    display: grid;
+    grid-template-areas: ". email send .";
+    grid-template-columns: auto 50% 25% auto;
+    padding-top: 2%; }
+    @media (min-width: 768px) {
+      footer #form-container form {
+        grid-template-columns: auto 35% 15% auto; } }
+    @media (min-width: 1025px) {
+      footer #form-container form {
+        grid-template-columns: auto 25% 10% auto;
+        padding-top: 1%; } }
+    footer #form-container form section {
+      background-color: #fff;
+      border: solid 2px #E86F11;
+      padding: 0 2%;
+      width: 96%; }
+      footer #form-container form section input {
+        background-color: #fff;
+        border: none;
+        padding: 2% 0;
+        width: 100%; }
+      footer #form-container form section button i {
+        color: #2A5670; }
+      footer #form-container form section textarea {
+        border: none;
+        padding: 0;
+        width: 100%; }
+    footer #form-container form section:nth-child(1) {
+      grid-area: email; }
+    footer #form-container form section:nth-child(2) {
+      background-color: transparent;
+      border: none;
+      grid-area: send; }
+  footer #socials ul {
+    display: flex;
+    justify-content: center; }
+    footer #socials ul li {
+      margin: 10px;
+      padding-top: 1%; }
+      footer #socials ul li a:link,
+      footer #socials ul li a:visited {
+        color: #B9E7FF;
+        cursor: pointer;
+        font-size: 1.25rem;
+        transition: .25s; }
+        footer #socials ul li a:link:hover, footer #socials ul li a:link:active,
+        footer #socials ul li a:visited:hover,
+        footer #socials ul li a:visited:active {
+          color: #E86F11;
+          transition: .25s; }
+        @media (min-width: 768px) {
+          footer #socials ul li a:link,
+          footer #socials ul li a:visited {
+            font-size: 1.5rem;
+            margin: 0 15px; } }
+        @media (min-width: 1025px) {
+          footer #socials ul li a:link,
+          footer #socials ul li a:visited {
+            font-size: 2rem;
+            margin: 0 20px; } }
 /* =============
     Section 1
 ============= */
@@ -431,12 +528,31 @@ header {
       height: 95vh; } }
 #section-1 h1 {
   position: absolute;
-  bottom: 25%;
-  left: 30%; }
-
-#section-1 p {
-  text-align: center;
-  padding: 2%; }
+  bottom: 45%;
+  left: 15%; }
+  @media (min-width: 768px) {
+    #section-1 h1 {
+      bottom: 45%;
+      left: 20%; } }
+  @media (min-width: 1025px) {
+    #section-1 h1 {
+      bottom: 30%;
+      left: 30%; } }
+#section-1 article {
+  display: grid;
+  grid-template-columns: auto 80% auto;
+  grid-template-areas: ". intro-text .";
+  padding-top: 2%; }
+  @media (min-width: 768px) {
+    #section-1 article {
+      grid-template-columns: auto 90% auto; } }
+  @media (min-width: 1200px) {
+    #section-1 article {
+      grid-template-columns: auto 1100px auto; } }
+  #section-1 article p {
+    grid-area: intro-text;
+    text-align: center;
+    padding: 2%; }
 
 /* =============
     Section 2
@@ -462,6 +578,20 @@ header {
 /* =============
     Section 3
 ============= */
+#section-3 {
+  display: grid;
+  grid-template-areas: ". video .";
+  grid-template-columns: auto 95% auto;
+  padding: 3% 0; }
+  @media (min-width: 768px) {
+    #section-3 {
+      grid-template-columns: auto 90% auto; } }
+  @media (min-width: 1200px) {
+    #section-3 {
+      grid-template-columns: auto 1200px auto; } }
+  #section-3 > div {
+    grid-area: video; }
+
 /* =============
     nina sec4
 ============= */
@@ -870,10 +1000,8 @@ header {
     Section 6
 ============= */
 #section-6 {
-  background-color: #fff;
-  padding-bottom: 5%; }
+  padding: 5%; }
   #section-6 #map {
-    background-color: #000;
     height: 300px;
     width: 100%; }
     @media (min-width: 768px) {

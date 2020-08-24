@@ -1,3 +1,30 @@
 /* =============
     Buttons
 ============= */
+button {
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.submit-button {
+    background-color: $orange;
+    border: none;
+    font-size: rem-calc(20);
+    min-height: 30px;
+    min-width: 50px;
+    padding: 2% 5%;
+
+    @include md {
+        font-size: rem-calc(24);
+        min-width: 80px;
+    }
+
+    @include lg {
+        font-size: rem-calc(28);
+    }
+
+    &:hover,
+    &:active {
+        background-color: $lightblue;
+    }
+}
