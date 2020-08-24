@@ -2,31 +2,20 @@
     Section 3
 ============= */
 #section-3 {
-    // background-color: $white;
-    // display: grid;
-    // grid-template-areas: ". video .";
-    // grid-template-columns: auto 95% auto;
-    // height: 50vh;
+    display: grid;
+    grid-template-areas: ". video .";
+    grid-template-columns: auto 95% auto;
+    padding: 3% 0;
 
-    // @include md {
-    //     grid-template-columns: auto 95% auto;
-    //     height: 40vh;
-    // }
+    @include md {
+        grid-template-columns: auto 90% auto;
+    }
 
-    // @include lg {
-    //     height: 50vh;
-    // }
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+    }
 
-    // >div {
-    //     align-items: center;
-    //     display: flex;
-    //     grid-area: video;
-    //     justify-content: center;
-
-    //     section {
-    //         display: flex;
-    //         justify-content: center;
-    //         width: 100%;
-    //     }
-    // }
+    >div {
+        grid-area: video;
+    }
 }

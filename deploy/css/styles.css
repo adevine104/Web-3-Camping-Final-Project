@@ -446,7 +446,10 @@ header {
   grid-template-columns: auto 80% auto;
   grid-template-areas: ". intro-text .";
   padding-top: 2%; }
-  @media (min-width: 1025px) {
+  @media (min-width: 768px) {
+    #section-1 article {
+      grid-template-columns: auto 90% auto; } }
+  @media (min-width: 1200px) {
     #section-1 article {
       grid-template-columns: auto 1100px auto; } }
   #section-1 article p {
@@ -478,6 +481,20 @@ header {
 /* =============
     Section 3
 ============= */
+#section-3 {
+  display: grid;
+  grid-template-areas: ". video .";
+  grid-template-columns: auto 95% auto;
+  padding: 3% 0; }
+  @media (min-width: 768px) {
+    #section-3 {
+      grid-template-columns: auto 90% auto; } }
+  @media (min-width: 1200px) {
+    #section-3 {
+      grid-template-columns: auto 1200px auto; } }
+  #section-3 > div {
+    grid-area: video; }
+
 /* =============
     nina sec4
 ============= */
