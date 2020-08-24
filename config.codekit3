@@ -30,6 +30,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/section-4/backpack.jpg": {
+		"ft": 16384,
+		"iS": 1724273,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/backpack.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-4/cook.jpg": {
+		"ft": 16384,
+		"iS": 1296374,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/cook.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-4/hammock.jpg": {
+		"ft": 16384,
+		"iS": 415378,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/hammock.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-4/tent.jpg": {
+		"ft": 16384,
+		"iS": 1551330,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/tent.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -67,17 +111,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/deploy/js/gsap/ScrollTrigger.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/deploy/js/scripts-min-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/scripts-min-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -124,28 +157,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/cards-flip-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/pop-up.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/pop-up-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/scripts-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/scripts-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

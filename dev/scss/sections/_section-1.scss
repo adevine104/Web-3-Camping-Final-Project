@@ -18,12 +18,34 @@
 
     h1{
         position: absolute;
-        bottom: 25%;
-        left: 30%;
+        bottom: 45%;
+        left: 15%;
+
+        @include md{
+            bottom: 45%;
+            left: 20%;
+        }
+
+        @include lg{
+            bottom: 30%;
+            left: 30%;
+        }
     }
 
-    p{
-        text-align: center;
-        padding: 2%;
+    article{
+        display: grid;
+        grid-template-columns: auto 80% auto;
+        grid-template-areas: ". intro-text .";
+        padding-top: 2%;
+
+        @include lg{
+            grid-template-columns: auto 1100px auto;
+        }
+
+        p{
+            grid-area: intro-text;
+            text-align: center;
+            padding: 2%;
+        }
     }
 }

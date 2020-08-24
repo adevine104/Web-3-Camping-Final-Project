@@ -431,12 +431,28 @@ header {
       height: 95vh; } }
 #section-1 h1 {
   position: absolute;
-  bottom: 25%;
-  left: 30%; }
-
-#section-1 p {
-  text-align: center;
-  padding: 2%; }
+  bottom: 45%;
+  left: 15%; }
+  @media (min-width: 768px) {
+    #section-1 h1 {
+      bottom: 45%;
+      left: 20%; } }
+  @media (min-width: 1025px) {
+    #section-1 h1 {
+      bottom: 30%;
+      left: 30%; } }
+#section-1 article {
+  display: grid;
+  grid-template-columns: auto 80% auto;
+  grid-template-areas: ". intro-text .";
+  padding-top: 2%; }
+  @media (min-width: 1025px) {
+    #section-1 article {
+      grid-template-columns: auto 1100px auto; } }
+  #section-1 article p {
+    grid-area: intro-text;
+    text-align: center;
+    padding: 2%; }
 
 /* =============
     Section 2
