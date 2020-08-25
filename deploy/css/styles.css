@@ -351,6 +351,7 @@ button {
 .submit-button {
   background-color: #E86F11;
   border: none;
+  border-radius: 23px;
   font-size: 1.25rem;
   min-height: 30px;
   min-width: 50px;
@@ -467,17 +468,20 @@ footer {
     footer #form-container form section {
       background-color: #fff;
       border: solid 2px #E86F11;
+      border-radius: 23px;
       padding: 0 2%;
       width: 96%; }
       footer #form-container form section input {
         background-color: #fff;
         border: none;
+        border-radius: 23px;
         padding: 2% 0;
         width: 100%; }
       footer #form-container form section button i {
         color: #2A5670; }
       footer #form-container form section textarea {
         border: none;
+        border-radius: 23px;
         padding: 0;
         width: 100%; }
     footer #form-container form section:nth-child(1) {
@@ -516,43 +520,45 @@ footer {
 /* =============
     Section 1
 ============= */
-#section-1 div {
-  background-image: url("../img/section-1/camping-hero.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 75vh;
-  position: relative; }
-  @media (min-width: 1025px) {
-    #section-1 div {
-      height: 95vh; } }
-#section-1 h1 {
-  position: absolute;
-  bottom: 45%;
-  left: 15%; }
-  @media (min-width: 768px) {
-    #section-1 h1 {
-      bottom: 45%;
-      left: 20%; } }
-  @media (min-width: 1025px) {
-    #section-1 h1 {
-      bottom: 30%;
-      left: 30%; } }
-#section-1 article {
-  display: grid;
-  grid-template-columns: auto 80% auto;
-  grid-template-areas: ". intro-text .";
-  padding-top: 2%; }
-  @media (min-width: 768px) {
-    #section-1 article {
-      grid-template-columns: auto 90% auto; } }
-  @media (min-width: 1200px) {
-    #section-1 article {
-      grid-template-columns: auto 1100px auto; } }
-  #section-1 article p {
-    grid-area: intro-text;
-    text-align: center;
-    padding: 2%; }
+#section-1 {
+  background-color: #A7B9AE; }
+  #section-1 div {
+    background-image: url("../img/section-1/camping-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    position: relative; }
+    @media (min-width: 1025px) {
+      #section-1 div {
+        height: 95vh; } }
+  #section-1 h1 {
+    position: absolute;
+    bottom: 45%;
+    left: 15%; }
+    @media (min-width: 768px) {
+      #section-1 h1 {
+        bottom: 45%;
+        left: 20%; } }
+    @media (min-width: 1025px) {
+      #section-1 h1 {
+        bottom: 30%;
+        left: 30%; } }
+  #section-1 article {
+    display: grid;
+    grid-template-columns: auto 80% auto;
+    grid-template-areas: ". intro-text .";
+    padding-top: 2%; }
+    @media (min-width: 768px) {
+      #section-1 article {
+        grid-template-columns: auto 90% auto; } }
+    @media (min-width: 1200px) {
+      #section-1 article {
+        grid-template-columns: auto 1100px auto; } }
+    #section-1 article p {
+      grid-area: intro-text;
+      text-align: center;
+      padding: 2%; }
 
 /* =============
     Section 2
@@ -579,6 +585,7 @@ footer {
     Section 3
 ============= */
 #section-3 {
+  background-color: #58624A;
   display: grid;
   grid-template-areas: ". video .";
   grid-template-columns: auto 95% auto;
@@ -1000,6 +1007,7 @@ footer {
     Section 6
 ============= */
 #section-6 {
+  background-color: #58624A;
   padding: 5%; }
   #section-6 #map {
     height: 300px;
