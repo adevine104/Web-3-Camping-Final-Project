@@ -330,10 +330,17 @@ ul {
   ul li {
     list-style: none; }
 
+a {
+  text-decoration: none; }
+
 /* =============
     Typography
 ============= */
+body {
+  font-family: 'Proza Libre', sans-serif; }
+
 h1, h2, h3, h4 {
+  font-family: 'Vollkorn', serif;
   margin: 0;
   padding: 0; }
 
@@ -446,7 +453,8 @@ footer {
   footer p {
     padding-bottom: 1%; }
     footer p span {
-      font-size: 1.25rem; }
+      font-size: 1.25rem;
+      font-family: 'Vollkorn', serif; }
       @media (min-width: 768px) {
         footer p span {
           font-size: 1.5rem; } }
@@ -534,16 +542,20 @@ footer {
         height: 95vh; } }
   #section-1 h1 {
     position: absolute;
-    bottom: 45%;
-    left: 15%; }
+    bottom: 30%;
+    left: 5%;
+    color: #173522;
+    font-size: 2.25rem; }
     @media (min-width: 768px) {
       #section-1 h1 {
-        bottom: 45%;
-        left: 20%; } }
+        font-size: 3.125rem;
+        bottom: 28%;
+        left: 10%; } }
     @media (min-width: 1025px) {
       #section-1 h1 {
-        bottom: 30%;
-        left: 30%; } }
+        font-size: 4.375rem;
+        bottom: 8%;
+        left: 10%; } }
   #section-1 article {
     display: grid;
     grid-template-columns: auto 80% auto;
@@ -613,7 +625,7 @@ footer {
   #section-4 h2 {
     text-align: center;
     font-size: 50px;
-    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Vollkorn', serif;
     padding: 50px;
     color: #173522;
     font-size: 30px; }
@@ -713,7 +725,7 @@ footer {
     color: #173522; }
   #section-4 h3 {
     font-size: 50px;
-    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Vollkorn', serif;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 20px;

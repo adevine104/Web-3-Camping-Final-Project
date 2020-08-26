@@ -12,6 +12,7 @@ footer {
 
         span {
             font-size: rem-calc(20);
+            font-family: 'Vollkorn', serif;
 
             @include md {
                 font-size: rem-calc(24);
