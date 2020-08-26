@@ -4,6 +4,9 @@
 #section-4{
     background-color: #A7B9AE;
     padding-top: 50px;
+    padding-bottom: 50px;
+
+/* start intro*/
 
     h2{
         text-align: center;
@@ -41,14 +44,7 @@
         }
     }
 
-    /*.container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas:
-            ". accordion ."
-    }
-    */
-
+/* lists accordion start */
 
     .accordion{
         padding-left: 100px;
@@ -76,13 +72,10 @@
                     color: white;
                     //border:solid #173522 3px;
                     font-family: 'Proza Libre', sans-serif;
-                    // border-radius: 25px;
                     transition: .25s;
                 i{
                     margin-left: 730px;
-                    
-                    //float: right;
-                    //margin: 5px;
+
                 }
 
                 @include md{
@@ -97,7 +90,7 @@
             }
 
             .top-content-1:hover{
-                color: #E86F11;
+                color: #B9E7FF;
             }
 
             .top-content-2:hover{
@@ -105,7 +98,7 @@
             }
 
             .top-content-3:hover{
-                color: #E86F11;
+                color: #B9E7FF;
             }
 
             .bottom{
@@ -162,106 +155,11 @@
             }
         }
     }
-    /*.container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: "food carcamp backpacking";
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas:
-            "food"
-            "carcamp"
-            "backpacking";
-        padding: 60px;
-        grid-gap: 20px;
 
-        h1{
-            text-align: center;
-            padding: 10px;
-            font-size: 25px;
-            color: #58624A;
-            border:solid #F7A260 2px;
-            border-radius: 25px;
-        }
+        /* site recs start*/
 
-        @include md {
-            grid-template-columns: repeat(8, 1fr);
-            grid-template-areas:
-                ". food food food carcamp carcamp carcamp"
-                ". backpacking backpacking backpacking backpacking backpacking backpacking"
-        }
+        /* intro */
 
-        @include lg {
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-areas:
-                "food carcamp backpacking"
-        }
-    }
-
-    .food{
-
-        h2{
-            padding:7px;
-            font-size: 16px;
-            font-weight: 120;
-            color: #58624A;
-            text-align: center;
-
-            @include md{
-                font-size: 16px;
-            }
-            @include lg{
-                font-size: 20px;
-            }
-        }
-
-        border-radius: 25px;
-        padding-top: 40px;
-        background-color: #CFDED5;
-        border:solid white 5px;
-        grid-area: food;
-        height: 325px;
-        font-size: 20px;
-        font-weight: 100;
-        padding: 10px 20px;
-        font-family: 'Proza Libre', sans-serif;
-        color: #173522;
-
-    }
-
-    .carcamp {
-        border-radius: 25px;
-        padding: 40px;
-        background-color: #CFDED5;
-        border:solid white 5px;
-        grid-area: carcamp;
-        height: 325px;
-        font-size: 20px;
-        font-weight: 100;
-        padding: 10px 20px;
-        font-family: 'Proza Libre', sans-serif;
-        color: #173522;
-    }
-
-    .backpacking {
-        border-radius: 25px;
-        padding: 40px;
-        background-color: #CFDED5;
-        border:solid white 5px;
-        grid-area: backpacking;
-        height: 325px;
-        font-size: 20px;
-        font-weight: 100;
-        padding: 10px 20px;
-        font-family: 'Proza Libre', sans-serif;
-        color: #173522;
-    }
-
-    */
-
-
-
-        /* site recs */
-        /* title */
             h3{
                 
                 font-size: 50px;
@@ -288,46 +186,9 @@
                 }
             }
 
-            /*h4{
-                
-                font-family: 'Proza Libre', sans-serif;
-                padding-left: 50px;
-                padding-top: 20px;
-                color: #173522;
-                font-size: 17px;
-                font-weight: 400;
 
-                @include md{
-                    font-size: 17px;
-                    padding-left: 100px;
-                }
-                @include lg{
-                    font-size: 20px;
-                    padding-left: 410px;
-                }
-            }
+        /* gear content start */
 
-            h5{
-                
-                font-family: 'Proza Libre', sans-serif;
-                padding-left: 50px;
-                padding-top:0px;
-                color: #173522;
-                font-size: 17px;
-                font-weight: 400;
-
-                @include md{
-                    font-size: 17px;
-                    padding-left: 100px;
-                }
-                @include lg{
-                    font-size: 20px;
-                    padding-left: 410px;
-                }
-            }
-            */
-        
-        /* content */
         .gear{
             .youbuy{
                 text-align: center;
@@ -480,64 +341,4 @@
             
             }
         }
-
-    /* Popup box BEGIN */
-    .hover_bkgr_fricc{
-        background:rgba(0,0,0,.4);
-        cursor:pointer;
-        display:none;
-        height:100%;
-        position:fixed;
-        text-align:center;
-        top:0;
-        width:100%;
-        z-index:10000;
-    }
-    .hover_bkgr_fricc .helper{
-        display:inline-block;
-        height:100%;
-        vertical-align:middle;
-    }
-    .hover_bkgr_fricc > div {
-        background-color: #fff;
-        box-shadow: 10px 10px 60px #555;
-        display: inline-block;
-        height: auto;
-        max-width: 551px;
-        min-height: 100px;
-        vertical-align: middle;
-        width: 60%;
-        position: relative;
-        border-radius: 8px;
-        padding: 15px 5%;
-    }
-    .popupCloseButton {
-        background-color: #fff;
-        border: 3px solid #999;
-        border-radius: 50px;
-        cursor: pointer;
-        display: inline-block;
-        font-family: arial;
-        font-weight: bold;
-        position: absolute;
-        top: -20px;
-        right: -20px;
-        font-size: 25px;
-        line-height: 30px;
-        width: 30px;
-        height: 30px;
-        text-align: center;
-    }
-    .popupCloseButton:hover {
-        background-color: #ccc;
-    }
-
-    .trigger_popup_fricc {
-        cursor: pointer;
-        font-size: 20px;
-        margin: 20px;
-        display: inline-block;
-        font-weight: bold;
-    }
-    /* Popup box BEGIN */
 }
