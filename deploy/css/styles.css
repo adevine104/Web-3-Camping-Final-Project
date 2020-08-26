@@ -598,8 +598,148 @@ footer {
 #section-4 {
   background-color: #A7B9AE;
   padding-top: 50px;
+  /*.container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            ". accordion ."
+    }
+    */
+  /*.container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "food carcamp backpacking";
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            "food"
+            "carcamp"
+            "backpacking";
+        padding: 60px;
+        grid-gap: 20px;
+
+        h1{
+            text-align: center;
+            padding: 10px;
+            font-size: 25px;
+            color: #58624A;
+            border:solid #F7A260 2px;
+            border-radius: 25px;
+        }
+
+        @include md {
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-areas:
+                ". food food food carcamp carcamp carcamp"
+                ". backpacking backpacking backpacking backpacking backpacking backpacking"
+        }
+
+        @include lg {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas:
+                "food carcamp backpacking"
+        }
+    }
+
+    .food{
+
+        h2{
+            padding:7px;
+            font-size: 16px;
+            font-weight: 120;
+            color: #58624A;
+            text-align: center;
+
+            @include md{
+                font-size: 16px;
+            }
+            @include lg{
+                font-size: 20px;
+            }
+        }
+
+        border-radius: 25px;
+        padding-top: 40px;
+        background-color: #CFDED5;
+        border:solid white 5px;
+        grid-area: food;
+        height: 325px;
+        font-size: 20px;
+        font-weight: 100;
+        padding: 10px 20px;
+        font-family: 'Proza Libre', sans-serif;
+        color: #173522;
+
+    }
+
+    .carcamp {
+        border-radius: 25px;
+        padding: 40px;
+        background-color: #CFDED5;
+        border:solid white 5px;
+        grid-area: carcamp;
+        height: 325px;
+        font-size: 20px;
+        font-weight: 100;
+        padding: 10px 20px;
+        font-family: 'Proza Libre', sans-serif;
+        color: #173522;
+    }
+
+    .backpacking {
+        border-radius: 25px;
+        padding: 40px;
+        background-color: #CFDED5;
+        border:solid white 5px;
+        grid-area: backpacking;
+        height: 325px;
+        font-size: 20px;
+        font-weight: 100;
+        padding: 10px 20px;
+        font-family: 'Proza Libre', sans-serif;
+        color: #173522;
+    }
+
+    */
   /* site recs */
   /* title */
+  /*h4{
+                
+                font-family: 'Proza Libre', sans-serif;
+                padding-left: 50px;
+                padding-top: 20px;
+                color: #173522;
+                font-size: 17px;
+                font-weight: 400;
+
+                @include md{
+                    font-size: 17px;
+                    padding-left: 100px;
+                }
+                @include lg{
+                    font-size: 20px;
+                    padding-left: 410px;
+                }
+            }
+
+            h5{
+                
+                font-family: 'Proza Libre', sans-serif;
+                padding-left: 50px;
+                padding-top:0px;
+                color: #173522;
+                font-size: 17px;
+                font-weight: 400;
+
+                @include md{
+                    font-size: 17px;
+                    padding-left: 100px;
+                }
+                @include lg{
+                    font-size: 20px;
+                    padding-left: 410px;
+                }
+            }
+            */
   /* content */
   /* Popup box BEGIN */
   /* Popup box BEGIN */ }
@@ -633,84 +773,85 @@ footer {
         padding-left: 300px;
         padding-right: 300px;
         font-size: 30px; } }
-  #section-4 .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "food carcamp backpacking";
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "food" "carcamp" "backpacking";
-    padding: 60px;
-    grid-gap: 20px; }
-    #section-4 .container h1 {
+  #section-4 .accordion {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px; }
+    @media (min-width: 768px) {
+      #section-4 .accordion {
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 25px; } }
+    @media (min-width: 1025px) {
+      #section-4 .accordion {
+        padding-left: 450px;
+        padding-right: 450px;
+        padding-top: 50px; } }
+    #section-4 .accordion .option .top {
       text-align: center;
       padding: 10px;
-      font-size: 25px;
-      color: #58624A;
-      border: solid #F7A260 2px;
-      border-radius: 25px; }
-    @media (min-width: 768px) {
-      #section-4 .container {
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-areas: ". food food food carcamp carcamp carcamp" ". backpacking backpacking backpacking backpacking backpacking backpacking"; } }
-    @media (min-width: 1025px) {
-      #section-4 .container {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: "food carcamp backpacking"; } }
-  #section-4 .food {
-    border-radius: 25px;
-    padding-top: 40px;
-    background-color: #CFDED5;
-    border: solid white 5px;
-    grid-area: food;
-    height: 325px;
-    font-size: 20px;
-    font-weight: 100;
-    padding: 10px 20px;
-    font-family: 'Proza Libre', sans-serif;
-    color: #173522; }
-    #section-4 .food h2 {
-      padding: 7px;
-      font-size: 16px;
-      font-weight: 120;
-      color: #58624A;
-      text-align: center; }
+      font-size: 15px;
+      background-color: #2A5670;
+      color: white;
+      font-family: 'Proza Libre', sans-serif;
+      transition: .25s; }
+      #section-4 .accordion .option .top i {
+        margin-left: auto; }
       @media (min-width: 768px) {
-        #section-4 .food h2 {
-          font-size: 16px; } }
+        #section-4 .accordion .option .top {
+          font-size: 17px; } }
       @media (min-width: 1025px) {
-        #section-4 .food h2 {
+        #section-4 .accordion .option .top {
           font-size: 20px; } }
-  #section-4 .carcamp {
-    border-radius: 25px;
-    padding: 40px;
-    background-color: #CFDED5;
-    border: solid white 5px;
-    grid-area: carcamp;
-    height: 325px;
-    font-size: 20px;
-    font-weight: 100;
-    padding: 10px 20px;
-    font-family: 'Proza Libre', sans-serif;
-    color: #173522; }
-  #section-4 .backpacking {
-    border-radius: 25px;
-    padding: 40px;
-    background-color: #CFDED5;
-    border: solid white 5px;
-    grid-area: backpacking;
-    height: 325px;
-    font-size: 20px;
-    font-weight: 100;
-    padding: 10px 20px;
-    font-family: 'Proza Libre', sans-serif;
-    color: #173522; }
+    #section-4 .accordion .option .top-content-1:hover {
+      color: #E86F11; }
+    #section-4 .accordion .option .top-content-2:hover {
+      color: #B9E7FF; }
+    #section-4 .accordion .option .top-content-3:hover {
+      color: #E86F11; }
+    #section-4 .accordion .option .bottom {
+      overflow: hidden; }
+      #section-4 .accordion .option .bottom .content {
+        color: #173522;
+        padding-top: 40px;
+        padding: 10px 20px; }
+      #section-4 .accordion .option .bottom #bottom-content-1 {
+        background-color: #CFDED5;
+        height: 325px;
+        font-size: 20px;
+        font-weight: 100;
+        font-family: 'Proza Libre', sans-serif; }
+        #section-4 .accordion .option .bottom #bottom-content-1 h7 {
+          padding: 7px;
+          font-size: 16px;
+          font-weight: 120;
+          color: #58624A;
+          text-align: center; }
+          @media (min-width: 768px) {
+            #section-4 .accordion .option .bottom #bottom-content-1 h7 {
+              font-size: 16px; } }
+          @media (min-width: 1025px) {
+            #section-4 .accordion .option .bottom #bottom-content-1 h7 {
+              font-size: 20px; } }
+      #section-4 .accordion .option .bottom #bottom-content-2 {
+        background-color: #CFDED5;
+        height: 325px;
+        font-size: 20px;
+        font-weight: 100;
+        font-family: 'Proza Libre', sans-serif; }
+      #section-4 .accordion .option .bottom #bottom-content-3 {
+        background-color: #CFDED5;
+        height: 325px;
+        font-size: 20px;
+        font-weight: 100;
+        font-family: 'Proza Libre', sans-serif; }
   #section-4 h3 {
     font-size: 50px;
     font-family: 'Proza Libre', sans-serif;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 50px;
     color: #173522;
     font-size: 30px;
     text-align: center; }
@@ -724,36 +865,6 @@ footer {
         font-size: 40px;
         padding-left: 350px;
         padding-right: 350px; } }
-  #section-4 h4 {
-    font-family: 'Proza Libre', sans-serif;
-    padding-left: 50px;
-    padding-top: 20px;
-    color: #173522;
-    font-size: 17px;
-    font-weight: 400; }
-    @media (min-width: 768px) {
-      #section-4 h4 {
-        font-size: 17px;
-        padding-left: 100px; } }
-    @media (min-width: 1025px) {
-      #section-4 h4 {
-        font-size: 20px;
-        padding-left: 410px; } }
-  #section-4 h5 {
-    font-family: 'Proza Libre', sans-serif;
-    padding-left: 50px;
-    padding-top: 0px;
-    color: #173522;
-    font-size: 17px;
-    font-weight: 400; }
-    @media (min-width: 768px) {
-      #section-4 h5 {
-        font-size: 17px;
-        padding-left: 100px; } }
-    @media (min-width: 1025px) {
-      #section-4 h5 {
-        font-size: 20px;
-        padding-left: 410px; } }
   #section-4 .gear .youbuy {
     text-align: center; }
     #section-4 .gear .youbuy img {
@@ -761,7 +872,7 @@ footer {
     #section-4 .gear .youbuy h6 {
       text-align: center;
       font-size: 20px;
-      color: #58624A;
+      color: #2A5670;
       font-family: 'Proza Libre', sans-serif;
       border-radius: 25px;
       padding-left: 50px;
@@ -777,7 +888,7 @@ footer {
           padding-left: 300px;
           padding-right: 300px; } }
     #section-4 .gear .youbuy p {
-      color: #173522;
+      color: white;
       font-size: 20px;
       padding-left: 50px;
       padding-right: 50px; }
@@ -797,72 +908,76 @@ footer {
       padding-top: 20px; }
       #section-4 .gear .youbuy #backpack-button a:link,
       #section-4 .gear .youbuy #backpack-button a:visited {
-        background-color: #173522;
+        background-color: #E86F11;
         border-radius: 23px;
         color: #fff;
         display: inline-block;
         font-size: 1.125rem;
         font-weight: 500;
         padding: 10px 20px;
-        font-family: 'Proza Libre', sans-serif; }
+        font-family: 'Proza Libre', sans-serif;
+        text-decoration: none; }
       #section-4 .gear .youbuy #backpack-button a:hover,
       #section-4 .gear .youbuy #backpack-button a:active {
-        background-color: #F7A260;
-        color: white; }
+        background-color: #B9E7FF;
+        color: #2A5670; }
     #section-4 .gear .youbuy #tent-button {
       padding: 10px;
       text-align: center;
       padding-top: 20px; }
       #section-4 .gear .youbuy #tent-button a:link,
       #section-4 .gear .youbuy #tent-button a:visited {
-        background-color: #173522;
+        background-color: #E86F11;
         border-radius: 23px;
         color: #fff;
         display: inline-block;
         font-size: 1.125rem;
         font-weight: 500;
         padding: 10px 20px;
-        font-family: 'Proza Libre', sans-serif; }
+        font-family: 'Proza Libre', sans-serif;
+        text-decoration: none; }
       #section-4 .gear .youbuy #tent-button a:hover,
       #section-4 .gear .youbuy #tent-button a:active {
-        background-color: #F7A260;
-        color: white; }
+        background-color: #B9E7FF;
+        color: #2A5670; }
     #section-4 .gear .youbuy #hammock-button {
       padding: 10px;
       text-align: center;
       padding-top: 20px; }
       #section-4 .gear .youbuy #hammock-button a:link,
       #section-4 .gear .youbuy #hammock-button a:visited {
-        background-color: #173522;
+        background-color: #E86F11;
         border-radius: 23px;
         color: #fff;
         display: inline-block;
         font-size: 1.125rem;
         font-weight: 500;
         padding: 10px 20px;
-        font-family: 'Proza Libre', sans-serif; }
+        font-family: 'Proza Libre', sans-serif;
+        text-decoration: none; }
       #section-4 .gear .youbuy #hammock-button a:hover,
       #section-4 .gear .youbuy #hammock-button a:active {
-        background-color: #F7A260;
-        color: white; }
+        background-color: #B9E7FF;
+        color: #2A5670; }
     #section-4 .gear .youbuy #cook-button {
       padding: 10px;
       text-align: center;
       padding-top: 20px; }
       #section-4 .gear .youbuy #cook-button a:link,
       #section-4 .gear .youbuy #cook-button a:visited {
-        background-color: #173522;
+        background-color: #E86F11;
         border-radius: 23px;
         color: #fff;
         display: inline-block;
         font-size: 1.125rem;
         font-weight: 500;
         padding: 10px 20px;
-        font-family: 'Proza Libre', sans-serif; }
+        font-family: 'Proza Libre', sans-serif;
+        text-decoration: none; }
       #section-4 .gear .youbuy #cook-button a:hover,
       #section-4 .gear .youbuy #cook-button a:active {
-        background-color: #F7A260;
-        color: white; }
+        background-color: #B9E7FF;
+        color: #2A5670; }
   #section-4 .hover_bkgr_fricc {
     background: rgba(0, 0, 0, 0.4);
     cursor: pointer;

@@ -41,8 +41,125 @@
         }
     }
 
+    /*.container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            ". accordion ."
+    }
+    */
 
-    .container {
+
+    .accordion{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 15px;
+
+        @include md{
+            padding-left: 200px;
+            padding-right: 200px;
+            padding-top: 25px;
+        }
+
+        @include lg{
+            padding-left: 450px;
+            padding-right: 450px;
+            padding-top: 50px;
+        }
+        
+        .option{
+            .top{
+                    text-align: center;
+                    padding: 10px;
+                    font-size: 15px;
+                    background-color: #2A5670;
+                    color: white;
+                    //border:solid #173522 3px;
+                    font-family: 'Proza Libre', sans-serif;
+                    // border-radius: 25px;
+                    transition: .25s;
+                i{
+                    margin-left: auto;
+                }
+
+                @include md{
+                    font-size: 17px;
+                    //border:solid #173522 5px;
+                }
+        
+                @include lg{
+                    font-size: 20px;
+                    //border:solid #173522 7px;
+                }
+            }
+
+            .top-content-1:hover{
+                color: #E86F11;
+            }
+
+            .top-content-2:hover{
+                color: #B9E7FF;
+            }
+
+            .top-content-3:hover{
+                color: #E86F11;
+            }
+
+            .bottom{
+                overflow:hidden;
+
+                .content{
+                    color: #173522;
+                    padding-top: 40px;
+                    padding: 10px 20px;
+                }
+
+                #bottom-content-1{
+                    h7{
+                        padding:7px;
+                        font-size: 16px;
+                        font-weight: 120;
+                        color: #58624A;
+                        text-align: center;
+            
+                        @include md{
+                            font-size: 16px;
+                        }
+                        @include lg{
+                            font-size: 20px;
+                        }
+                    }
+            
+                    background-color: #CFDED5;
+                    //border:solid white 5px;
+                    height: 325px;
+                    font-size: 20px;
+                    font-weight: 100;
+                    font-family: 'Proza Libre', sans-serif;
+                    
+                }
+
+                #bottom-content-2{
+                    background-color: #CFDED5;
+                    //border:solid white 5px;
+                    height: 325px;
+                    font-size: 20px;
+                    font-weight: 100;
+                    font-family: 'Proza Libre', sans-serif;
+                }
+
+                #bottom-content-3{
+                    background-color: #CFDED5;
+                    //border:solid white 5px;
+                    height: 325px;
+                    font-size: 20px;
+                    font-weight: 100;
+                    font-family: 'Proza Libre', sans-serif;
+                }
+            }
+        }
+    }
+    /*.container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: "food carcamp backpacking";
@@ -136,7 +253,7 @@
         color: #173522;
     }
 
-
+    */
 
 
 
@@ -149,7 +266,7 @@
                 padding-left: 50px;
                 padding-right: 50px;
                 padding-bottom: 20px;
-                padding-top: 20px;
+                padding-top: 50px;
                 color: #173522;
                 font-size: 30px;
                 text-align: center;
@@ -168,7 +285,7 @@
                 }
             }
 
-            h4{
+            /*h4{
                 
                 font-family: 'Proza Libre', sans-serif;
                 padding-left: 50px;
@@ -205,6 +322,7 @@
                     padding-left: 410px;
                 }
             }
+            */
         
         /* content */
         .gear{
@@ -218,7 +336,7 @@
                 h6{
                     text-align: center;
                     font-size: 20px;
-                    color: #58624A;
+                    color: #2A5670;
                     font-family: 'Proza Libre', sans-serif;
                     border-radius: 25px;
                     padding-left: 50px;
@@ -237,7 +355,7 @@
                 }
 
                 p{
-                    color: #173522;
+                    color: white;
                     font-size: 20px;
                     padding-left: 50px;
                     padding-right: 50px;
@@ -257,10 +375,11 @@
                     padding: 10px;
                     text-align:  center;
                     padding-top: 20px;
+                    
         
                     a:link,
                     a:visited {
-                        background-color: #173522;
+                        background-color:#E86F11;
                         border-radius: 23px;
                         color: $white;
                         display: inline-block;
@@ -268,12 +387,13 @@
                         font-weight: 500;
                         padding: 10px 20px;
                         font-family: 'Proza Libre', sans-serif;
+                        text-decoration: none;
                     }
         
                     a:hover,
                     a:active {
-                        background-color: #F7A260;
-                        color: white;
+                        background-color: #B9E7FF;
+                        color: #2A5670;
                     }
                 }
 
@@ -284,7 +404,7 @@
         
                     a:link,
                     a:visited {
-                        background-color: #173522;
+                        background-color:#E86F11;
                         border-radius: 23px;
                         color: $white;
                         display: inline-block;
@@ -292,12 +412,13 @@
                         font-weight: 500;
                         padding: 10px 20px;
                         font-family: 'Proza Libre', sans-serif;
+                        text-decoration: none;
                     }
         
                     a:hover,
                     a:active {
-                        background-color: #F7A260;
-                        color: white;
+                        background-color: #B9E7FF;
+                        color: #2A5670;
                     }
                 }
 
@@ -308,7 +429,7 @@
         
                     a:link,
                     a:visited {
-                        background-color: #173522;
+                        background-color:#E86F11;
                         border-radius: 23px;
                         color: $white;
                         display: inline-block;
@@ -316,12 +437,13 @@
                         font-weight: 500;
                         padding: 10px 20px;
                         font-family: 'Proza Libre', sans-serif;
+                        text-decoration: none;
                     }
         
                     a:hover,
                     a:active {
-                        background-color: #F7A260;
-                        color: white;
+                        background-color: #B9E7FF;
+                        color: #2A5670;
                     }
                 }
 
@@ -332,7 +454,7 @@
         
                     a:link,
                     a:visited {
-                        background-color: #173522;
+                        background-color:#E86F11;
                         border-radius: 23px;
                         color: $white;
                         display: inline-block;
@@ -340,12 +462,13 @@
                         font-weight: 500;
                         padding: 10px 20px;
                         font-family: 'Proza Libre', sans-serif;
+                        text-decoration: none;
                     }
         
                     a:hover,
                     a:active {
-                        background-color: #F7A260;
-                        color: white;
+                        background-color: #B9E7FF;
+                        color: #2A5670;
                     }
                 }
             
