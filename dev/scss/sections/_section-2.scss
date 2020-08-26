@@ -4,19 +4,38 @@
 #section-2{
     background-color: $darkblue;
 
+    #dotted-line{
+        width: 52vw;
+        // position: absolute;
+        margin: 8% 0 -121% 21.5%;
+    }
+
     h3{
         color: white;
-        margin: 30px 80px 30px 80px;
-        font-size: rem-calc(24);
+        margin: 30px 20px 30px 20px;
+        font-size: rem-calc(20);
+
+        @include lg{
+            font-size: rem-calc(24);
+            margin: 30px 80px 30px 80px;
+        }
     }
     
     .left-side-text{
-        padding: 80px 850px 0 0;
+        padding: 80px 50px 0 0;
+
+        @include lg{
+            padding: 80px 850px 0 0;
+        }
     }
 
     .right-side-text{
         text-align: right;
+        padding: 80px 50px 0 0;
+
+        @include lg{
         padding: 80px 0 0 850px;
+        }
     }
 
     #arrow{
