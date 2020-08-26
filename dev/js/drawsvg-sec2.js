@@ -13,7 +13,7 @@ ScrollTrigger.create({
     animation: svgLineTimeLine,
     toggleActions: "play none complete none",
     trigger: "#section-2",
-    start: "top 10%",
+    start: "top 50%",
     //end: "bottom 40%",
     markers: true,
     // id: "card",

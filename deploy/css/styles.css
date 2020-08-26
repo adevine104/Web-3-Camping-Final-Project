@@ -685,11 +685,16 @@ footer #socials ul li a:visited {
 }
 #section-2 #dotted-line {
   width: 52vw;
-  margin: 8% 0 -121% 21.5%;
+  margin: 8% 0 -130% 21.5%;
+}
+@media (min-width: 1025px) {
+  #section-2 #dotted-line {
+    margin: 8% 0 -121% 21.5%;
+  }
 }
 #section-2 h3 {
   color: white;
-  margin: 30px 20px 30px 20px;
+  margin: 20px 20px 20px 20px;
   font-size: 1.25rem;
 }
 @media (min-width: 1025px) {
@@ -699,7 +704,7 @@ footer #socials ul li a:visited {
   }
 }
 #section-2 .left-side-text {
-  padding: 80px 50px 0 0;
+  padding: 50px 50px 0 0;
 }
 @media (min-width: 1025px) {
   #section-2 .left-side-text {
@@ -708,7 +713,7 @@ footer #socials ul li a:visited {
 }
 #section-2 .right-side-text {
   text-align: right;
-  padding: 80px 50px 0 0;
+  padding: 50px 50px 0 0;
 }
 @media (min-width: 1025px) {
   #section-2 .right-side-text {
