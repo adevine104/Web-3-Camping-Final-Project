@@ -816,7 +816,7 @@ footer {
       font-family: 'Proza Libre', sans-serif;
       transition: .25s; }
       #section-4 .accordion .option .top i {
-        margin-left: auto; }
+        margin-left: 730px; }
       @media (min-width: 768px) {
         #section-4 .accordion .option .top {
           font-size: 17px; } }
@@ -911,15 +911,16 @@ footer {
       color: white;
       font-size: 20px;
       padding-left: 50px;
-      padding-right: 50px; }
+      padding-right: 50px;
+      font-weight: 500; }
       @media (min-width: 768px) {
         #section-4 .gear .youbuy p {
-          font-size: 22px;
+          font-size: 20px;
           padding-left: 150px;
           padding-right: 150px; } }
       @media (min-width: 1025px) {
         #section-4 .gear .youbuy p {
-          font-size: 25px;
+          font-size: 20px;
           padding-left: 350px;
           padding-right: 350px; } }
     #section-4 .gear .youbuy #backpack-button {
