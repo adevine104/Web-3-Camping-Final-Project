@@ -52,20 +52,20 @@
         padding-top: 15px;
 
         @include md{
-            padding-left: 200px;
-            padding-right: 200px;
-            padding-top: 25px;
+            //padding-left: 200px;
+            //padding-right: 200px;
+            //padding-top: 25px;
         }
 
         @include lg{
-            padding-left: 450px;
-            padding-right: 450px;
-            padding-top: 50px;
+            ///padding-left: 450px;
+            //padding-right: 450px;
+            //padding-top: 50px;
         }
         
         .option{
             .top{
-                    text-align: center;
+                    
                     padding: 10px;
                     font-size: 15px;
                     background-color: #2A5670;
@@ -73,8 +73,10 @@
                     //border:solid #173522 3px;
                     font-family: 'Proza Libre', sans-serif;
                     transition: .25s;
+                    display: flex;
                 i{
-                    margin-left: 730px;
+                    margin-left: auto;
+                   // margin-left: 730px;
 
                 }
 
