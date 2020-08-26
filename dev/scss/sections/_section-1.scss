@@ -2,7 +2,7 @@
     Section 1
 ============= */
 #section-1{
-
+    background-color: $lightgreen;
     div {
         background-image: url("../img/section-1/camping-hero.jpg");
         background-position: center;
@@ -18,17 +18,21 @@
 
     h1{
         position: absolute;
-        bottom: 45%;
-        left: 15%;
+        bottom: 30%;
+        left: 5%;
+        color: $darkgreen;
+        font-size: rem-calc(36);
 
         @include md{
-            bottom: 45%;
-            left: 20%;
+            font-size: rem-calc(50);
+            bottom: 28%;
+            left: 10%;
         }
 
         @include lg{
-            bottom: 30%;
-            left: 30%;
+            font-size: rem-calc(70);
+            bottom: 8%;
+            left: 10%;
         }
     }
 

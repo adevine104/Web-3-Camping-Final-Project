@@ -12,6 +12,7 @@ footer {
 
         span {
             font-size: rem-calc(20);
+            font-family: 'Vollkorn', serif;
 
             @include md {
                 font-size: rem-calc(24);
@@ -42,12 +43,14 @@ footer {
             section {
                 background-color: $white;
                 border: solid 2px $orange;
+                border-radius: 23px;
                 padding: 0 2%;
                 width: 96%;
 
                 input {
                     background-color: $white;
                     border: none;
+                    border-radius: 23px;
                     padding: 2% 0;
                     width: 100%;
                 }
@@ -60,6 +63,7 @@ footer {
 
                 textarea {
                     border: none;
+                    border-radius: 23px;
                     padding: 0;
                     width: 100%;
                 }
