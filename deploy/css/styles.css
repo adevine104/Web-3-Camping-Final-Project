@@ -776,6 +776,9 @@ footer #socials ul li a:visited {
       #section-1 h1 {
         font-size: 4.375rem;
         padding-top: 2%; } }
+<<<<<<< HEAD
+>>>>>>> parent of 9061664... Add section-1 xl media query
+=======
 >>>>>>> parent of 9061664... Add section-1 xl media query
   #section-1 article {
     grid-template-columns: auto 1100px auto;
