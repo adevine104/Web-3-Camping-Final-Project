@@ -7,7 +7,7 @@ $(document).ready(function () {
             container: '.my-slider',
             items: 1,
             slideBy: 'page',
-            autoplay: false,
+            autoplay: true,
             loop: true,
             gutter: 10,
             edgePadding: 40,

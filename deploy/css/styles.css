@@ -589,18 +589,18 @@ footer {
 ============= */
 #section-1 {
   background-color: #A7B9AE; }
-  #section-1 #hero-slides > div .my-slider div {
+  #section-1 #hero-slides .my-slider div {
     height: 75vh; }
     @media (min-width: 768px) {
-      #section-1 #hero-slides > div .my-slider div {
+      #section-1 #hero-slides .my-slider div {
         height: 85vh; } }
     @media (min-width: 1025px) {
-      #section-1 #hero-slides > div .my-slider div {
+      #section-1 #hero-slides .my-slider div {
         height: 95vh; } }
     @media (min-width: 1200px) {
-      #section-1 #hero-slides > div .my-slider div {
+      #section-1 #hero-slides .my-slider div {
         height: 95vh; } }
-    #section-1 #hero-slides > div .my-slider div img {
+    #section-1 #hero-slides .my-slider div img {
       height: 100%;
       object-fit: cover;
       object-position: center;
