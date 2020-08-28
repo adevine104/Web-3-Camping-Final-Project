@@ -642,6 +642,7 @@ footer {
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 30px;
     font-size: 20px;
     font-family: 'Proza Libre', sans-serif;
     color: #58624A; }
@@ -693,18 +694,6 @@ footer {
         font-size: 20px;
         font-weight: 100;
         font-family: 'Proza Libre', sans-serif; }
-        #section-4 .accordion .option .bottom #bottom-content-1 h7 {
-          padding: 7px;
-          font-size: 16px;
-          font-weight: 120;
-          color: #58624A;
-          text-align: center; }
-          @media (min-width: 768px) {
-            #section-4 .accordion .option .bottom #bottom-content-1 h7 {
-              font-size: 16px; } }
-          @media (min-width: 1025px) {
-            #section-4 .accordion .option .bottom #bottom-content-1 h7 {
-              font-size: 20px; } }
       #section-4 .accordion .option .bottom #bottom-content-2 {
         background-color: #CFDED5;
         height: 325px;

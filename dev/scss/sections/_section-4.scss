@@ -28,6 +28,7 @@
         text-align: center;
         padding-left: 50px;
         padding-right: 50px;
+        padding-bottom: 30px;
         font-size: 20px;
         font-family: 'Proza Libre', sans-serif;
         color: #58624A;
@@ -113,20 +114,21 @@
                 }
 
                 #bottom-content-1{
-                    h7{
-                        padding:7px;
-                        font-size: 16px;
-                        font-weight: 120;
-                        color: #58624A;
-                        text-align: center;
+                    //h7{
+                       // padding-bottom: 20px;
+                      //  padding:7px;
+                       // font-size: 16px;
+                       // font-weight: 120;
+                       // color: #58624A;
+                       // text-align: center;
             
-                        @include md{
-                            font-size: 16px;
-                        }
-                        @include lg{
-                            font-size: 20px;
-                        }
-                    }
+                       // @include md{
+                       //     font-size: 16px;
+                       // }
+                       // @include lg{
+                        //    font-size: 20px;
+                       // }
+                   // }
             
                     background-color: #CFDED5;
                     //border:solid white 5px;
