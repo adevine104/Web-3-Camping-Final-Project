@@ -446,6 +446,147 @@ textarea {
 /* =============
     Navigation
 ============= */
+#main-nav {
+  background-color: #58624A;
+  display: grid;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 95;
+  padding-top: 120px;
+}
+@media (min-width: 768px) {
+  #main-nav {
+    padding-top: 200px;
+  }
+}
+@media (min-width: 1025px) {
+  #main-nav {
+    padding-top: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  #main-nav {
+    padding-top: 130px;
+  }
+}
+#main-nav ul li button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.25rem;
+  padding: 20px 0 20px 10px;
+  text-align: center;
+  transition: 0.25s;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #main-nav ul li button {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 1025px) {
+  #main-nav ul li button {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  #main-nav ul li button {
+    font-size: 3.125rem;
+  }
+}
+#main-nav ul li button i {
+  color: #fff;
+  font-size: 0.9375rem;
+  margin-right: 10px;
+}
+@media (min-width: 768px) {
+  #main-nav ul li button i {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 1025px) {
+  #main-nav ul li button i {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 1200px) {
+  #main-nav ul li button i {
+    font-size: 2.5rem;
+  }
+}
+#main-nav ul li button:hover {
+  color: #fff;
+}
+#main-nav ul li button:hover i {
+  color: white;
+}
+#main-nav ul li a:link,
+#main-nav ul li a:visited {
+  color: white;
+  display: inline-block;
+  font-size: 1.25rem;
+  padding: 20px 0 20px 10px;
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #main-nav ul li a:link,
+#main-nav ul li a:visited {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 1025px) {
+  #main-nav ul li a:link,
+#main-nav ul li a:visited {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  #main-nav ul li a:link,
+#main-nav ul li a:visited {
+    font-size: 3.125rem;
+  }
+}
+#main-nav ul li a:link i,
+#main-nav ul li a:visited i {
+  color: #fff;
+  font-size: 0.9375rem;
+  margin-right: 10px;
+}
+@media (min-width: 768px) {
+  #main-nav ul li a:link i,
+#main-nav ul li a:visited i {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 1025px) {
+  #main-nav ul li a:link i,
+#main-nav ul li a:visited i {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 1200px) {
+  #main-nav ul li a:link i,
+#main-nav ul li a:visited i {
+    font-size: 2.5rem;
+  }
+}
+#main-nav ul li a:link:hover, #main-nav ul li a:link:active,
+#main-nav ul li a:visited:hover,
+#main-nav ul li a:visited:active {
+  color: white;
+}
+#main-nav ul li a:link:hover i, #main-nav ul li a:link:active i,
+#main-nav ul li a:visited:hover i,
+#main-nav ul li a:visited:active i {
+  color: white;
+}
+
 /* ===================
     Video Player
 =================== */
@@ -497,8 +638,8 @@ header div #burger-container {
   align-items: center;
   display: flex;
   justify-content: flex-end;
-  padding: 10px 20px;
-  font-size: 1.875rem;
+  padding: 20px 20px;
+  height: 1vh;
 }
 header div #burger-container #burger {
   cursor: pointer;
@@ -681,7 +822,7 @@ footer #socials ul li a:visited {
     Section 2
 ============= */
 #section-2 {
-  background-color: #2A5670;
+  background-color: #58624A;
 }
 #section-2 #dotted-line {
   width: 52vw;

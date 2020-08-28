@@ -15,7 +15,7 @@ ScrollTrigger.create({
     trigger: "#section-2",
     start: "top 50%",
     //end: "bottom 40%",
-    markers: true,
+    // markers: true,
     // id: "card",
     scrub: 1
 });
