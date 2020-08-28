@@ -701,9 +701,9 @@ footer {
   /* intro */
   /* gear content start */ }
   #section-4 #top-content-2 {
-    background-color: #204053; }
+    background-color: #ED8F46; }
   #section-4 #top-content-3 {
-    background-color: #193342; }
+    background-color: #E86F11; }
   #section-4 h2 {
     text-align: center;
     font-size: 50px;
@@ -721,6 +721,7 @@ footer {
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 30px;
     font-size: 20px;
     font-family: 'Proza Libre', sans-serif;
     color: #58624A; }
@@ -734,14 +735,19 @@ footer {
         padding-left: 300px;
         padding-right: 300px;
         font-size: 30px; } }
+  #section-4 .container {
+    display: grid;
+    grid-template-columns: auto 50% auto;
+    grid-template-areas: ". accordion ."; }
   #section-4 .accordion {
+    grid-area: accordion;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 15px; }
     #section-4 .accordion .option .top {
       padding: 10px;
       font-size: 15px;
-      background-color: #2A5670;
+      background-color: #EDA167;
       color: white;
       font-family: 'Proza Libre', sans-serif;
       transition: .25s;
@@ -756,12 +762,15 @@ footer {
           font-size: 20px; } }
     #section-4 .accordion .option #top-content-1:hover {
       background-color: #B9E7FF;
+      color: #2A5670;
       cursor: pointer; }
     #section-4 .accordion .option #top-content-2:hover {
       background-color: #B9E7FF;
+      color: #2A5670;
       cursor: pointer; }
     #section-4 .accordion .option #top-content-3:hover {
       background-color: #B9E7FF;
+      color: #2A5670;
       cursor: pointer; }
     #section-4 .accordion .option .bottom {
       overflow: hidden; }
@@ -775,18 +784,6 @@ footer {
         font-size: 20px;
         font-weight: 100;
         font-family: 'Proza Libre', sans-serif; }
-        #section-4 .accordion .option .bottom #bottom-content-1 h7 {
-          padding: 7px;
-          font-size: 16px;
-          font-weight: 120;
-          color: #58624A;
-          text-align: center; }
-          @media (min-width: 768px) {
-            #section-4 .accordion .option .bottom #bottom-content-1 h7 {
-              font-size: 16px; } }
-          @media (min-width: 1025px) {
-            #section-4 .accordion .option .bottom #bottom-content-1 h7 {
-              font-size: 20px; } }
       #section-4 .accordion .option .bottom #bottom-content-2 {
         background-color: #CFDED5;
         height: 325px;
