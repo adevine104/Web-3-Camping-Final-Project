@@ -1143,13 +1143,17 @@ footer #socials ul li a:visited {
 /* =============
     Section 5
 ============= */
+#section-5 {
+  background-color: #58624A;
+}
 #section-5 h1 {
+  padding-top: 50px;
   text-align: center;
-  color: #173522;
+  color: white;
 }
 #section-5 #section-5-content {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  padding-bottom: 100px;
   display: grid;
   gap: 80px;
   grid-template-columns: repeat(1, 1fr);
@@ -1248,7 +1252,7 @@ footer #socials ul li a:visited {
     Section 6
 ============= */
 #section-6 {
-  background-color: #58624A;
+  background-color: #A7B9AE;
   padding: 5%;
 }
 #section-6 #map {
