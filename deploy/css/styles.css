@@ -764,17 +764,24 @@ footer #socials ul li a:visited {
   background-color: #58624A;
 }
 #section-2 #dotted-line {
-  width: 45vw;
+  width: 50vw;
   margin: 8% 0 -130% 21.5%;
+}
+@media (min-width: 768px) {
+  #section-2 #dotted-line {
+    width: 45vw;
+    margin: 8% 0 -119.5% 28%;
+  }
 }
 @media (min-width: 1025px) {
   #section-2 #dotted-line {
+    width: 45vw;
     margin: 8% 0 -119.5% 28%;
   }
 }
 #section-2 h3 {
   color: white;
-  margin: 20px 20px 20px 20px;
+  margin: 5% 7% 5% 7%;
   font-size: 1.25rem;
 }
 @media (min-width: 1025px) {
@@ -786,6 +793,11 @@ footer #socials ul li a:visited {
 #section-2 .left-side-text {
   padding: 50px 50px 0 0;
 }
+@media (min-width: 768px) {
+  #section-2 .left-side-text {
+    padding: 50px 50px 0 20;
+  }
+}
 @media (min-width: 1025px) {
   #section-2 .left-side-text {
     padding: 80px 850px 0 0;
@@ -793,7 +805,12 @@ footer #socials ul li a:visited {
 }
 #section-2 .right-side-text {
   text-align: right;
-  padding: 50px 50px 0 0;
+  padding: 50px 0px 0 50px;
+}
+@media (min-width: 768px) {
+  #section-2 .right-side-text {
+    padding: 50px 0px 0 50px;
+  }
 }
 @media (min-width: 1025px) {
   #section-2 .right-side-text {

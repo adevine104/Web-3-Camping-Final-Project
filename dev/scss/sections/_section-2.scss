@@ -5,18 +5,24 @@
     background-color: $green;
 
     #dotted-line{
-        width: 45vw;
+        width: 50vw;
         // position: absolute;
         margin: 8% 0 -130% 21.5%;
 
+        @include md{
+            width: 45vw;
+            margin: 8% 0 -119.5% 28%;
+        }
+
         @include lg{
+            width: 45vw;
             margin: 8% 0 -119.5% 28%;
         }
     }
 
     h3{
         color: white;
-        margin: 20px 20px 20px 20px;
+        margin: 5% 7% 5% 7%;
         font-size: rem-calc(20);
 
         @include lg{
@@ -28,6 +34,10 @@
     .left-side-text{
         padding: 50px 50px 0 0;
 
+        @include md{
+            padding: 50px 50px 0 20;
+        }
+
         @include lg{
             padding: 80px 850px 0 0;
         }
@@ -35,7 +45,11 @@
 
     .right-side-text{
         text-align: right;
-        padding: 50px 50px 0 0;
+        padding: 50px 0px 0 50px;
+
+        @include md{
+            padding: 50px 0px 0 50px;
+        }
 
         @include lg{
         padding: 80px 0 0 850px;
