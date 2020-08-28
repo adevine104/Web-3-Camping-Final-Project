@@ -1,4 +1,5 @@
 
+// @codekit-prepend "tinySlider.js";
 // @codekit-prepend "scroll-trigger.js";
 // @codekit-prepend "cards-flip.js";
 // @codekit-prepend "cards-events.js";
