@@ -8,6 +8,14 @@
 
 /* start intro*/
 
+    #top-content-2{
+        background-color: $accordion-blue-2;
+    }
+
+    #top-content-3{
+        background-color: $accordion-blue-3;
+    }
+
     h2{
         text-align: center;
         font-size: 50px;
@@ -28,7 +36,6 @@
         text-align: center;
         padding-left: 50px;
         padding-right: 50px;
-        padding-bottom: 30px;
         font-size: 20px;
         font-family: 'Proza Libre', sans-serif;
         color: #58624A;
@@ -92,16 +99,19 @@
                 }
             }
 
-            .top-content-1:hover{
-                color: #B9E7FF;
+            #top-content-1:hover{
+                background-color: $lightblue;
+                cursor: pointer;
             }
 
-            .top-content-2:hover{
-                color: #B9E7FF;
+            #top-content-2:hover{
+                background-color: $lightblue;
+                cursor: pointer;
             }
 
-            .top-content-3:hover{
-                color: #B9E7FF;
+            #top-content-3:hover{
+                background-color: $lightblue;
+                cursor: pointer;
             }
 
             .bottom{
@@ -114,21 +124,20 @@
                 }
 
                 #bottom-content-1{
-                    //h7{
-                       // padding-bottom: 20px;
-                      //  padding:7px;
-                       // font-size: 16px;
-                       // font-weight: 120;
-                       // color: #58624A;
-                       // text-align: center;
+                    h7{
+                        padding:7px;
+                        font-size: 16px;
+                        font-weight: 120;
+                        color: #58624A;
+                        text-align: center;
             
-                       // @include md{
-                       //     font-size: 16px;
-                       // }
-                       // @include lg{
-                        //    font-size: 20px;
-                       // }
-                   // }
+                        @include md{
+                            font-size: 16px;
+                        }
+                        @include lg{
+                            font-size: 20px;
+                        }
+                    }
             
                     background-color: #CFDED5;
                     //border:solid white 5px;
@@ -223,7 +232,7 @@
                 }
 
                 p{
-                    color: white;
+                    color: $darkgreen;
                     font-size: 20px;
                     padding-left: 50px;
                     padding-right: 50px;

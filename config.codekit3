@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "D7576D38-5C39-4796-927A-E8153B5C0407"
+		"uuidString": "37296704-537A-4E79-B4F5-E5A7D96D0467"
 		}
 	],
 "creatorBuild": "32186",
@@ -25,6 +25,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-1/camping-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-1/camping-hero2.jpg": {
+		"ft": 16384,
+		"iS": 221894,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/camping-hero2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-1/camping-hero3.jpg": {
+		"ft": 16384,
+		"iS": 230591,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/camping-hero3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-1/camping-hero4.jpg": {
+		"ft": 16384,
+		"iS": 185216,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/camping-hero4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -166,7 +199,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/js/cards-animation-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -177,7 +210,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/js/cards-events-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -194,13 +227,79 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/scripts-min.js": {
+	"/dev/js/drawsvg-sec2.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/scripts-min-min.js",
+		"oA": 1,
+		"oAP": "/dev/js/drawsvg-sec2-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/main-nav/burger-animation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/burger-animation-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/main-nav/burger-click.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/burger-click-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/main-nav/burger-mouse-events.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/burger-mouse-events-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/main-nav/main-nav-click.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/main-nav-click-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/main-nav/nav-global.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/nav-global-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/main-nav/nav-scroll.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/nav-scroll-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -211,8 +310,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/scripts-min.js",
-		"oF": 0,
+		"oAP": "/deploy/js/scripts-min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
 		},
@@ -227,8 +326,17 @@
 		"sC": 3,
 		"tS": 0
 		},
-<<<<<<< HEAD
-=======
+	"/dev/js/tinySlider.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/tinySlider-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/main-nav.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -237,7 +345,6 @@
 		"oAP": "/dev/main-nav.html",
 		"oF": 0
 		},
->>>>>>> parent of ffc76eb... Fixed ?
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -314,11 +421,20 @@
 		"oAP": "/dev/scss/components/_navigation.css",
 		"oF": 0,
 		"oS": 0,
-<<<<<<< HEAD
 		"sct": 1
-=======
-		"uL": 1
->>>>>>> parent of ffc76eb... Fixed ?
+		},
+	"/dev/scss/components/_tinySlider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/components/_tinySlider.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
 		},
 	"/dev/scss/components/_videoPlayer.scss": {
 		"aP": 0,
@@ -472,7 +588,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/deploy/css/styles.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 0,
 		"sct": 1
 		},
@@ -506,7 +622,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/section-4.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/section-5.kit": {
 		"cB": 0,
@@ -514,7 +630,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/section-5.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/section-6.kit": {
 		"cB": 0,
@@ -523,6 +639,28 @@
 		"oA": 1,
 		"oAP": "/dev/section-6.html",
 		"oF": 0
+		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
+		"oF": 0
+		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		}
 	},
 "hooks": [
@@ -530,10 +668,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 619538920.92427802,
+	"creationDate": 619487599.53771698,
 	"displayValue": "Web-3-Camping-Final-Project",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_green",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "brackets-azure",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -976,7 +1114,7 @@
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
-			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
 			},
 		"array-bracket-newline": {
 			"active": 0,
@@ -1052,7 +1190,7 @@
 			},
 		"computed-property-spacing": {
 			"active": 0,
-			"optionString": "'never'"
+			"optionString": "'never', {'enforceForClassMembers': true}"
 			},
 		"consistent-return": {
 			"active": 0,
@@ -2016,7 +2154,7 @@
 			},
 		"use-isnan": {
 			"active": 1,
-			"optionString": "{'enforceForSwitchCase': false, 'enforceForIndexOf': false}"
+			"optionString": "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
 			},
 		"valid-jsdoc": {
 			"active": 0,
@@ -2051,7 +2189,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "gsap",
+	"jsCheckerReservedNamesString": "gsap, ScrollTrigger",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

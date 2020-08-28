@@ -1,3 +1,88 @@
 /* =============
     Navigation
 ============= */
+
+#main-nav{
+    background-color: $lightgreen;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    width: 100%;
+    // height: 100%;
+    z-index: 95;
+    // font-weight: 300;
+    padding-top: 120px;
+
+    @include md{
+        padding-top: 200px;
+    }
+
+    @include lg{
+        padding-top: 120px;
+    }
+
+    @include xl{
+        padding-top: 130px;
+    }
+
+    ul{
+        li{
+            button {
+                background-color: transparent;
+                border: none;
+                // border-bottom: 1px solid $sea-foam;
+                color: $darkgreen;
+                font-size: rem-calc(20);
+                padding: 20px 0 20px 10px;
+                text-align: center;
+                transition: 0.25s;
+                width: 100%;
+                // font-weight: 300;
+                // line-height: ;
+
+                @include md {
+                    font-size: rem-calc(30);
+                }
+
+                @include lg {
+                    font-size: rem-calc(40);
+                }
+
+                @include xl {
+                    font-size: rem-calc(50);
+                }
+
+                i {
+                    color: $white;
+                    font-size: rem-calc(15);
+                    margin-right: 10px;
+
+                    @include md {
+                        font-size: rem-calc(20);
+                    }
+
+                    @include lg {
+                        font-size: rem-calc(30);
+                    }
+
+                    @include xl {
+                        font-size: rem-calc(40);
+                    }
+                }
+
+                &:hover {
+                    color: $orange;
+
+                    i {
+                        color: $orange;
+                    }
+                }
+            }
+
+        }
+    }
+}
