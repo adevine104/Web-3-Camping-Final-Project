@@ -9,27 +9,13 @@ $(document).ready(function () {
             slideBy: 'page',
             autoplay: true,
             loop: true,
-            gutter: 10,
-            edgePadding: 40,
-            navPosition: "bottom",
+            gutter: 0,
+            edgePadding: 0,
             controls: false,
             mouseDrag: true,
             arrowKeys: true,
-            speed: 500,
-            responsive: {
-                768: {
-                    edgePadding: 80,
-                    gutter: 20
-                },
-                1025: {
-                    edgePadding: 120,
-                    gutter: 30
-                },
-                1440: {
-                    edgePadding: 160,
-                    gutter: 40
-                }
-            }
+            speed: 750,
+            nav: false
         });
     }
 });
