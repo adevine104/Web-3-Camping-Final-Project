@@ -227,6 +227,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+<<<<<<< HEAD
+=======
+	"/dev/main-nav.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/main-nav.html",
+		"oF": 0
+		},
+>>>>>>> parent of ffc76eb... Fixed ?
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -303,7 +314,11 @@
 		"oAP": "/dev/scss/components/_navigation.css",
 		"oF": 0,
 		"oS": 0,
+<<<<<<< HEAD
 		"sct": 1
+=======
+		"uL": 1
+>>>>>>> parent of ffc76eb... Fixed ?
 		},
 	"/dev/scss/components/_videoPlayer.scss": {
 		"aP": 0,
