@@ -597,6 +597,9 @@ footer {
     @media (min-width: 1025px) {
       #section-1 #hero-slides .my-slider div {
         height: 77vh; } }
+    @media (min-width: 1200px) {
+      #section-1 #hero-slides .my-slider div {
+        height: 85vh; } }
     #section-1 #hero-slides .my-slider div img {
       height: 100%;
       object-fit: cover;
@@ -615,6 +618,9 @@ footer {
       #section-1 h1 {
         font-size: 4.375rem;
         padding-top: 2%; } }
+    @media (min-width: 1200px) {
+      #section-1 h1 {
+        padding-top: 1%; } }
   #section-1 article {
     display: grid;
     grid-template-columns: auto 80% auto;
