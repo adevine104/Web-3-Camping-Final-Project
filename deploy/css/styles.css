@@ -520,71 +520,10 @@ textarea {
   }
 }
 #main-nav ul li button:hover {
-  color: #fff;
+  color: #2A5670;
 }
 #main-nav ul li button:hover i {
-  color: white;
-}
-#main-nav ul li a:link,
-#main-nav ul li a:visited {
-  color: white;
-  display: inline-block;
-  font-size: 1.25rem;
-  padding: 20px 0 20px 10px;
-  width: 100%;
-  text-align: center;
-}
-@media (min-width: 768px) {
-  #main-nav ul li a:link,
-#main-nav ul li a:visited {
-    font-size: 1.875rem;
-  }
-}
-@media (min-width: 1025px) {
-  #main-nav ul li a:link,
-#main-nav ul li a:visited {
-    font-size: 2.5rem;
-  }
-}
-@media (min-width: 1200px) {
-  #main-nav ul li a:link,
-#main-nav ul li a:visited {
-    font-size: 3.125rem;
-  }
-}
-#main-nav ul li a:link i,
-#main-nav ul li a:visited i {
-  color: #fff;
-  font-size: 0.9375rem;
-  margin-right: 10px;
-}
-@media (min-width: 768px) {
-  #main-nav ul li a:link i,
-#main-nav ul li a:visited i {
-    font-size: 1.25rem;
-  }
-}
-@media (min-width: 1025px) {
-  #main-nav ul li a:link i,
-#main-nav ul li a:visited i {
-    font-size: 1.875rem;
-  }
-}
-@media (min-width: 1200px) {
-  #main-nav ul li a:link i,
-#main-nav ul li a:visited i {
-    font-size: 2.5rem;
-  }
-}
-#main-nav ul li a:link:hover, #main-nav ul li a:link:active,
-#main-nav ul li a:visited:hover,
-#main-nav ul li a:visited:active {
-  color: white;
-}
-#main-nav ul li a:link:hover i, #main-nav ul li a:link:active i,
-#main-nav ul li a:visited:hover i,
-#main-nav ul li a:visited:active i {
-  color: white;
+  color: #2A5670;
 }
 
 /* ===================
@@ -906,6 +845,12 @@ footer #socials ul li a:visited {
   /* intro */
   /* gear content start */
 }
+#section-4 #top-content-2 {
+  background-color: #204053;
+}
+#section-4 #top-content-3 {
+  background-color: #193342;
+}
 #section-4 h2 {
   text-align: center;
   font-size: 50px;
@@ -973,14 +918,17 @@ footer #socials ul li a:visited {
     font-size: 20px;
   }
 }
-#section-4 .accordion .option .top-content-1:hover {
-  color: #B9E7FF;
+#section-4 .accordion .option #top-content-1:hover {
+  background-color: #B9E7FF;
+  cursor: pointer;
 }
-#section-4 .accordion .option .top-content-2:hover {
-  color: #B9E7FF;
+#section-4 .accordion .option #top-content-2:hover {
+  background-color: #B9E7FF;
+  cursor: pointer;
 }
-#section-4 .accordion .option .top-content-3:hover {
-  color: #B9E7FF;
+#section-4 .accordion .option #top-content-3:hover {
+  background-color: #B9E7FF;
+  cursor: pointer;
 }
 #section-4 .accordion .option .bottom {
   overflow: hidden;
