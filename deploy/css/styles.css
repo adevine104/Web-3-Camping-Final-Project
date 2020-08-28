@@ -447,7 +447,7 @@ textarea {
     Navigation
 ============= */
 #main-nav {
-  background-color: #58624A;
+  background-color: #A7B9AE;
   display: grid;
   place-items: center;
   position: fixed;
@@ -520,10 +520,10 @@ textarea {
   }
 }
 #main-nav ul li button:hover {
-  color: #2A5670;
+  color: #E86F11;
 }
 #main-nav ul li button:hover i {
-  color: #2A5670;
+  color: #E86F11;
 }
 
 /* ===================
@@ -764,12 +764,12 @@ footer #socials ul li a:visited {
   background-color: #58624A;
 }
 #section-2 #dotted-line {
-  width: 52vw;
+  width: 45vw;
   margin: 8% 0 -130% 21.5%;
 }
 @media (min-width: 1025px) {
   #section-2 #dotted-line {
-    margin: 8% 0 -121% 21.5%;
+    margin: 8% 0 -119.5% 28%;
   }
 }
 #section-2 h3 {

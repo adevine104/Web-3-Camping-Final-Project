@@ -13,11 +13,12 @@ ScrollTrigger.create({
     animation: svgLineTimeLine,
     toggleActions: "play none complete none",
     trigger: "#section-2",
-    start: "top 50%",
+    start: "top 20%",
+    end: "bottom 65%",
     //end: "bottom 40%",
     // markers: true,
     // id: "card",
-    scrub: 1
+    scrub: 8
 });
 
 // svgLineTimeLine.from("#Path-2",{duration:1, drawSVG:"0%", opacity: 0}, "playsvg2")

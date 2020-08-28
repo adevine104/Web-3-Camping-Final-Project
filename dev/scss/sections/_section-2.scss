@@ -5,12 +5,12 @@
     background-color: $green;
 
     #dotted-line{
-        width: 52vw;
+        width: 45vw;
         // position: absolute;
         margin: 8% 0 -130% 21.5%;
 
         @include lg{
-            margin: 8% 0 -121% 21.5%;
+            margin: 8% 0 -119.5% 28%;
         }
     }
 

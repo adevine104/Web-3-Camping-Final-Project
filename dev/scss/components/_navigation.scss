@@ -3,7 +3,7 @@
 ============= */
 
 #main-nav{
-    background-color: $green;
+    background-color: $lightgreen;
     display: grid;
     place-items: center;
     position: fixed;
@@ -77,10 +77,10 @@
                 }
 
                 &:hover {
-                    color: $darkblue;
+                    color: $orange;
 
                     i {
-                        color: $darkblue;
+                        color: $orange;
                     }
                 }
             }
