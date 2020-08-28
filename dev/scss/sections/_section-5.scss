@@ -2,14 +2,17 @@
     Section 5
 ============= */
 #section-5{
+    background-color: $green;
     h1 {
+        padding-top: 50px;
         text-align: center;
-        color: $darkgreen;
+        color: white;
     }
     
     #section-5-content {
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 50px;
+        padding-bottom: 100px;
+        // margin-bottom: 10px;
         display: grid;
         // border: solid red 1px;
         gap: 80px;
