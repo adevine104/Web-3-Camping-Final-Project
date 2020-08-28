@@ -699,6 +699,7 @@ footer #socials ul li a:visited {
     Section 1
 ============= */
 #section-1 {
+<<<<<<< HEAD
   background-color: #A7B9AE;
 }
 #section-1 div {
@@ -747,6 +748,35 @@ footer #socials ul li a:visited {
   }
 }
 @media (min-width: 1200px) {
+=======
+  background-color: #A7B9AE; }
+  #section-1 #hero-slides .my-slider div {
+    height: 65vh; }
+    @media (min-width: 768px) {
+      #section-1 #hero-slides .my-slider div {
+        height: 75vh; } }
+    @media (min-width: 1025px) {
+      #section-1 #hero-slides .my-slider div {
+        height: 77vh; } }
+    #section-1 #hero-slides .my-slider div img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      width: 100%; }
+  #section-1 h1 {
+    color: #173522;
+    font-size: 2.25rem;
+    text-align: center;
+    padding-top: 4%; }
+    @media (min-width: 768px) {
+      #section-1 h1 {
+        font-size: 3.125rem;
+        padding-top: 3%; } }
+    @media (min-width: 1025px) {
+      #section-1 h1 {
+        font-size: 4.375rem;
+        padding-top: 2%; } }
+>>>>>>> parent of 9061664... Add section-1 xl media query
   #section-1 article {
     grid-template-columns: auto 1100px auto;
   }

@@ -17,10 +17,6 @@
                     @include lg {
                         height: 77vh;
                     }
-
-                    @include xl {
-                        height: 85vh;
-                    }
     
                     img {
                         height: 100%;
@@ -46,10 +42,6 @@
         @include lg{
             font-size: rem-calc(70);
             padding-top: 2%;
-        }
-
-        @include xl{
-            padding-top: 1%;
         }
     }
 
