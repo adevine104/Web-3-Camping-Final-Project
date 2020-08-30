@@ -33,3 +33,31 @@ card4AnimationTimeline.addLabel("cloudToSun")
                       .to("#sun-4",{duration:skySpeed, y:-20, x:20 }, "sky")
                       .addPause()
                       .addLabel("bearToUpReverse")
+                      
+
+/* =============
+    Card-6
+============= */
+
+var card6AnimationTimeline = gsap.timeline({
+    paused: true
+});
+
+var canSpeed = 1;
+var smokeSpeed = 3;
+var bugSpeed = 4;
+
+card6AnimationTimeline.addLabel("bugToNone")
+                      .to("#spray-6",{duration:canSpeed, x:257 }, "spray")
+                      .to("#smoke-6",{duration:smokeSpeed, alpha:1, transformOrigin:"100%", scale:55 }, "smoke")
+                      .to("#bug1-6",{duration:bugSpeed, alpha:0}, "smoke")
+                      .to("#bug2-6",{duration:bugSpeed, alpha:0}, "smoke")
+                      .to("#bug3-6",{duration:bugSpeed, alpha:0}, "smoke")
+                      .to("#bug4-6",{duration:bugSpeed, alpha:0}, "smoke")
+                      .to("#bug5-6",{duration:bugSpeed, alpha:0}, "smoke")
+                      .to("#bug6-6",{duration:bugSpeed, alpha:0}, "smoke")
+                      .to("#bug7-6",{duration:bugSpeed, alpha:0}, "smoke")
+                      .to("#bug8-6",{duration:bugSpeed, alpha:0}, "smoke")
+                
+
+                    
