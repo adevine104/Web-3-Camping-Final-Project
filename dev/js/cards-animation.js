@@ -60,4 +60,24 @@ card6AnimationTimeline.addLabel("bugToNone")
                       .to("#bug8-6",{duration:bugSpeed, alpha:0}, "smoke")
                 
 
-                    
+/* =============
+    Card-7
+============= */
+
+var card7AnimationTimeline = gsap.timeline({
+    paused: true
+});
+
+var waterSpeed = .5;
+
+card7AnimationTimeline.addLabel("waterToOut")
+                      .to("#water4-7",{duration:waterSpeed, x:110 }, "water1")
+                      .to("#water5-7",{duration:waterSpeed, x:110 }, "water1")
+                      .to("#water7-7",{duration:waterSpeed, x:177 }, "water1")
+                      .to("#water8-7",{duration:waterSpeed, x:177 }, "water1")
+                      .to("#water3-7",{duration:waterSpeed, x:75 }, "water2")
+                      .to("#water9-7",{duration:waterSpeed, x:210 }, "water2")
+                      .to("#water10-7",{duration:waterSpeed, x:246 }, "water3")
+                      .to("#water11-7",{duration:waterSpeed, x:246 }, "water3")
+                      .to("#water1-7",{duration:waterSpeed, x:30 }, "water3")
+                      .to("#water2-7",{duration:waterSpeed, x:30 }, "water3")

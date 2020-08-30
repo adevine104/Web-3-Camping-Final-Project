@@ -24,3 +24,12 @@ $("#a6").on("mouseleave", function () {
     console.log("animate");
     card6AnimationTimeline.reverse();
 });
+
+$("#a7").on("mouseenter", function () {
+    console.log("animate");
+    card7AnimationTimeline.play();
+});
+$("#a7").on("mouseleave", function () {
+    console.log("animate");
+    card7AnimationTimeline.reverse();
+});
