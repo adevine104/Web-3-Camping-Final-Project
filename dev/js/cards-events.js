@@ -33,3 +33,12 @@ $("#a7").on("mouseleave", function () {
     console.log("animate");
     card7AnimationTimeline.reverse();
 });
+
+$("#a9").on("mouseenter", function () {
+    console.log("animate");
+    card9AnimationTimeline.play();
+});
+$("#a9").on("mouseleave", function () {
+    console.log("animate");
+    card9AnimationTimeline.reverse();
+});

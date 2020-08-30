@@ -81,3 +81,17 @@ card7AnimationTimeline.addLabel("waterToOut")
                       .to("#water11-7",{duration:waterSpeed, x:246 }, "water3")
                       .to("#water1-7",{duration:waterSpeed, x:30 }, "water3")
                       .to("#water2-7",{duration:waterSpeed, x:30 }, "water3")
+
+
+/* =============
+    Card-9
+============= */
+
+var card9AnimationTimeline = gsap.timeline({
+    paused: true
+});
+
+card9AnimationTimeline.addLabel("plantsToOut")
+                      .to("#ivy1-9",{duration:waterSpeed, y:95 }, "water1")
+                      .to("#ivy2-9",{duration:waterSpeed, y:130 }, "water1")
+                      .to("#ivy3-9",{duration:waterSpeed, y:70 }, "water1")
