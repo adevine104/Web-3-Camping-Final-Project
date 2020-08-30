@@ -45,11 +45,11 @@ var card6AnimationTimeline = gsap.timeline({
 
 var canSpeed = 1;
 var smokeSpeed = 3;
-var bugSpeed = 4;
+var bugSpeed = 3;
 
 card6AnimationTimeline.addLabel("bugToNone")
                       .to("#spray-6",{duration:canSpeed, x:257 }, "spray")
-                      .to("#smoke-6",{duration:smokeSpeed, alpha:1, transformOrigin:"100%", scale:55 }, "smoke")
+                      .to("#smoke-6",{duration:smokeSpeed, alpha:0, transformOrigin:"100%", scale:70 }, "smoke")
                       .to("#bug1-6",{duration:bugSpeed, alpha:0}, "smoke")
                       .to("#bug2-6",{duration:bugSpeed, alpha:0}, "smoke")
                       .to("#bug3-6",{duration:bugSpeed, alpha:0}, "smoke")
