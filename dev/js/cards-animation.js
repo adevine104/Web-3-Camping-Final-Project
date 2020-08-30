@@ -94,9 +94,9 @@ var card8AnimationTimeline = gsap.timeline({
 var trashSpeed = 1.5
 
 card8AnimationTimeline.addLabel("trashToCan")
-                      .to("#banana-8",{duration:trashSpeed, x:32 }, "plant")
-                      .to("#marshmellow-8",{duration:trashSpeed, x:30 }, "plant")
-                      .to("#spray-8",{duration:trashSpeed, x:33 }, "plant")
+                      .to("#banana-8",{duration:trashSpeed, x:32 }, "trash")
+                      .to("#marshmellow-8",{duration:trashSpeed, x:30 }, "trash")
+                      .to("#spray-8",{duration:trashSpeed, x:33 }, "trash")
 
 
 
