@@ -87,11 +87,31 @@ card7AnimationTimeline.addLabel("waterToOut")
     Card-9
 ============= */
 
+var card8AnimationTimeline = gsap.timeline({
+    paused: true
+});
+
+var trashSpeed = 1.5
+
+card8AnimationTimeline.addLabel("trashToCan")
+                      .to("#banana-8",{duration:trashSpeed, x:32 }, "plant")
+                      .to("#marshmellow-8",{duration:trashSpeed, x:30 }, "plant")
+                      .to("#spray-8",{duration:trashSpeed, x:33 }, "plant")
+
+
+
+
+/* =============
+    Card-9
+============= */
+
 var card9AnimationTimeline = gsap.timeline({
     paused: true
 });
 
+var plantsSpeed = .5;
+
 card9AnimationTimeline.addLabel("plantsToOut")
-                      .to("#ivy1-9",{duration:waterSpeed, y:95 }, "water1")
-                      .to("#ivy2-9",{duration:waterSpeed, y:130 }, "water1")
-                      .to("#ivy3-9",{duration:waterSpeed, y:70 }, "water1")
+                      .to("#ivy1-9",{duration:plantsSpeed, y:95 }, "plant")
+                      .to("#ivy2-9",{duration:plantsSpeed, y:130 }, "plant")
+                      .to("#ivy3-9",{duration:plantsSpeed, y:70 }, "plant")
