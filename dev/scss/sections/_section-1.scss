@@ -69,4 +69,12 @@
             }
         }
     }
+
+    #arrow-1{
+        color: $darkgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: rem-calc(35);
+    }
 }
