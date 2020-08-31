@@ -60,4 +60,58 @@ card6AnimationTimeline.addLabel("bugToNone")
                       .to("#bug8-6",{duration:bugSpeed, alpha:0}, "smoke")
                 
 
-                    
+/* =============
+    Card-7
+============= */
+
+var card7AnimationTimeline = gsap.timeline({
+    paused: true
+});
+
+var waterSpeed = .5;
+
+card7AnimationTimeline.addLabel("waterToOut")
+                      .to("#water4-7",{duration:waterSpeed, x:110 }, "water1")
+                      .to("#water5-7",{duration:waterSpeed, x:110 }, "water1")
+                      .to("#water7-7",{duration:waterSpeed, x:177 }, "water1")
+                      .to("#water8-7",{duration:waterSpeed, x:177 }, "water1")
+                      .to("#water3-7",{duration:waterSpeed, x:75 }, "water2")
+                      .to("#water9-7",{duration:waterSpeed, x:210 }, "water2")
+                      .to("#water10-7",{duration:waterSpeed, x:246 }, "water3")
+                      .to("#water11-7",{duration:waterSpeed, x:246 }, "water3")
+                      .to("#water1-7",{duration:waterSpeed, x:30 }, "water3")
+                      .to("#water2-7",{duration:waterSpeed, x:30 }, "water3")
+
+
+/* =============
+    Card-9
+============= */
+
+var card8AnimationTimeline = gsap.timeline({
+    paused: true
+});
+
+var trashSpeed = 1.5
+
+card8AnimationTimeline.addLabel("trashToCan")
+                      .to("#banana-8",{duration:trashSpeed, x:32 }, "trash")
+                      .to("#marshmellow-8",{duration:trashSpeed, x:30 }, "trash")
+                      .to("#spray-8",{duration:trashSpeed, x:33 }, "trash")
+
+
+
+
+/* =============
+    Card-9
+============= */
+
+var card9AnimationTimeline = gsap.timeline({
+    paused: true
+});
+
+var plantsSpeed = .5;
+
+card9AnimationTimeline.addLabel("plantsToOut")
+                      .to("#ivy1-9",{duration:plantsSpeed, y:95 }, "plant")
+                      .to("#ivy2-9",{duration:plantsSpeed, y:130 }, "plant")
+                      .to("#ivy3-9",{duration:plantsSpeed, y:70 }, "plant")
