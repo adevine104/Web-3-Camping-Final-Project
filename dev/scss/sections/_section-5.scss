@@ -2,11 +2,11 @@
     Section 5
 ============= */
 #section-5{
-    background-color: $green;
+    background-color: $lightgreen;
     h1 {
         padding-top: 50px;
         text-align: center;
-        color: white;
+        color: $darkgreen;
     }
     
     #section-5-content {
@@ -100,7 +100,7 @@
             border-radius: 6px;
             // border: solid red 1px;
             margin: 10px;
-            background-color: $darkblue;
+            background-color: $darkgreen;
         }
     
         .front {}

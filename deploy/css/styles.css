@@ -335,8 +335,13 @@ a {
   text-decoration: none; }
 
 .content-spacing {
-  padding: 70px 0 50px; }
-
+  padding: 50px 0 30px; }
+  @media (min-width: 768px) {
+    .content-spacing {
+      padding: 60px 0 40px; } }
+  @media (min-width: 1025px) {
+    .content-spacing {
+      padding: 70px 0 50px; } }
 /* =============
     Typography
 ============= */
@@ -719,24 +724,17 @@ footer {
 ============= */
 #section-4 {
   background-color: #A7B9AE;
-  padding-top: 50px;
   padding-bottom: 50px;
-  /* start intro*/
-  /* lists accordion start */
-  /* site recs start*/
-  /* intro */
-  /* gear content start */ }
+  padding-top: 50px; }
   #section-4 #top-content-2 {
     background-color: #ED8F46; }
   #section-4 #top-content-3 {
     background-color: #E86F11; }
   #section-4 h2 {
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Vollkorn', serif;
-    padding: 50px;
     color: #173522;
-    font-size: 30px; }
+    font-size: 30px;
+    padding: 50px;
+    text-align: center; }
     @media (min-width: 768px) {
       #section-4 h2 {
         font-size: 40px; } }
@@ -744,40 +742,38 @@ footer {
       #section-4 h2 {
         font-size: 40px; } }
   #section-4 p {
-    text-align: center;
+    color: #58624A;
+    font-size: 20px;
+    padding-bottom: 30px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 30px;
-    font-size: 20px;
-    font-family: 'Proza Libre', sans-serif;
-    color: #58624A; }
+    text-align: center; }
     @media (min-width: 768px) {
       #section-4 p {
+        font-size: 25px;
         padding-left: 150px;
-        padding-right: 150px;
-        font-size: 25px; } }
+        padding-right: 150px; } }
     @media (min-width: 1025px) {
       #section-4 p {
+        font-size: 30px;
         padding-left: 300px;
-        padding-right: 300px;
-        font-size: 30px; } }
+        padding-right: 300px; } }
   #section-4 .container {
     display: grid;
-    grid-template-columns: auto 50% auto;
-    grid-template-areas: ". accordion ."; }
+    grid-template-areas: ". accordion .";
+    grid-template-columns: auto 50% auto; }
   #section-4 .accordion {
     grid-area: accordion;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 15px; }
     #section-4 .accordion .option .top {
-      padding: 10px;
-      font-size: 15px;
       background-color: #EDA167;
       color: white;
-      font-family: 'Proza Libre', sans-serif;
-      transition: .25s;
-      display: flex; }
+      display: flex;
+      font-size: 15px;
+      padding: 10px;
+      transition: .25s; }
       #section-4 .accordion .option .top i {
         margin-left: auto; }
       @media (min-width: 768px) {
@@ -802,58 +798,49 @@ footer {
       overflow: hidden; }
       #section-4 .accordion .option .bottom .content {
         color: #173522;
-        padding-top: 40px;
-        padding: 10px 20px; }
+        padding: 10px 20px;
+        padding-top: 40px; }
       #section-4 .accordion .option .bottom #bottom-content-1 {
         background-color: #CFDED5;
-        height: 325px;
         font-size: 20px;
-        font-weight: 100;
-        font-family: 'Proza Libre', sans-serif; }
+        height: 225px; }
       #section-4 .accordion .option .bottom #bottom-content-2 {
         background-color: #CFDED5;
-        height: 325px;
         font-size: 20px;
-        font-weight: 100;
-        font-family: 'Proza Libre', sans-serif; }
+        height: 300px; }
       #section-4 .accordion .option .bottom #bottom-content-3 {
         background-color: #CFDED5;
-        height: 325px;
         font-size: 20px;
-        font-weight: 100;
-        font-family: 'Proza Libre', sans-serif; }
+        height: 225px; }
   #section-4 h3 {
-    font-size: 50px;
-    font-family: 'Vollkorn', serif;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20px;
-    padding-top: 50px;
     color: #173522;
     font-size: 30px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
     text-align: center; }
     @media (min-width: 768px) {
       #section-4 h3 {
         font-size: 40px;
-        padding-left: 100px;
-        padding-right: 100px; } }
+        padding-left: 75px;
+        padding-right: 75px; } }
     @media (min-width: 1025px) {
       #section-4 h3 {
         font-size: 40px;
-        padding-left: 350px;
-        padding-right: 350px; } }
+        padding-left: 250px;
+        padding-right: 250px; } }
   #section-4 .gear .youbuy {
     text-align: center; }
     #section-4 .gear .youbuy img {
       padding-bottom: 40px; }
     #section-4 .gear .youbuy h6 {
-      text-align: center;
-      font-size: 20px;
-      color: #2A5670;
-      font-family: 'Proza Libre', sans-serif;
       border-radius: 25px;
+      color: #173522;
+      font-size: 20px;
       padding-left: 50px;
-      padding-right: 50px; }
+      padding-right: 50px;
+      text-align: center; }
       @media (min-width: 768px) {
         #section-4 .gear .youbuy h6 {
           font-size: 25px;
@@ -867,9 +854,9 @@ footer {
     #section-4 .gear .youbuy p {
       color: #173522;
       font-size: 20px;
+      font-weight: 500;
       padding-left: 50px;
-      padding-right: 50px;
-      font-weight: 500; }
+      padding-right: 50px; }
       @media (min-width: 768px) {
         #section-4 .gear .youbuy p {
           font-size: 20px;
@@ -878,12 +865,12 @@ footer {
       @media (min-width: 1025px) {
         #section-4 .gear .youbuy p {
           font-size: 20px;
-          padding-left: 350px;
-          padding-right: 350px; } }
+          padding-left: 250px;
+          padding-right: 250px; } }
     #section-4 .gear .youbuy #backpack-button {
       padding: 10px;
-      text-align: center;
-      padding-top: 20px; }
+      padding-top: 20px;
+      text-align: center; }
       #section-4 .gear .youbuy #backpack-button a:link,
       #section-4 .gear .youbuy #backpack-button a:visited {
         background-color: #E86F11;
@@ -892,17 +879,15 @@ footer {
         display: inline-block;
         font-size: 1.125rem;
         font-weight: 500;
-        padding: 10px 20px;
-        font-family: 'Proza Libre', sans-serif;
-        text-decoration: none; }
+        padding: 10px 20px; }
       #section-4 .gear .youbuy #backpack-button a:hover,
       #section-4 .gear .youbuy #backpack-button a:active {
         background-color: #B9E7FF;
         color: #2A5670; }
     #section-4 .gear .youbuy #tent-button {
       padding: 10px;
-      text-align: center;
-      padding-top: 20px; }
+      padding-top: 20px;
+      text-align: center; }
       #section-4 .gear .youbuy #tent-button a:link,
       #section-4 .gear .youbuy #tent-button a:visited {
         background-color: #E86F11;
@@ -910,18 +895,15 @@ footer {
         color: #fff;
         display: inline-block;
         font-size: 1.125rem;
-        font-weight: 500;
-        padding: 10px 20px;
-        font-family: 'Proza Libre', sans-serif;
-        text-decoration: none; }
+        padding: 10px 20px; }
       #section-4 .gear .youbuy #tent-button a:hover,
       #section-4 .gear .youbuy #tent-button a:active {
         background-color: #B9E7FF;
         color: #2A5670; }
     #section-4 .gear .youbuy #hammock-button {
       padding: 10px;
-      text-align: center;
-      padding-top: 20px; }
+      padding-top: 20px;
+      text-align: center; }
       #section-4 .gear .youbuy #hammock-button a:link,
       #section-4 .gear .youbuy #hammock-button a:visited {
         background-color: #E86F11;
@@ -929,18 +911,15 @@ footer {
         color: #fff;
         display: inline-block;
         font-size: 1.125rem;
-        font-weight: 500;
-        padding: 10px 20px;
-        font-family: 'Proza Libre', sans-serif;
-        text-decoration: none; }
+        padding: 10px 20px; }
       #section-4 .gear .youbuy #hammock-button a:hover,
       #section-4 .gear .youbuy #hammock-button a:active {
         background-color: #B9E7FF;
         color: #2A5670; }
     #section-4 .gear .youbuy #cook-button {
       padding: 10px;
-      text-align: center;
-      padding-top: 20px; }
+      padding-top: 20px;
+      text-align: center; }
       #section-4 .gear .youbuy #cook-button a:link,
       #section-4 .gear .youbuy #cook-button a:visited {
         background-color: #E86F11;
@@ -948,10 +927,7 @@ footer {
         color: #fff;
         display: inline-block;
         font-size: 1.125rem;
-        font-weight: 500;
-        padding: 10px 20px;
-        font-family: 'Proza Libre', sans-serif;
-        text-decoration: none; }
+        padding: 10px 20px; }
       #section-4 .gear .youbuy #cook-button a:hover,
       #section-4 .gear .youbuy #cook-button a:active {
         background-color: #B9E7FF;
@@ -961,11 +937,11 @@ footer {
     Section 5
 ============= */
 #section-5 {
-  background-color: #58624A; }
+  background-color: #A7B9AE; }
   #section-5 h1 {
     padding-top: 50px;
     text-align: center;
-    color: white; }
+    color: #173522; }
   #section-5 #section-5-content {
     margin-top: 50px;
     padding-bottom: 100px;
@@ -1018,7 +994,7 @@ footer {
       text-align: center;
       border-radius: 6px;
       margin: 10px;
-      background-color: #2A5670; }
+      background-color: #173522; }
     #section-5 #section-5-content .back {
       background-color: #B9E7FF;
       border-radius: 6px;
@@ -1046,7 +1022,7 @@ footer {
     Section 6
 ============= */
 #section-6 {
-  background-color: #A7B9AE;
+  background-color: #58624A;
   padding: 5%; }
   #section-6 #map {
     height: 300px;
