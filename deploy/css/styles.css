@@ -668,13 +668,25 @@ footer {
         margin: 30px 80px 30px 80px; } }
   #section-2 .left-side-text {
     padding: 50px 50px 0 0; }
+    @media (min-width: 768px) {
+      #section-2 .left-side-text {
+        padding: 80px 850px 0 0; } }
     @media (min-width: 1025px) {
+      #section-2 .left-side-text {
+        padding: 80px 850px 0 0; } }
+    @media (min-width: 1200px) {
       #section-2 .left-side-text {
         padding: 80px 850px 0 0; } }
   #section-2 .right-side-text {
     text-align: right;
     padding: 50px 50px 0 0; }
+    @media (min-width: 768px) {
+      #section-2 .right-side-text {
+        padding: 80px 0 0 850px; } }
     @media (min-width: 1025px) {
+      #section-2 .right-side-text {
+        padding: 80px 0 0 850px; } }
+    @media (min-width: 1200px) {
       #section-2 .right-side-text {
         padding: 80px 0 0 850px; } }
   #section-2 #arrow {
