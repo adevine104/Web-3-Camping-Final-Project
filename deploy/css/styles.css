@@ -617,16 +617,13 @@ footer {
   #section-1 h1 {
     color: #173522;
     font-size: 2.25rem;
-    text-align: center;
-    padding-top: 4%; }
+    text-align: center; }
     @media (min-width: 768px) {
       #section-1 h1 {
-        font-size: 3.125rem;
-        padding-top: 3%; } }
+        font-size: 3.125rem; } }
     @media (min-width: 1025px) {
       #section-1 h1 {
-        font-size: 4.375rem;
-        padding-top: 2%; } }
+        font-size: 4.375rem; } }
   #section-1 article {
     display: grid;
     grid-template-columns: auto 80% auto;
@@ -723,9 +720,7 @@ footer {
     nina sec4
 ============= */
 #section-4 {
-  background-color: #A7B9AE;
-  padding-bottom: 50px;
-  padding-top: 50px; }
+  background-color: #A7B9AE; }
   #section-4 #top-content-2 {
     background-color: #ED8F46; }
   #section-4 #top-content-3 {
@@ -733,14 +728,14 @@ footer {
   #section-4 h2 {
     color: #173522;
     font-size: 30px;
-    padding: 50px;
+    padding-bottom: 30px;
     text-align: center; }
     @media (min-width: 768px) {
       #section-4 h2 {
         font-size: 40px; } }
     @media (min-width: 1025px) {
       #section-4 h2 {
-        font-size: 40px; } }
+        font-size: 45px; } }
   #section-4 p {
     color: #58624A;
     font-size: 20px;
@@ -751,13 +746,13 @@ footer {
     @media (min-width: 768px) {
       #section-4 p {
         font-size: 25px;
-        padding-left: 150px;
-        padding-right: 150px; } }
+        padding-left: 100px;
+        padding-right: 100px; } }
     @media (min-width: 1025px) {
       #section-4 p {
         font-size: 30px;
-        padding-left: 300px;
-        padding-right: 300px; } }
+        padding-left: 150px;
+        padding-right: 150px; } }
   #section-4 .container {
     display: grid;
     grid-template-areas: ". accordion .";
@@ -938,10 +933,16 @@ footer {
 ============= */
 #section-5 {
   background-color: #A7B9AE; }
-  #section-5 h1 {
-    padding-top: 50px;
-    text-align: center;
-    color: #173522; }
+  #section-5 h2 {
+    color: #173522;
+    font-size: 30px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      #section-5 h2 {
+        font-size: 40px; } }
+    @media (min-width: 1025px) {
+      #section-5 h2 {
+        font-size: 45px; } }
   #section-5 #section-5-content {
     margin-top: 50px;
     padding-bottom: 100px;

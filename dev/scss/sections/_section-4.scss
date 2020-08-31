@@ -3,8 +3,6 @@
 ============= */
 #section-4 {
     background-color: $lightgreen;
-    padding-bottom: 50px;
-    padding-top: 50px;
 
     #top-content-2 {
         background-color: #ED8F46;
@@ -17,7 +15,7 @@
     h2 {
         color: $darkgreen;
         font-size: 30px;
-        padding: 50px;
+        padding-bottom: 30px;
         text-align: center;
 
         @include md {
@@ -25,7 +23,7 @@
         }
 
         @include lg {
-            font-size: 40px;
+            font-size: 45px;
         }
     }
 
@@ -39,14 +37,14 @@
 
         @include md {
             font-size: 25px;
-            padding-left: 150px;
-            padding-right: 150px;
+            padding-left: 100px;
+            padding-right: 100px;
         }
 
         @include lg {
             font-size: 30px;
-            padding-left: 300px;
-            padding-right: 300px;
+            padding-left: 150px;
+            padding-right: 150px;
         }
     }
 

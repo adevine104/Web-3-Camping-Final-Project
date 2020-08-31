@@ -3,10 +3,18 @@
 ============= */
 #section-5{
     background-color: $lightgreen;
-    h1 {
-        padding-top: 50px;
-        text-align: center;
+    h2 {
         color: $darkgreen;
+        font-size: 30px;
+        text-align: center;
+
+        @include md {
+            font-size: 40px;
+        }
+
+        @include lg {
+            font-size: 45px;
+        }
     }
     
     #section-5-content {
