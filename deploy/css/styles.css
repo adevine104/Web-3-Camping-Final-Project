@@ -642,6 +642,8 @@ footer {
       @media (min-width: 768px) {
         #section-1 article p {
           padding: 1% 2% 4% 2%; } }
+      #section-1 article p span {
+        font-style: italic; }
   #section-1 #arrow-1 {
     color: #173522;
     display: flex;
