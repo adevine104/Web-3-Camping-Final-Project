@@ -1,81 +1,80 @@
 /* =============
     Section 1
 ============= */
-#section-1{
+#section-1 {
     background-color: $lightgreen;
 
     #hero-slides {
-            .my-slider {
-    
-                div {
-                    height: 65vh;
-    
-                    @include md {
-                        height: 75vh;
-                    }
-    
-                    @include lg {
-                        height: 77vh;
-                    }
-    
-                    img {
-                        height: 100%;
-                        object-fit: cover;
-                        object-position: center;
-                        width: 100%;
-                    }
+        .my-slider {
+            div {
+                height: 65vh;
+
+                @include md {
+                    height: 75vh;
+                }
+
+                @include lg {
+                    height: 77vh;
+                }
+
+                img {
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                    width: 100%;
                 }
             }
+        }
     }
 
-    h1{
+    h1 {
         color: $darkgreen;
         font-size: rem-calc(36);
         text-align: center;
 
-        @include md{
+        @include md {
             font-size: rem-calc(50);
         }
 
-        @include lg{
+        @include lg {
             font-size: rem-calc(70);
         }
     }
 
-    article{
+    article {
         display: grid;
-        grid-template-columns: auto 80% auto;
         grid-template-areas: ". intro-text .";
+        grid-template-columns: auto 80% auto;
         padding-top: 1%;
 
-        @include md{
+        @include md {
             grid-template-columns: auto 90% auto;
         }
 
-        @include xl{
+        @include xl {
             grid-template-columns: auto 1100px auto;
         }
 
-        p{
+        p {
             grid-area: intro-text;
-            text-align: center;
             padding: 2% 2% 8% 2%;
+            text-align: center;
 
-            @include md{
+            @include md {
                 padding: 1% 2% 4% 2%;
             }
 
-            span{
+            span {
                 font-style: italic;
             }
         }
     }
 
-    #arrow-1{
+    #arrow-1 {
+        align-items: center;
         color: $darkgreen;
         display: flex;
-        justify-content: center;
-        align-items: center;
         font-size: rem-calc(35);
+        justify-content: center;
     }
 }
