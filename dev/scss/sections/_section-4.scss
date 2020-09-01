@@ -4,12 +4,36 @@
 #section-4 {
     background-color: $lightgreen;
 
+    #top-content-1 {
+        width: 300px;
+        @include md{
+            width: 400px;
+        }
+        @include lg{
+            width: 500px;
+        }
+    }
+
     #top-content-2 {
         background-color: #ED8F46;
+        width: 300px;
+        @include md{
+            width: 400px;
+        }
+        @include lg{
+            width: 500px;
+        }
     }
 
     #top-content-3 {
         background-color: $orange;
+        width: 300px;
+        @include md{
+            width: 400px;
+        }
+        @include lg{
+            width: 500px;
+        }
     }
 
     h2 {
@@ -49,16 +73,24 @@
     }
 
     .container {
+
+        display: flex;
+        place-items: center;
         display: grid;
         grid-template-areas: ". accordion .";
-        grid-template-columns: auto 50% auto;
+        grid-template-columns: 10% auto 10%;
+
+
+        @include md {
+        padding: 0;
+        display: grid;
+        grid-template-areas: ". accordion .";
+        grid-template-columns: 5% auto 5%;
+        }
     }
 
     .accordion {
         grid-area: accordion;
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-top: 15px;
 
         .option {
             .top {
@@ -105,26 +137,46 @@
 
                 .content {
                     color: $darkgreen;
-                    padding: 10px 20px;
-                    padding-top: 40px;
+                    padding: 10px 5px 10px 15px;
                 }
 
                 #bottom-content-1 {
                     background-color: #CFDED5;
                     font-size: 20px;
-                    height: 225px;
+                    height: auto;
+                    width: 300px;
+                    @include md{
+                        width: 400px;
+                    }
+                    @include lg{
+                        width: 500px;
+                    }
                 }
 
                 #bottom-content-2 {
                     background-color: #CFDED5;
                     font-size: 20px;
-                    height: 300px;
+                    height: auto;
+                    width: 300px;
+                    @include md{
+                        width: 400px;
+                    }
+                    @include lg{
+                        width: 500px;
+                    }
                 }
 
                 #bottom-content-3 {
                     background-color: #CFDED5;
                     font-size: 20px;
-                    height: 225px;
+                    height: auto;
+                    width: 300px;
+                    @include md{
+                        width: 400px;
+                    }
+                    @include lg{
+                        width: 500px;
+                    }
                 }
             }
         }

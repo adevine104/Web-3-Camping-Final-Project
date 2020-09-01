@@ -524,8 +524,8 @@ footer {
   footer p {
     padding-bottom: 1%; }
     footer p span {
-      font-size: 1.25rem;
-      font-family: 'Vollkorn', serif; }
+      font-family: 'Vollkorn', serif;
+      font-size: 1.25rem; }
       @media (min-width: 768px) {
         footer p span {
           font-size: 1.5rem; } }
@@ -626,8 +626,8 @@ footer {
         font-size: 4.375rem; } }
   #section-1 article {
     display: grid;
-    grid-template-columns: auto 80% auto;
     grid-template-areas: ". intro-text .";
+    grid-template-columns: auto 80% auto;
     padding-top: 1%; }
     @media (min-width: 768px) {
       #section-1 article {
@@ -637,19 +637,19 @@ footer {
         grid-template-columns: auto 1100px auto; } }
     #section-1 article p {
       grid-area: intro-text;
-      text-align: center;
-      padding: 2% 2% 8% 2%; }
+      padding: 2% 2% 8% 2%;
+      text-align: center; }
       @media (min-width: 768px) {
         #section-1 article p {
           padding: 1% 2% 4% 2%; } }
       #section-1 article p span {
         font-style: italic; }
   #section-1 #arrow-1 {
+    align-items: center;
     color: #173522;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.1875rem; }
+    font-size: 2.1875rem;
+    justify-content: center; }
 
 /* =============
     Section 2
@@ -752,10 +752,32 @@ footer {
 ============= */
 #section-4 {
   background-color: #A7B9AE; }
+  #section-4 #top-content-1 {
+    width: 300px; }
+    @media (min-width: 768px) {
+      #section-4 #top-content-1 {
+        width: 400px; } }
+    @media (min-width: 1025px) {
+      #section-4 #top-content-1 {
+        width: 500px; } }
   #section-4 #top-content-2 {
-    background-color: #ED8F46; }
+    background-color: #ED8F46;
+    width: 300px; }
+    @media (min-width: 768px) {
+      #section-4 #top-content-2 {
+        width: 400px; } }
+    @media (min-width: 1025px) {
+      #section-4 #top-content-2 {
+        width: 500px; } }
   #section-4 #top-content-3 {
-    background-color: #E86F11; }
+    background-color: #E86F11;
+    width: 300px; }
+    @media (min-width: 768px) {
+      #section-4 #top-content-3 {
+        width: 400px; } }
+    @media (min-width: 1025px) {
+      #section-4 #top-content-3 {
+        width: 500px; } }
   #section-4 h2 {
     color: #173522;
     font-size: 30px;
@@ -785,14 +807,19 @@ footer {
         padding-left: 150px;
         padding-right: 150px; } }
   #section-4 .container {
+    display: flex;
+    place-items: center;
     display: grid;
     grid-template-areas: ". accordion .";
-    grid-template-columns: auto 50% auto; }
+    grid-template-columns: 10% auto 10%; }
+    @media (min-width: 768px) {
+      #section-4 .container {
+        padding: 0;
+        display: grid;
+        grid-template-areas: ". accordion .";
+        grid-template-columns: 5% auto 5%; } }
   #section-4 .accordion {
-    grid-area: accordion;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 15px; }
+    grid-area: accordion; }
     #section-4 .accordion .option .top {
       background-color: #EDA167;
       color: white;
@@ -824,20 +851,40 @@ footer {
       overflow: hidden; }
       #section-4 .accordion .option .bottom .content {
         color: #173522;
-        padding: 10px 20px;
-        padding-top: 40px; }
+        padding: 10px 5px 10px 15px; }
       #section-4 .accordion .option .bottom #bottom-content-1 {
         background-color: #CFDED5;
         font-size: 20px;
-        height: 225px; }
+        height: auto;
+        width: 300px; }
+        @media (min-width: 768px) {
+          #section-4 .accordion .option .bottom #bottom-content-1 {
+            width: 400px; } }
+        @media (min-width: 1025px) {
+          #section-4 .accordion .option .bottom #bottom-content-1 {
+            width: 500px; } }
       #section-4 .accordion .option .bottom #bottom-content-2 {
         background-color: #CFDED5;
         font-size: 20px;
-        height: 300px; }
+        height: auto;
+        width: 300px; }
+        @media (min-width: 768px) {
+          #section-4 .accordion .option .bottom #bottom-content-2 {
+            width: 400px; } }
+        @media (min-width: 1025px) {
+          #section-4 .accordion .option .bottom #bottom-content-2 {
+            width: 500px; } }
       #section-4 .accordion .option .bottom #bottom-content-3 {
         background-color: #CFDED5;
         font-size: 20px;
-        height: 225px; }
+        height: auto;
+        width: 300px; }
+        @media (min-width: 768px) {
+          #section-4 .accordion .option .bottom #bottom-content-3 {
+            width: 400px; } }
+        @media (min-width: 1025px) {
+          #section-4 .accordion .option .bottom #bottom-content-3 {
+            width: 500px; } }
   #section-4 h3 {
     color: #173522;
     font-size: 30px;
