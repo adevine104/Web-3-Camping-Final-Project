@@ -6,7 +6,7 @@ var card1AnimationTimeline = gsap.timeline({
     paused: true
 });
 
-var creaturesSpeed = 1;
+var creaturesSpeed = .7;
 
 card1AnimationTimeline.addLabel("plantBearToUp")
                       .to("#bear-1",{duration:creaturesSpeed, y:90 }, "bear")
