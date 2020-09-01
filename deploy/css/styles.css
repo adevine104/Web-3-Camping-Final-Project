@@ -639,7 +639,8 @@ footer {
     #section-1 article p {
       grid-area: intro-text;
       padding: 2% 2% 8% 2%;
-      text-align: center; }
+      text-align: center;
+      color: #173522; }
       @media (min-width: 768px) {
         #section-1 article p {
           padding: 1% 2% 4% 2%; } }
