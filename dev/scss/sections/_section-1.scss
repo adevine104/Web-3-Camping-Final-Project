@@ -32,16 +32,13 @@
         color: $darkgreen;
         font-size: rem-calc(36);
         text-align: center;
-        padding-top: 4%;
 
         @include md{
             font-size: rem-calc(50);
-            padding-top: 3%;
         }
 
         @include lg{
             font-size: rem-calc(70);
-            padding-top: 2%;
         }
     }
 
@@ -66,6 +63,10 @@
 
             @include md{
                 padding: 1% 2% 4% 2%;
+            }
+
+            span{
+                font-style: italic;
             }
         }
     }

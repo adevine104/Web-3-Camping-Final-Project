@@ -2,11 +2,19 @@
     Section 5
 ============= */
 #section-5{
-    background-color: $green;
-    h1 {
-        padding-top: 50px;
+    background-color: $lightgreen;
+    h2 {
+        color: $darkgreen;
+        font-size: 30px;
         text-align: center;
-        color: white;
+
+        @include md {
+            font-size: 40px;
+        }
+
+        @include lg {
+            font-size: 45px;
+        }
     }
     
     #section-5-content {
@@ -100,7 +108,7 @@
             border-radius: 6px;
             // border: solid red 1px;
             margin: 10px;
-            background-color: $darkblue;
+            background-color: $darkgreen;
         }
     
         .front {}
