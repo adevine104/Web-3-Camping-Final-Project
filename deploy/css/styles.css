@@ -735,7 +735,7 @@ footer {
         margin-left: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-2 {
-        margin-top: 0px;
+        margin-top: -11%;
         margin-left: 0px; } }
   #section-2 #text-3 {
     margin-top: -50px;
@@ -746,15 +746,8 @@ footer {
         margin-right: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-3 {
-        margin-top: 0px;
+        margin-top: -1%;
         margin-right: 0px; } }
-  #section-2 #bug-pic {
-    background-image: url("../img/section-2/bug.svg");
-    background-position: center left;
-    background-size: 20vh;
-    background-repeat: no-repeat;
-    height: 100px;
-    margin: 0 0 -3% 2%; }
   #section-2 #text-4 {
     margin-top: 0px;
     margin-left: 80px; }
@@ -781,7 +774,7 @@ footer {
         margin-right: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-5 {
-        margin-top: 0px;
+        margin-top: -13%;
         margin-right: 0px; } }
   #section-2 #text-6 {
     margin-top: -50px;
@@ -806,7 +799,7 @@ footer {
         margin-right: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-7 {
-        margin-top: 0px;
+        margin-top: -9%;
         margin-right: 0px; } }
   #section-2 #text-8 {
     margin-top: -50px;
@@ -817,7 +810,7 @@ footer {
         margin-left: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-8 {
-        margin-top: 0px;
+        margin-top: -9%;
         margin-left: 0px; } }
   #section-2 #text-9 {
     margin-top: -70px;
@@ -831,7 +824,7 @@ footer {
         margin-right: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-9 {
-        margin-top: 50px;
+        margin-top: 3%;
         margin-right: 0px; } }
   #section-2 #text-10 {
     margin-top: -80px;
@@ -861,6 +854,49 @@ footer {
     @media (min-width: 1025px) {
       #section-2 #arrow {
         padding: 0 250px 30px 0; } }
+  #section-2 #hammock-pic {
+    background-image: url("../img/section-2/hammock.svg");
+    background-position: center right;
+    background-size: 25vh;
+    background-repeat: no-repeat;
+    height: 135px;
+    margin: -5% 5% 6% 0; }
+  #section-2 #sponge-pic {
+    background-image: url("../img/section-2/sponge.svg");
+    background-position: center right;
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    height: 140px;
+    margin: -6% 10% -3% 0; }
+  #section-2 #bug-pic {
+    background-image: url("../img/section-2/bug2.svg");
+    background-position: center left;
+    background-size: 25vh;
+    background-repeat: no-repeat;
+    height: 130px;
+    margin: -6% 0 10% 2%; }
+  #section-2 #spray-pic {
+    background-image: url("../img/section-2/spray.svg");
+    background-position: center right;
+    background-size: 10vh;
+    background-repeat: no-repeat;
+    height: 155px;
+    margin: -1% 10% -3% 0; }
+  #section-2 #Z-pic {
+    background-image: url("../img/section-2/Z.svg");
+    background-position: center left;
+    background-size: 25vh;
+    background-repeat: no-repeat;
+    height: 140px;
+    margin: 0 0 -3% 5%; }
+  #section-2 #money-pic {
+    background-image: url("../img/section-2/money.svg");
+    background-position: center left;
+    background-size: 25vh;
+    background-repeat: no-repeat;
+    height: 180px;
+    margin: -3% 0 -10% 13%; }
+
 /* =============
     Section 3
 ============= */
