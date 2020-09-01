@@ -748,6 +748,13 @@ footer {
       #section-2 #text-3 {
         margin-top: 0px;
         margin-right: 0px; } }
+  #section-2 #bug-pic {
+    background-image: url("../img/section-2/bug.svg");
+    background-position: center left;
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    height: 100px;
+    margin: 0 0 -3% 2%; }
   #section-2 #text-4 {
     margin-top: 0px;
     margin-left: 80px; }

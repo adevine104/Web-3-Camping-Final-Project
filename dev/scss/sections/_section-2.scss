@@ -1,266 +1,272 @@
 /* =============
     Section 2
 ============= */
-#section-2{
+#section-2 {
     background-color: $green;
 
-        
-        #line-small{
-            display: inline-block;
-            width: 75vw;
-            margin: 8% 0 -625% 12.5%;
 
-            @include md{
-                display: none;
-            }
+    #line-small {
+        display: inline-block;
+        width: 75vw;
+        margin: 8% 0 -625% 12.5%;
+
+        @include md {
+            display: none;
+        }
+    }
+
+    #line-medium {
+        display: none;
+
+        @include md {
+            display: inline-block;
+            width: 65vw;
+            margin: 8% 0 -190% 24%;
         }
 
+        @include lg {
+            display: none;
+        }
+    }
 
-            #line-medium{
-                display: none;
+    #line-large {
+        display: none;
 
-                @include md{
-                    display: inline-block;
-                    width: 65vw;
-                    margin: 8% 0 -190% 24%;
-                }
+        @include md {
+            display: none;
+        }
 
-                @include lg{
-                    display: none;
-                }
-            }
+        @include lg {
+            display: inline-block;
+            width: 55vw;
+            margin: 8% 0 -150% 24%;
+        }
+
+        @include xl {
+            width: 45vw;
+            margin: 8% 0 -119.5% 28%;
+        }
+    }
 
 
-            #line-large{
-                display: none;
-
-                @include md{
-                    display: none;
-                }
-
-                @include lg{
-                    display: inline-block;
-                    width: 55vw;
-                    margin: 8% 0 -150% 24%;
-                }
-
-                @include xl{
-                    width: 45vw;
-                    margin: 8% 0 -119.5% 28%;
-                }
-            }
-        
-    
-
-    h3{
+    h3 {
         color: white;
         margin: 20px 20px 20px 20px;
         font-size: rem-calc(22);
 
-        @include md{
+        @include md {
             font-size: rem-calc(24);
             margin: 0px 20px 0px 20px;
         }
 
-        @include lg{
+        @include lg {
             font-size: rem-calc(24);
             margin: 30px 80px 30px 80px;
         }
     }
-    
-    .left-side-text{
+
+    .left-side-text {
         padding: 50px 50px 150px 0;
 
-        @include md{
+        @include md {
             padding: 140px 550px 0 20px;
         }
 
-        @include lg{
+        @include lg {
             padding: 80px 600px 0 0;
         }
 
-        @include xl{
+        @include xl {
             padding: 80px 880px 0 0;
         }
     }
 
-    .right-side-text{
+    .right-side-text {
         text-align: right;
         padding: 50px 0px 150px 50px;
 
-        @include md{
+        @include md {
             padding: 140px 20px 0 550px;
         }
 
-        @include lg{
+        @include lg {
             padding: 80px 0 0 600px;
         }
-            
-        @include xl{
-        padding: 80px 0 0 880px;
+
+        @include xl {
+            padding: 80px 0 0 880px;
         }
     }
 
-    #text-2{
+    #text-2 {
         margin-top: -30px;
         margin-left: 80px;
 
-        @include md{
+        @include md {
             margin-top: -25px;
         }
 
-        @include lg{
+        @include lg {
             margin-top: 60px;
             margin-left: 0px;
         }
 
-        @include xl{
+        @include xl {
             margin-top: 0px;
             margin-left: 0px;
         }
     }
 
-    #text-3{
+    #text-3 {
         margin-top: -50px;
         margin-right: 80px;
 
-        @include lg{
+        @include lg {
             margin-top: 0px;
             margin-right: 0px;
         }
 
-        @include xl{
+        @include xl {
             margin-top: 0px;
             margin-right: 0px;
         }
     }
 
-    #text-4{
+    #bug-pic{
+        background-image: url("../img/section-2/bug.svg");
+        background-position: center left;
+        background-size: 20vh;
+        background-repeat: no-repeat;
+        height: 100px;
+        margin: 0 0 -3% 2%;
+    }
+
+    #text-4 {
         margin-top: 0px;
         margin-left: 80px;
 
-        @include md{
+        @include md {
             margin-top: -25px;
         }
 
-        @include lg{
+        @include lg {
             margin-top: 50px;
             margin-left: 0px;
         }
 
-        @include xl{
+        @include xl {
             margin-top: 0px;
             margin-left: 0px;
         }
     }
 
-    #text-5{
+    #text-5 {
         margin-top: -50px;
         margin-right: 80px;
 
-        @include md{
+        @include md {
             margin-top: -25px;
         }
 
-        @include lg{
+        @include lg {
             margin-top: 50px;
             margin-right: 0px;
         }
 
-        @include xl{
+        @include xl {
             margin-top: 0px;
             margin-right: 0px;
         }
     }
 
-    #text-6{
+    #text-6 {
         margin-top: -50px;
         margin-left: 80px;
 
-        @include md{
+        @include md {
             margin-top: -25px;
         }
 
-        @include lg{
+        @include lg {
             margin-top: 60px;
             margin-left: 0px;
         }
 
-        @include xl{
+        @include xl {
             margin-top: 0px;
             margin-left: 0px;
         }
     }
 
-    #text-7{
+    #text-7 {
         margin-top: -30px;
         margin-right: 100px;
 
-        @include lg{
+        @include lg {
             margin-top: 0px;
             margin-right: 0px;
         }
 
-        @include xl{
+        @include xl {
             margin-top: 0px;
             margin-right: 0px;
         }
     }
 
-    #text-8{
+    #text-8 {
         margin-top: -50px;
         margin-left: 80px;
 
-        @include lg{
+        @include lg {
             margin-top: 0px;
             margin-left: 0px;
         }
 
-        @include xl{
+        @include xl {
             margin-top: 0px;
             margin-left: 0px;
         }
     }
 
-    #text-9{
+    #text-9 {
         margin-top: -70px;
         margin-right: 100px;
 
-        @include md{
+        @include md {
             margin-top: -25px;
         }
 
-        @include lg{
+        @include lg {
             margin-top: 50px;
             margin-right: 0px;
         }
 
-        @include xl{
+        @include xl {
             margin-top: 50px;
             margin-right: 0px;
         }
     }
 
-    #text-10{
+    #text-10 {
         margin-top: -80px;
         margin-left: 80px;
 
-        @include md{
+        @include md {
             margin-top: -20px;
         }
 
-        @include lg{
+        @include lg {
             margin-top: 0px;
             margin-left: 0px;
         }
 
-        @include xl{
+        @include xl {
             margin-top: 0px;
             margin-left: 0px;
         }
     }
 
-    #arrow{
+    #arrow {
         color: $lightgreen;
         display: flex;
         justify-content: flex-end;
@@ -268,12 +274,12 @@
         padding: 0 100px 50px 0;
         margin-top: -130px;
 
-        @include md{
+        @include md {
             margin: 0;
             padding: 30px 100px 50px 0;
         }
 
-        @include lg{
+        @include lg {
             padding: 0 250px 30px 0;
         }
     }
