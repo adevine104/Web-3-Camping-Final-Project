@@ -729,10 +729,10 @@ footer {
     margin-left: 80px; }
     @media (min-width: 768px) {
       #section-2 #text-2 {
-        margin-top: -25px; } }
+        margin-top: -17%; } }
     @media (min-width: 1025px) {
       #section-2 #text-2 {
-        margin-top: 60px;
+        margin-top: -15%;
         margin-left: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-2 {
@@ -743,7 +743,7 @@ footer {
     margin-right: 80px; }
     @media (min-width: 1025px) {
       #section-2 #text-3 {
-        margin-top: 0px;
+        margin-top: -1%;
         margin-right: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-3 {
@@ -754,14 +754,14 @@ footer {
     margin-left: 80px; }
     @media (min-width: 768px) {
       #section-2 #text-4 {
-        margin-top: -25px; } }
+        margin-top: -50%; } }
     @media (min-width: 1025px) {
       #section-2 #text-4 {
-        margin-top: 50px;
+        margin-top: -7%;
         margin-left: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-4 {
-        margin-top: 0px;
+        margin-top: 1%;
         margin-left: 0px; } }
   #section-2 #text-5 {
     margin-top: -50px;
@@ -771,7 +771,7 @@ footer {
         margin-top: -25px; } }
     @media (min-width: 1025px) {
       #section-2 #text-5 {
-        margin-top: 50px;
+        margin-top: -16%;
         margin-right: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-5 {
@@ -785,7 +785,7 @@ footer {
         margin-top: -25px; } }
     @media (min-width: 1025px) {
       #section-2 #text-6 {
-        margin-top: 60px;
+        margin-top: 4%;
         margin-left: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-6 {
@@ -796,7 +796,7 @@ footer {
     margin-right: 100px; }
     @media (min-width: 1025px) {
       #section-2 #text-7 {
-        margin-top: 0px;
+        margin-top: -13%;
         margin-right: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-7 {
@@ -807,7 +807,7 @@ footer {
     margin-left: 80px; }
     @media (min-width: 1025px) {
       #section-2 #text-8 {
-        margin-top: 0px;
+        margin-top: -11%;
         margin-left: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-8 {
@@ -821,7 +821,7 @@ footer {
         margin-top: -25px; } }
     @media (min-width: 1025px) {
       #section-2 #text-9 {
-        margin-top: 50px;
+        margin-top: 1%;
         margin-right: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-9 {
@@ -835,7 +835,7 @@ footer {
         margin-top: -20px; } }
     @media (min-width: 1025px) {
       #section-2 #text-10 {
-        margin-top: 0px;
+        margin-top: -12%;
         margin-left: 0px; } }
     @media (min-width: 1200px) {
       #section-2 #text-10 {
@@ -854,21 +854,31 @@ footer {
         padding: 30px 100px 50px 0; } }
     @media (min-width: 1025px) {
       #section-2 #arrow {
-        padding: 0 250px 30px 0; } }
+        padding: 0 250px 80px 0; } }
   #section-2 #hammock-pic {
     background-image: url("../img/section-2/hammock.svg");
     background-position: center right;
     background-size: 25vh;
     background-repeat: no-repeat;
-    height: 135px;
-    margin: -5% 5% 6% 0; }
+    height: 135px; }
+    @media (min-width: 1025px) {
+      #section-2 #hammock-pic {
+        margin: -4% 5% 9% 0; } }
+    @media (min-width: 1200px) {
+      #section-2 #hammock-pic {
+        margin: -5% 5% 6% 0; } }
   #section-2 #sponge-pic {
     background-image: url("../img/section-2/sponge.svg");
     background-position: center right;
     background-size: 20vh;
     background-repeat: no-repeat;
-    height: 140px;
-    margin: -6% 10% -3% 0; }
+    height: 140px; }
+    @media (min-width: 1025px) {
+      #section-2 #sponge-pic {
+        margin: -4% 7% -5% 0; } }
+    @media (min-width: 1200px) {
+      #section-2 #sponge-pic {
+        margin: -5% 10% -5% 0; } }
   #section-2 #bug-pic {
     background-image: url("../img/section-2/bug2.svg");
     background-position: center left;
