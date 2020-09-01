@@ -502,7 +502,8 @@ header {
     grid-template-columns: repeat(2, 1fr); }
     header div #logo-container {
       padding: 10px 20px;
-      font-size: 1.875rem; }
+      font-size: 1.875rem;
+      color: #E86F11; }
     header div #burger-container {
       align-items: center;
       display: flex;
@@ -657,32 +658,32 @@ footer {
 #section-2 {
   background-color: #58624A; }
   #section-2 #line-small {
-    width: 45vw;
-    margin: 8% 0 -190% 21.5%; }
+    display: inline-block;
+    width: 75vw;
+    margin: 8% 0 -625% 12.5%; }
     @media (min-width: 768px) {
       #section-2 #line-small {
         display: none; } }
-    @media (min-width: 1025px) {
-      #section-2 #line-small {
-        display: none; } }
   #section-2 #line-medium {
-    width: 65vw;
-    margin: 8% 0 -180% 24%; }
-    @media (min-width: 576px) {
+    display: none; }
+    @media (min-width: 768px) {
       #section-2 #line-medium {
-        display: none; } }
+        display: inline-block;
+        width: 65vw;
+        margin: 8% 0 -190% 24%; } }
     @media (min-width: 1025px) {
       #section-2 #line-medium {
         display: none; } }
   #section-2 #line-large {
-    width: 55vw;
-    margin: 8% 0 -150% 24%; }
-    @media (min-width: 576px) {
-      #section-2 #line-large {
-        display: none; } }
+    display: none; }
     @media (min-width: 768px) {
       #section-2 #line-large {
         display: none; } }
+    @media (min-width: 1025px) {
+      #section-2 #line-large {
+        display: inline-block;
+        width: 55vw;
+        margin: 8% 0 -150% 24%; } }
     @media (min-width: 1200px) {
       #section-2 #line-large {
         width: 45vw;
@@ -690,45 +691,169 @@ footer {
   #section-2 h3 {
     color: white;
     margin: 20px 20px 20px 20px;
-    font-size: 1.25rem; }
+    font-size: 1.375rem; }
     @media (min-width: 768px) {
       #section-2 h3 {
-        font-size: 1.375rem;
+        font-size: 1.5rem;
         margin: 0px 20px 0px 20px; } }
     @media (min-width: 1025px) {
       #section-2 h3 {
         font-size: 1.5rem;
         margin: 30px 80px 30px 80px; } }
   #section-2 .left-side-text {
-    padding: 50px 50px 0 0; }
+    padding: 50px 50px 150px 0; }
     @media (min-width: 768px) {
       #section-2 .left-side-text {
         padding: 140px 550px 0 20px; } }
     @media (min-width: 1025px) {
       #section-2 .left-side-text {
-        padding: 80px 400px 0 0; } }
+        padding: 80px 600px 0 0; } }
     @media (min-width: 1200px) {
       #section-2 .left-side-text {
-        padding: 80px 850px 0 0; } }
+        padding: 80px 880px 0 0; } }
   #section-2 .right-side-text {
     text-align: right;
-    padding: 50px 50px 0 0; }
+    padding: 50px 0px 150px 50px; }
     @media (min-width: 768px) {
       #section-2 .right-side-text {
         padding: 140px 20px 0 550px; } }
     @media (min-width: 1025px) {
       #section-2 .right-side-text {
-        padding: 80px 0 0 400px; } }
+        padding: 80px 0 0 600px; } }
     @media (min-width: 1200px) {
       #section-2 .right-side-text {
-        padding: 80px 0 0 850px; } }
+        padding: 80px 0 0 880px; } }
+  #section-2 #text-2 {
+    margin-top: -30px;
+    margin-left: 80px; }
+    @media (min-width: 768px) {
+      #section-2 #text-2 {
+        margin-top: -25px; } }
+    @media (min-width: 1025px) {
+      #section-2 #text-2 {
+        margin-top: 60px;
+        margin-left: 0px; } }
+    @media (min-width: 1200px) {
+      #section-2 #text-2 {
+        margin-top: 0px;
+        margin-left: 0px; } }
+  #section-2 #text-3 {
+    margin-top: -50px;
+    margin-right: 80px; }
+    @media (min-width: 1025px) {
+      #section-2 #text-3 {
+        margin-top: 0px;
+        margin-right: 0px; } }
+    @media (min-width: 1200px) {
+      #section-2 #text-3 {
+        margin-top: 0px;
+        margin-right: 0px; } }
+  #section-2 #text-4 {
+    margin-top: 0px;
+    margin-left: 80px; }
+    @media (min-width: 768px) {
+      #section-2 #text-4 {
+        margin-top: -25px; } }
+    @media (min-width: 1025px) {
+      #section-2 #text-4 {
+        margin-top: 50px;
+        margin-left: 0px; } }
+    @media (min-width: 1200px) {
+      #section-2 #text-4 {
+        margin-top: 0px;
+        margin-left: 0px; } }
+  #section-2 #text-5 {
+    margin-top: -50px;
+    margin-right: 80px; }
+    @media (min-width: 768px) {
+      #section-2 #text-5 {
+        margin-top: -25px; } }
+    @media (min-width: 1025px) {
+      #section-2 #text-5 {
+        margin-top: 50px;
+        margin-right: 0px; } }
+    @media (min-width: 1200px) {
+      #section-2 #text-5 {
+        margin-top: 0px;
+        margin-right: 0px; } }
+  #section-2 #text-6 {
+    margin-top: -50px;
+    margin-left: 80px; }
+    @media (min-width: 768px) {
+      #section-2 #text-6 {
+        margin-top: -25px; } }
+    @media (min-width: 1025px) {
+      #section-2 #text-6 {
+        margin-top: 60px;
+        margin-left: 0px; } }
+    @media (min-width: 1200px) {
+      #section-2 #text-6 {
+        margin-top: 0px;
+        margin-left: 0px; } }
+  #section-2 #text-7 {
+    margin-top: -30px;
+    margin-right: 100px; }
+    @media (min-width: 1025px) {
+      #section-2 #text-7 {
+        margin-top: 0px;
+        margin-right: 0px; } }
+    @media (min-width: 1200px) {
+      #section-2 #text-7 {
+        margin-top: 0px;
+        margin-right: 0px; } }
+  #section-2 #text-8 {
+    margin-top: -50px;
+    margin-left: 80px; }
+    @media (min-width: 1025px) {
+      #section-2 #text-8 {
+        margin-top: 0px;
+        margin-left: 0px; } }
+    @media (min-width: 1200px) {
+      #section-2 #text-8 {
+        margin-top: 0px;
+        margin-left: 0px; } }
+  #section-2 #text-9 {
+    margin-top: -70px;
+    margin-right: 100px; }
+    @media (min-width: 768px) {
+      #section-2 #text-9 {
+        margin-top: -25px; } }
+    @media (min-width: 1025px) {
+      #section-2 #text-9 {
+        margin-top: 50px;
+        margin-right: 0px; } }
+    @media (min-width: 1200px) {
+      #section-2 #text-9 {
+        margin-top: 50px;
+        margin-right: 0px; } }
+  #section-2 #text-10 {
+    margin-top: -80px;
+    margin-left: 80px; }
+    @media (min-width: 768px) {
+      #section-2 #text-10 {
+        margin-top: -20px; } }
+    @media (min-width: 1025px) {
+      #section-2 #text-10 {
+        margin-top: 0px;
+        margin-left: 0px; } }
+    @media (min-width: 1200px) {
+      #section-2 #text-10 {
+        margin-top: 0px;
+        margin-left: 0px; } }
   #section-2 #arrow {
     color: #A7B9AE;
     display: flex;
     justify-content: flex-end;
     font-size: 1.875rem;
-    padding: 0 250px 30px 0; }
-
+    padding: 0 100px 50px 0;
+    margin-top: -130px; }
+    @media (min-width: 768px) {
+      #section-2 #arrow {
+        margin: 0;
+        padding: 30px 100px 50px 0; } }
+    @media (min-width: 1025px) {
+      #section-2 #arrow {
+        padding: 0 250px 30px 0; } }
 /* =============
     Section 3
 ============= */
