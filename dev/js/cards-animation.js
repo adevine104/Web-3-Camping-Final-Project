@@ -1,4 +1,18 @@
 /* =============
+    Card-1
+============= */
+
+var card1AnimationTimeline = gsap.timeline({
+    paused: true
+});
+
+var creaturesSpeed = 1;
+
+card1AnimationTimeline.addLabel("plantBearToUp")
+                      .to("#bear-1",{duration:creaturesSpeed, y:90 }, "bear")
+                      .to("#ivy-1",{duration:creaturesSpeed, y:90 }, "ivy")
+
+/* =============
     Card-3
 ============= */
 

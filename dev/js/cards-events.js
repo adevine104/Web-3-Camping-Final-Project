@@ -1,3 +1,12 @@
+$("#a1").on("mouseenter", function () {
+    console.log("animate");
+    card1AnimationTimeline.play();
+});
+$("#a1").on("mouseleave", function () {
+    console.log("animate");
+    card1AnimationTimeline.reverse();
+});
+
 $("#a3").on("mouseenter", function () {
     console.log("animate");
     card3AnimationTimeline.play();
