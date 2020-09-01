@@ -652,16 +652,45 @@ footer {
 ============= */
 #section-2 {
   background-color: #58624A; }
-  #section-2 #dotted-line {
+  #section-2 #line-small {
     width: 45vw;
-    margin: 8% 0 -130% 21.5%; }
+    margin: 8% 0 -190% 21.5%; }
+    @media (min-width: 768px) {
+      #section-2 #line-small {
+        display: none; } }
     @media (min-width: 1025px) {
-      #section-2 #dotted-line {
+      #section-2 #line-small {
+        display: none; } }
+  #section-2 #line-medium {
+    width: 65vw;
+    margin: 8% 0 -180% 24%; }
+    @media (min-width: 576px) {
+      #section-2 #line-medium {
+        display: none; } }
+    @media (min-width: 1025px) {
+      #section-2 #line-medium {
+        display: none; } }
+  #section-2 #line-large {
+    width: 55vw;
+    margin: 8% 0 -150% 24%; }
+    @media (min-width: 576px) {
+      #section-2 #line-large {
+        display: none; } }
+    @media (min-width: 768px) {
+      #section-2 #line-large {
+        display: none; } }
+    @media (min-width: 1200px) {
+      #section-2 #line-large {
+        width: 45vw;
         margin: 8% 0 -119.5% 28%; } }
   #section-2 h3 {
     color: white;
     margin: 20px 20px 20px 20px;
     font-size: 1.25rem; }
+    @media (min-width: 768px) {
+      #section-2 h3 {
+        font-size: 1.375rem;
+        margin: 0px 20px 0px 20px; } }
     @media (min-width: 1025px) {
       #section-2 h3 {
         font-size: 1.5rem;
@@ -670,10 +699,10 @@ footer {
     padding: 50px 50px 0 0; }
     @media (min-width: 768px) {
       #section-2 .left-side-text {
-        padding: 80px 850px 0 0; } }
+        padding: 140px 550px 0 20px; } }
     @media (min-width: 1025px) {
       #section-2 .left-side-text {
-        padding: 80px 850px 0 0; } }
+        padding: 80px 400px 0 0; } }
     @media (min-width: 1200px) {
       #section-2 .left-side-text {
         padding: 80px 850px 0 0; } }
@@ -682,10 +711,10 @@ footer {
     padding: 50px 50px 0 0; }
     @media (min-width: 768px) {
       #section-2 .right-side-text {
-        padding: 80px 0 0 850px; } }
+        padding: 140px 20px 0 550px; } }
     @media (min-width: 1025px) {
       #section-2 .right-side-text {
-        padding: 80px 0 0 850px; } }
+        padding: 80px 0 0 400px; } }
     @media (min-width: 1200px) {
       #section-2 .right-side-text {
         padding: 80px 0 0 850px; } }

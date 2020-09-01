@@ -4,20 +4,69 @@
 #section-2{
     background-color: $green;
 
-    #dotted-line{
-        width: 45vw;
-        // position: absolute;
-        margin: 8% 0 -130% 21.5%;
 
-        @include lg{
-            margin: 8% 0 -119.5% 28%;
-        }
-    }
+            #line-small{
+
+                width: 45vw;
+                margin: 8% 0 -190% 21.5%;
+
+                @include md{
+                    display: none;
+                }
+
+                @include lg{
+                    display: none;
+                }
+            }
+
+
+            #line-medium{
+
+                @include sm{
+                    display: none;
+                }
+
+                // @include md{
+                    width: 65vw;
+                    margin: 8% 0 -180% 24%;
+                // }
+
+                @include lg{
+                    display: none;
+                }
+            }
+
+
+            #line-large{
+
+                @include sm{
+                    display: none;
+                }
+
+                @include md{
+                    display: none;
+                }
+
+                width: 55vw;
+                margin: 8% 0 -150% 24%;
+
+                @include xl{
+                    width: 45vw;
+                    margin: 8% 0 -119.5% 28%;
+                }
+            }
+        
+    
 
     h3{
         color: white;
         margin: 20px 20px 20px 20px;
         font-size: rem-calc(20);
+
+        @include md{
+            font-size: rem-calc(22);
+            margin: 0px 20px 0px 20px;
+        }
 
         @include lg{
             font-size: rem-calc(24);
@@ -29,11 +78,11 @@
         padding: 50px 50px 0 0;
 
         @include md{
-            padding: 80px 850px 0 0;
+            padding: 140px 550px 0 20px;
         }
 
         @include lg{
-            padding: 80px 850px 0 0;
+            padding: 80px 400px 0 0;
         }
 
         @include xl{
@@ -46,11 +95,11 @@
         padding: 50px 50px 0 0;
 
         @include md{
-            padding: 80px 0 0 850px;
+            padding: 140px 20px 0 550px;
         }
 
         @include lg{
-            padding: 80px 0 0 850px;
+            padding: 80px 0 0 400px;
         }
             
         @include xl{

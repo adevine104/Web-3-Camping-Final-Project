@@ -30,6 +30,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/section-1/camping-hero2.jpg": {
+		"ft": 16384,
+		"iS": 221894,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/camping-hero2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-1/camping-hero3.jpg": {
+		"ft": 16384,
+		"iS": 230591,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/camping-hero3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-1/camping-hero4.jpg": {
+		"ft": 16384,
+		"iS": 185216,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/camping-hero4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/section-4/backpack.jpg": {
 		"ft": 16384,
 		"iS": 1724273,
@@ -271,17 +304,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/scripts-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/scripts-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,
@@ -397,6 +419,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/components/_tinySlider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/components/_tinySlider.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -604,6 +639,28 @@
 		"oA": 1,
 		"oAP": "/dev/section-6.html",
 		"oF": 0
+		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
+		"oF": 0
+		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		}
 	},
 "hooks": [
@@ -1881,7 +1938,7 @@
 			},
 		"no-void": {
 			"active": 0,
-			"optionString": "{'allowAsStatement': false}"
+			"optionString": ""
 			},
 		"no-warning-comments": {
 			"active": 0,
@@ -2132,7 +2189,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "gsap,ScrollToPlugin, tns, ScrollTrigger, DrawSVGPlugin",
+	"jsCheckerReservedNamesString": "gsap, ScrollTrigger, DrawSVGPlugin, tns, ScrollToPlugin",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
@@ -2651,7 +2708,7 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
-		"compilerType": 0,
+		"compilerType": 1,
 		"createSourceMap": 0,
 		"decimalPrecision": 10,
 		"emitCharset": 1,
