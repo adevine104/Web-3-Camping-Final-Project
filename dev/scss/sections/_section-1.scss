@@ -59,6 +59,7 @@
             grid-area: intro-text;
             padding: 2% 2% 8% 2%;
             text-align: center;
+            color: $darkgreen;
 
             @include md {
                 padding: 1% 2% 4% 2%;
