@@ -84,7 +84,7 @@ card7AnimationTimeline.addLabel("waterToOut")
 
 
 /* =============
-    Card-9
+    Card-8
 ============= */
 
 var card8AnimationTimeline = gsap.timeline({
