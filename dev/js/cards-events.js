@@ -1,3 +1,21 @@
+$("#a1").on("mouseenter", function () {
+    console.log("animate");
+    card1AnimationTimeline.play();
+});
+$("#a1").on("mouseleave", function () {
+    console.log("animate");
+    card1AnimationTimeline.reverse();
+});
+
+$("#a2").on("mouseenter", function () {
+    console.log("animate");
+    card2AnimationTimeline.play();
+});
+$("#a2").on("mouseleave", function () {
+    console.log("animate");
+    card2AnimationTimeline.reverse();
+});
+
 $("#a3").on("mouseenter", function () {
     console.log("animate");
     card3AnimationTimeline.play();
@@ -14,6 +32,15 @@ $("#a4").on("mouseenter", function () {
 $("#a4").on("mouseleave", function () {
     console.log("animate");
     card4AnimationTimeline.reverse();
+});
+
+$("#a5").on("mouseenter", function () {
+    console.log("animate");
+    card5AnimationTimeline.play();
+});
+$("#a5").on("mouseleave", function () {
+    console.log("animate");
+    card5AnimationTimeline.reverse();
 });
 
 $("#a6").on("mouseenter", function () {

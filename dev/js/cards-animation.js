@@ -1,4 +1,35 @@
 /* =============
+    Card-1
+============= */
+
+var card1AnimationTimeline = gsap.timeline({
+    paused: true
+});
+
+var creaturesSpeed = .7;
+
+card1AnimationTimeline.addLabel("plantBearToUp")
+                      .to("#bear-1",{duration:creaturesSpeed, y:90 }, "bear")
+                      .to("#ivy-1",{duration:creaturesSpeed, y:90 }, "ivy")
+
+/* =============
+    Card-2
+============= */
+
+var card2AnimationTimeline = gsap.timeline({
+    paused: true
+});
+
+var foodsSpeed = .9;
+var doorSpeed = .1;
+
+card2AnimationTimeline.addLabel("foodsToTent")
+                      .to("#foods",{duration:foodsSpeed, x:110 }, "foods")
+                      .to("#foods",{duration:foodsSpeed, y:110, x:145 }, "foods1")
+                      .to("#door2-2",{duration:doorSpeed, x:17, y:4 }, "door")
+                      .to("#door1-2",{duration:doorSpeed, x:-23, y:-4.5 }, "door")
+
+/* =============
     Card-3
 ============= */
 
@@ -13,8 +44,7 @@ card3AnimationTimeline.addLabel("bearToUp")
                       .to("#bear-3",{duration:bearSpeed, y:70}, "bear")
                       .addPause()
                       .addLabel("bearToUpReverse")
-                
-                      
+                                  
 /* =============
     Card-4
 ============= */
@@ -33,7 +63,25 @@ card4AnimationTimeline.addLabel("cloudToSun")
                       .to("#sun-4",{duration:skySpeed, y:-20, x:20 }, "sky")
                       .addPause()
                       .addLabel("bearToUpReverse")
-                      
+
+/* =============
+    Card-5
+============= */
+
+var card5AnimationTimeline = gsap.timeline({
+    paused: true
+});    
+
+var bucketSpeed = .9;
+var fireSpeed = 2;
+
+card5AnimationTimeline.addLabel("fireToOut")
+                      .to("#bucket-5",{duration:bucketSpeed, y:100, x:225, rotate:-50 }, "bucket")
+                      .to("#water-5",{duration:bucketSpeed, scale:40, transformOrigin:"100%", y:-15, x:-20, alpha:0 }, "waterFire")
+                      .to("#b-2-5",{duration:bucketSpeed, fill:"#507FB3" }, "waterFire")
+                      .to("#f1-5",{duration:fireSpeed, alpha:0 }, "waterFire")
+                      .to("#f2-5",{duration:fireSpeed, alpha:0 }, "waterFire")
+                      .to("#smoke-5",{duration:fireSpeed, transformOrigin:"20% 100%", scale:10, alpha:0}, "waterFire")
 
 /* =============
     Card-6
@@ -59,7 +107,6 @@ card6AnimationTimeline.addLabel("bugToNone")
                       .to("#bug7-6",{duration:bugSpeed, alpha:0}, "smoke")
                       .to("#bug8-6",{duration:bugSpeed, alpha:0}, "smoke")
                 
-
 /* =============
     Card-7
 ============= */
@@ -82,7 +129,6 @@ card7AnimationTimeline.addLabel("waterToOut")
                       .to("#water1-7",{duration:waterSpeed, x:30 }, "water3")
                       .to("#water2-7",{duration:waterSpeed, x:30 }, "water3")
 
-
 /* =============
     Card-8
 ============= */
@@ -97,9 +143,6 @@ card8AnimationTimeline.addLabel("trashToCan")
                       .to("#banana-8",{duration:trashSpeed, x:32 }, "trash")
                       .to("#marshmellow-8",{duration:trashSpeed, x:30 }, "trash")
                       .to("#spray-8",{duration:trashSpeed, x:33 }, "trash")
-
-
-
 
 /* =============
     Card-9

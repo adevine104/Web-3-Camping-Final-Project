@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
 
     var typed = new Typed(".type", {
@@ -8,7 +7,6 @@ $(document).ready(function () {
             "Camping?"
         ],
         typeSpeed: 60,
-        backSpeed: 60,
-        // loop: true
+        backSpeed: 60
     });
 });
