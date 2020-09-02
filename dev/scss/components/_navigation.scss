@@ -40,11 +40,13 @@
                 width: 100%;
 
                 @include md {
-                    font-size: rem-calc(30);
+                    font-size: rem-calc(45);
+                    padding-top: 10%;
                 }
 
                 @include lg {
                     font-size: rem-calc(40);
+                    padding-top: 3%;
                 }
 
                 @include xl {
