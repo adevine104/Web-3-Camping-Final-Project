@@ -64,6 +64,19 @@ card4AnimationTimeline.addLabel("cloudToSun")
                       .to("#sun-4",{duration:skySpeed, y:-20, x:20 }, "sky")
                       .addPause()
                       .addLabel("bearToUpReverse")
+
+
+
+/* =============
+    Card-5
+============= */
+
+var card5AnimationTimeline = gsap.timeline({
+    paused: true
+});    
+
+
+card5AnimationTimeline.addLabel("fireToOut")
                       
 
 /* =============

@@ -34,6 +34,15 @@ $("#a4").on("mouseleave", function () {
     card4AnimationTimeline.reverse();
 });
 
+$("#a5").on("mouseenter", function () {
+    console.log("animate");
+    card5AnimationTimeline.play();
+});
+$("#a5").on("mouseleave", function () {
+    console.log("animate");
+    card5AnimationTimeline.reverse();
+});
+
 $("#a6").on("mouseenter", function () {
     console.log("animate");
     card6AnimationTimeline.play();
