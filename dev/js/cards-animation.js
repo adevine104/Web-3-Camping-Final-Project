@@ -75,9 +75,16 @@ var card5AnimationTimeline = gsap.timeline({
     paused: true
 });    
 
+var bucketSpeed = .9;
+var fireSpeed = 2;
 
 card5AnimationTimeline.addLabel("fireToOut")
-                      
+                      .to("#bucket-5",{duration:bucketSpeed, y:100, x:225, rotate:-50 }, "bucket")
+                      .to("#water-5",{duration:bucketSpeed, scale:40, transformOrigin:"100%", y:-15, x:-20, alpha:0 }, "waterFire")
+                      .to("#b-2-5",{duration:bucketSpeed, fill:"#507FB3" }, "waterFire")
+                      .to("#f1-5",{duration:fireSpeed, alpha:0 }, "waterFire")
+                      .to("#f2-5",{duration:fireSpeed, alpha:0 }, "waterFire")
+                      .to("#smoke-5",{duration:fireSpeed, transformOrigin:"20% 100%", scale:10, alpha:0}, "waterFire")
 
 /* =============
     Card-6
