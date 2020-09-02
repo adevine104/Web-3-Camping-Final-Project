@@ -44,8 +44,7 @@ card3AnimationTimeline.addLabel("bearToUp")
                       .to("#bear-3",{duration:bearSpeed, y:70}, "bear")
                       .addPause()
                       .addLabel("bearToUpReverse")
-                
-                      
+                                  
 /* =============
     Card-4
 ============= */
@@ -64,8 +63,6 @@ card4AnimationTimeline.addLabel("cloudToSun")
                       .to("#sun-4",{duration:skySpeed, y:-20, x:20 }, "sky")
                       .addPause()
                       .addLabel("bearToUpReverse")
-
-
 
 /* =============
     Card-5
@@ -110,7 +107,6 @@ card6AnimationTimeline.addLabel("bugToNone")
                       .to("#bug7-6",{duration:bugSpeed, alpha:0}, "smoke")
                       .to("#bug8-6",{duration:bugSpeed, alpha:0}, "smoke")
                 
-
 /* =============
     Card-7
 ============= */
@@ -133,7 +129,6 @@ card7AnimationTimeline.addLabel("waterToOut")
                       .to("#water1-7",{duration:waterSpeed, x:30 }, "water3")
                       .to("#water2-7",{duration:waterSpeed, x:30 }, "water3")
 
-
 /* =============
     Card-8
 ============= */
@@ -148,9 +143,6 @@ card8AnimationTimeline.addLabel("trashToCan")
                       .to("#banana-8",{duration:trashSpeed, x:32 }, "trash")
                       .to("#marshmellow-8",{duration:trashSpeed, x:30 }, "trash")
                       .to("#spray-8",{duration:trashSpeed, x:33 }, "trash")
-
-
-
 
 /* =============
     Card-9
