@@ -13,6 +13,23 @@ card1AnimationTimeline.addLabel("plantBearToUp")
                       .to("#ivy-1",{duration:creaturesSpeed, y:90 }, "ivy")
 
 /* =============
+    Card-2
+============= */
+
+var card2AnimationTimeline = gsap.timeline({
+    paused: true
+});
+
+var foodsSpeed = .9;
+var doorSpeed = .1;
+
+card2AnimationTimeline.addLabel("foodsToTent")
+                      .to("#foods",{duration:foodsSpeed, x:110 }, "foods")
+                      .to("#foods",{duration:foodsSpeed, y:110, x:145 }, "foods1")
+                      .to("#door2-2",{duration:doorSpeed, x:17, y:4 }, "door")
+                      .to("#door1-2",{duration:doorSpeed, x:-23, y:-4.5 }, "door")
+
+/* =============
     Card-3
 ============= */
 

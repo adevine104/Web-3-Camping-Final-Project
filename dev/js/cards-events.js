@@ -7,6 +7,15 @@ $("#a1").on("mouseleave", function () {
     card1AnimationTimeline.reverse();
 });
 
+$("#a2").on("mouseenter", function () {
+    console.log("animate");
+    card2AnimationTimeline.play();
+});
+$("#a2").on("mouseleave", function () {
+    console.log("animate");
+    card2AnimationTimeline.reverse();
+});
+
 $("#a3").on("mouseenter", function () {
     console.log("animate");
     card3AnimationTimeline.play();
