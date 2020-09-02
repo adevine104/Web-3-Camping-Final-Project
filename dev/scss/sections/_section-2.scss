@@ -21,7 +21,7 @@
         @include md {
             display: inline-block;
             width: 65vw;
-            margin: 8% 0 -190% 24%;
+            margin: 8% 0 -190% 18%;
         }
 
         @include lg {
@@ -138,7 +138,7 @@
         margin-left: 80px;
 
         @include md {
-            margin-top: -50%;
+            margin-top: -17%;
         }
 
         @include lg {
@@ -157,7 +157,7 @@
         margin-right: 80px;
 
         @include md {
-            margin-top: -25px;
+            margin-top: -18%;
         }
 
         @include lg {
@@ -194,6 +194,10 @@
         margin-top: -30px;
         margin-right: 100px;
 
+        @include md {
+            margin-top: -24%;
+        }
+
         @include lg {
             margin-top: -13%;
             margin-right: 0px;
@@ -208,6 +212,10 @@
     #text-8 {
         margin-top: -50px;
         margin-left: 80px;
+
+        @include md {
+            margin-top: -25%;
+        }
 
         @include lg {
             margin-top: -11%;
@@ -225,7 +233,7 @@
         margin-right: 100px;
 
         @include md {
-            margin-top: -25px;
+            margin-top: -2%;
         }
 
         @include lg {
@@ -244,7 +252,7 @@
         margin-left: 80px;
 
         @include md {
-            margin-top: -20px;
+            margin-top: -23%;
         }
 
         @include lg {
@@ -283,7 +291,15 @@
         background-repeat: no-repeat;
         height: 135px;
 
+        @include md{
+            background-size: 15vh;
+            height: 130px;
+            margin: -4% 2% 5% 0;
+        }
+
         @include lg{
+            background-size: 25vh;
+            height: 135px;
             margin: -4% 5% 9% 0;
         }
 
@@ -299,7 +315,15 @@
         background-repeat: no-repeat;
         height: 140px;
 
+        @include md{
+            background-size: 12vh;
+            height: 130px;
+            margin: -4% 2% 5% 0;
+        }
+
         @include lg{
+            background-size: 20vh;
+            height: 140px;
             margin: -4% 7% -5% 0;
         }
 
@@ -315,6 +339,18 @@
         background-repeat: no-repeat;
         height: 130px;
         margin: -6% 0 10% 2%;
+
+        @include md{
+            background-size: 14vh;
+            height: 130px;
+            margin: -3% 0% 6% 1%;
+        }
+
+        @include lg{
+            background-size: 25vh;
+            height: 130px;
+            margin: -6% 0 10% 2%;
+        }
     }
 
     #spray-pic{
@@ -324,6 +360,18 @@
         background-repeat: no-repeat;
         height: 155px;
         margin: -1% 10% -3% 0;
+
+        @include md{
+            background-size: 5vh;
+            height: 130px;
+            margin: 2% 7% 6% 0%;
+        }
+
+        @include lg{
+            background-size: 10vh;
+            height: 155px;
+            margin: -1% 10% -3% 0;
+        }
     }
 
     #Z-pic{
@@ -333,6 +381,18 @@
         background-repeat: no-repeat;
         height: 140px;
         margin: 0 0 -3% 5%;
+
+        @include md{
+            background-size: 14vh;
+            height: 130px;
+            margin: 1% 0% 6% 4%;
+        }
+
+        @include lg{
+            background-size: 25vh;
+            height: 140px;
+            margin: 0 0 -3% 5%;
+        }
     }
 
     #money-pic{
@@ -342,6 +402,18 @@
         background-repeat: no-repeat;
         height: 180px;
         margin: -3% 0 -10% 13%;
+
+        @include md{
+            background-size: 15vh;
+            height: 170px;
+            margin: 2% 7% 6% 8%;
+        }
+
+        @include lg{
+            background-size: 25vh;
+            height: 180px;
+            margin: -3% 0 -10% 13%;
+        }
     }
 
 }

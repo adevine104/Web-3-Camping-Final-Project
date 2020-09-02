@@ -671,7 +671,7 @@ footer {
       #section-2 #line-medium {
         display: inline-block;
         width: 65vw;
-        margin: 8% 0 -190% 24%; } }
+        margin: 8% 0 -190% 18%; } }
     @media (min-width: 1025px) {
       #section-2 #line-medium {
         display: none; } }
@@ -754,7 +754,7 @@ footer {
     margin-left: 80px; }
     @media (min-width: 768px) {
       #section-2 #text-4 {
-        margin-top: -50%; } }
+        margin-top: -17%; } }
     @media (min-width: 1025px) {
       #section-2 #text-4 {
         margin-top: -7%;
@@ -768,7 +768,7 @@ footer {
     margin-right: 80px; }
     @media (min-width: 768px) {
       #section-2 #text-5 {
-        margin-top: -25px; } }
+        margin-top: -18%; } }
     @media (min-width: 1025px) {
       #section-2 #text-5 {
         margin-top: -16%;
@@ -794,6 +794,9 @@ footer {
   #section-2 #text-7 {
     margin-top: -30px;
     margin-right: 100px; }
+    @media (min-width: 768px) {
+      #section-2 #text-7 {
+        margin-top: -24%; } }
     @media (min-width: 1025px) {
       #section-2 #text-7 {
         margin-top: -13%;
@@ -805,6 +808,9 @@ footer {
   #section-2 #text-8 {
     margin-top: -50px;
     margin-left: 80px; }
+    @media (min-width: 768px) {
+      #section-2 #text-8 {
+        margin-top: -25%; } }
     @media (min-width: 1025px) {
       #section-2 #text-8 {
         margin-top: -11%;
@@ -818,7 +824,7 @@ footer {
     margin-right: 100px; }
     @media (min-width: 768px) {
       #section-2 #text-9 {
-        margin-top: -25px; } }
+        margin-top: -2%; } }
     @media (min-width: 1025px) {
       #section-2 #text-9 {
         margin-top: 1%;
@@ -832,7 +838,7 @@ footer {
     margin-left: 80px; }
     @media (min-width: 768px) {
       #section-2 #text-10 {
-        margin-top: -20px; } }
+        margin-top: -23%; } }
     @media (min-width: 1025px) {
       #section-2 #text-10 {
         margin-top: -12%;
@@ -861,8 +867,15 @@ footer {
     background-size: 25vh;
     background-repeat: no-repeat;
     height: 135px; }
+    @media (min-width: 768px) {
+      #section-2 #hammock-pic {
+        background-size: 15vh;
+        height: 130px;
+        margin: -4% 2% 5% 0; } }
     @media (min-width: 1025px) {
       #section-2 #hammock-pic {
+        background-size: 25vh;
+        height: 135px;
         margin: -4% 5% 9% 0; } }
     @media (min-width: 1200px) {
       #section-2 #hammock-pic {
@@ -873,8 +886,15 @@ footer {
     background-size: 20vh;
     background-repeat: no-repeat;
     height: 140px; }
+    @media (min-width: 768px) {
+      #section-2 #sponge-pic {
+        background-size: 12vh;
+        height: 130px;
+        margin: -4% 2% 5% 0; } }
     @media (min-width: 1025px) {
       #section-2 #sponge-pic {
+        background-size: 20vh;
+        height: 140px;
         margin: -4% 7% -5% 0; } }
     @media (min-width: 1200px) {
       #section-2 #sponge-pic {
@@ -886,6 +906,16 @@ footer {
     background-repeat: no-repeat;
     height: 130px;
     margin: -6% 0 10% 2%; }
+    @media (min-width: 768px) {
+      #section-2 #bug-pic {
+        background-size: 14vh;
+        height: 130px;
+        margin: -3% 0% 6% 1%; } }
+    @media (min-width: 1025px) {
+      #section-2 #bug-pic {
+        background-size: 25vh;
+        height: 130px;
+        margin: -6% 0 10% 2%; } }
   #section-2 #spray-pic {
     background-image: url("../img/section-2/spray.svg");
     background-position: center right;
@@ -893,6 +923,16 @@ footer {
     background-repeat: no-repeat;
     height: 155px;
     margin: -1% 10% -3% 0; }
+    @media (min-width: 768px) {
+      #section-2 #spray-pic {
+        background-size: 5vh;
+        height: 130px;
+        margin: 2% 7% 6% 0%; } }
+    @media (min-width: 1025px) {
+      #section-2 #spray-pic {
+        background-size: 10vh;
+        height: 155px;
+        margin: -1% 10% -3% 0; } }
   #section-2 #Z-pic {
     background-image: url("../img/section-2/Z.svg");
     background-position: center left;
@@ -900,6 +940,16 @@ footer {
     background-repeat: no-repeat;
     height: 140px;
     margin: 0 0 -3% 5%; }
+    @media (min-width: 768px) {
+      #section-2 #Z-pic {
+        background-size: 14vh;
+        height: 130px;
+        margin: 1% 0% 6% 4%; } }
+    @media (min-width: 1025px) {
+      #section-2 #Z-pic {
+        background-size: 25vh;
+        height: 140px;
+        margin: 0 0 -3% 5%; } }
   #section-2 #money-pic {
     background-image: url("../img/section-2/money.svg");
     background-position: center left;
@@ -907,7 +957,16 @@ footer {
     background-repeat: no-repeat;
     height: 180px;
     margin: -3% 0 -10% 13%; }
-
+    @media (min-width: 768px) {
+      #section-2 #money-pic {
+        background-size: 15vh;
+        height: 170px;
+        margin: 2% 7% 6% 8%; } }
+    @media (min-width: 1025px) {
+      #section-2 #money-pic {
+        background-size: 25vh;
+        height: 180px;
+        margin: -3% 0 -10% 13%; } }
 /* =============
     Section 3
 ============= */
