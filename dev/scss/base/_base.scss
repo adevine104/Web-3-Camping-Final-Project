@@ -1,37 +1,38 @@
 /* =============
     Base
 ============= */
-html,body
-{
-    overflow-x: hidden; 
+html,
+body {
+    overflow-x: hidden;
     border-color: red;
 }
 
-figure{
+figure {
     padding: 0;
     margin: 0;
 }
 
-ul{
+ul {
     padding: 0;
     margin: 0;
-    li{
+
+    li {
         list-style: none;
     }
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.content-spacing{
+.content-spacing {
     padding: 50px 0 30px;
 
-    @include md{
+    @include md {
         padding: 60px 0 40px;
     }
 
-    @include lg{
+    @include lg {
         padding: 70px 0 50px;
     }
 }

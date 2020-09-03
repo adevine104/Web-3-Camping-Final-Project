@@ -3,8 +3,6 @@
 gsap.set("#up-left-arrow",{transformOrigin:"right center", alpha:0});
 gsap.set("#up-right-arrow",{transformOrigin:"right center", alpha:0});
 
-
-
 $("#burger").on("mouseenter", function(){
     //console.log("mouse enter");
     //console.log(canYouSeeTheMenu + " menu visible");
@@ -15,7 +13,6 @@ $("#burger").on("mouseenter", function(){
         burgerAnimationTimeLine.play("downArrowToX");
     }
 })
-
 
 $("#burger").on("mouseleave", function(){
     if(canYouSeeTheMenu === false){
