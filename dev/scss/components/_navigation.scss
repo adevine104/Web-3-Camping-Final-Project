@@ -16,7 +16,7 @@
     padding-top: 120px;
 
     @include md{
-        padding-top: 200px;
+        padding-top: 150px;
     }
 
     @include lg{
@@ -40,8 +40,8 @@
                 width: 100%;
 
                 @include md {
-                    font-size: rem-calc(30);
-                    padding-top: 5%;
+                    font-size: rem-calc(35);
+                    padding-top: 3%;
                 }
 
                 @include lg {
