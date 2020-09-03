@@ -11,11 +11,11 @@ logoAnimationTimeline.addLabel("tentToAnimate")
 
 
 
-$("#logo").on("mouseenter", function () {
+$("#hlogo").on("mouseenter", function () {
     console.log("animate");
     logoAnimationTimeline.play();
 });
-$("#logo").on("mouseleave", function () {
+$("#hlogo").on("mouseleave", function () {
     console.log("animate");
     logoAnimationTimeline.reverse();
 });

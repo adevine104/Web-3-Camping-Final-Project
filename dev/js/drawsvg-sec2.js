@@ -6,7 +6,7 @@ gsap.registerPlugin(DrawSVGPlugin);
 var svgLineTimeLine = gsap.timeline({
 });
 
-svgLineTimeLine.from("#Path",{duration:3, drawSVG:"0%"}, "playsvg");
+svgLineTimeLine.from(".Path",{duration:3, drawSVG:"0%"}, "playsvg");
 
 
 ScrollTrigger.create({
