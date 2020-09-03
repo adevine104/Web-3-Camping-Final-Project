@@ -6,7 +6,7 @@ header {
     background-color: $darkblue;
     position: fixed;
     width: 100%;
-    top:0;
+    top: 0;
     left: 0;
     color: $lightblue;
     z-index: 100;
@@ -27,7 +27,7 @@ header {
             padding: 25px 20px;
             height: 1vh;
 
-            #burger{
+            #burger {
                 cursor: pointer;
                 transition: 0.25s;
             }
