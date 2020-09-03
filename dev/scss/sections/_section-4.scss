@@ -6,10 +6,12 @@
 
     #top-content-1 {
         width: 300px;
-        @include md{
+
+        @include md {
             width: 400px;
         }
-        @include lg{
+
+        @include lg {
             width: 500px;
         }
     }
@@ -17,10 +19,12 @@
     #top-content-2 {
         background-color: #ED8F46;
         width: 300px;
-        @include md{
+
+        @include md {
             width: 400px;
         }
-        @include lg{
+
+        @include lg {
             width: 500px;
         }
     }
@@ -28,15 +32,17 @@
     #top-content-3 {
         background-color: $orange;
         width: 300px;
-        @include md{
+
+        @include md {
             width: 400px;
         }
-        @include lg{
+
+        @include lg {
             width: 500px;
         }
     }
 
-    .fas{
+    .fas {
         display: flex;
         justify-items: center;
         align-items: center;
@@ -88,10 +94,10 @@
 
 
         @include md {
-        padding: 0;
-        display: grid;
-        grid-template-areas: ". accordion .";
-        grid-template-columns: 5% auto 5%;
+            padding: 0;
+            display: grid;
+            grid-template-areas: ". accordion .";
+            grid-template-columns: 5% auto 5%;
         }
     }
 
@@ -151,10 +157,12 @@
                     font-size: 20px;
                     height: auto;
                     width: 300px;
-                    @include md{
+
+                    @include md {
                         width: 400px;
                     }
-                    @include lg{
+
+                    @include lg {
                         width: 500px;
                     }
                 }
@@ -164,10 +172,12 @@
                     font-size: 20px;
                     height: auto;
                     width: 300px;
-                    @include md{
+
+                    @include md {
                         width: 400px;
                     }
-                    @include lg{
+
+                    @include lg {
                         width: 500px;
                     }
                 }
@@ -177,10 +187,12 @@
                     font-size: 20px;
                     height: auto;
                     width: 300px;
-                    @include md{
+
+                    @include md {
                         width: 400px;
                     }
-                    @include lg{
+
+                    @include lg {
                         width: 500px;
                     }
                 }

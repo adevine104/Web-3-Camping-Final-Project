@@ -2,33 +2,33 @@
     Navigation
 ============= */
 
-#main-nav{
+#main-nav {
     background-color: $lightgreen;
     display: grid;
     place-items: center;
     position: fixed;
-    top:0;
+    top: 0;
     bottom: 0;
-    left:0;
-    right:0;
+    left: 0;
+    right: 0;
     width: 100%;
     z-index: 95;
     padding-top: 120px;
 
-    @include md{
+    @include md {
         padding-top: 150px;
     }
 
-    @include lg{
+    @include lg {
         padding-top: 120px;
     }
 
-    @include xl{
+    @include xl {
         padding-top: 130px;
     }
 
-    ul{
-        li{
+    ul {
+        li {
             button {
                 background-color: transparent;
                 border: none;

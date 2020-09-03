@@ -1,7 +1,4 @@
-
-
 gsap.registerPlugin(ScrollTrigger);
-
 
 /* ========================
         SECTION 1
@@ -40,7 +37,6 @@ gsap.from("#arrow-1", {duration:2, alpha:0, yPercent:-100,
         toggleActions: "restart none none none"
         // markers: true
     }})
-
 
 /* ========================
         SECTION 2
@@ -224,7 +220,6 @@ gsap.from("#arrow", {duration:2, alpha:0, yPercent:-100,
         // markers: true
     }})
 
-
 /* ========================
         SECTION 4
 ======================== */
@@ -264,8 +259,6 @@ ScrollTrigger.create({
     // scrub: true,
     scrub: 1
 })
-
-
 
 /* ========================
         SECTION 5

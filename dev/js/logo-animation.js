@@ -8,9 +8,6 @@ logoAnimationTimeline.addLabel("tentToAnimate")
                       .to("#hdoor1",{duration:logoSpeed, x:-30 }, "logo")
                       .to("#hdoor2",{duration:logoSpeed, x:30 }, "logo")
 
-
-
-
 $("#hlogo").on("mouseenter", function () {
     console.log("animate");
     logoAnimationTimeline.play();

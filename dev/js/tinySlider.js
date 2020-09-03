@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
 
     // console.log($(".slides").hasClass("my-slider"));
