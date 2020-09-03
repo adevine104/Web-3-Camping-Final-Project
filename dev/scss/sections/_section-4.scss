@@ -36,6 +36,12 @@
         }
     }
 
+    .fas{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
     h2 {
         color: $darkgreen;
         font-size: 30px;

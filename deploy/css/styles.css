@@ -1025,6 +1025,10 @@ footer {
     @media (min-width: 1025px) {
       #section-4 #top-content-3 {
         width: 500px; } }
+  #section-4 .fas {
+    display: flex;
+    justify-items: center;
+    align-items: center; }
   #section-4 h2 {
     color: #173522;
     font-size: 30px;
