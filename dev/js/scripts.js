@@ -4,6 +4,7 @@
 // @codekit-prepend "cards-flip.js";
 // @codekit-prepend "cards-events.js";
 // @codekit-prepend "cards-animation.js";
+// @codekit-prepend "logo-animation.js";
 // @codekit-prepend "typed.js";
 // @codekit-prepend "accordion.js";
 // @codekit-prepend "drawsvg-sec2.js";
